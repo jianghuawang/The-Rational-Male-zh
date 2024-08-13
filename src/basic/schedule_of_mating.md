@@ -9,19 +9,24 @@ It’s simple deductive logic to follow that for a species to survive it must pr
 遵循简单的演绎逻辑，一个物种要生存下去，必须为其后代提供最佳的生存条件，或者通过大量繁殖来确保生存。对女性而言，这一逻辑的直接应用是与最优质的伴侣共同承担育儿责任，这个伴侣应是她凭借自身基因能够吸引到的，并能为其及任何潜在后代提供长期保障的人。因此，女性在生物学、心理学和社会学层面上，都是自身繁殖的筛选者，而男性的繁殖策略则是尽可能广泛地将其遗传物质散布给尽可能多的可交配女性。当然，男性在选择交配对象和确定最佳遗传组合时也有自己的标准（比如她必须有吸引力），但相比女性，他们的标准显然不那么严格（比如凌晨两点后没人是丑的）。 这一点在我们的荷尔蒙生物学中得到了体现；男性体内的睾酮（性兴奋的主要激素）含量是女性的 12 至 17 倍，而女性产生的雌激素（与性警觉相关）和催产素（促进安全感和养育感）则远多于男性。
 
 That stated, both of these methodologies conflict in practice. For a woman to best ensure the survival of her young, a man must necessarily abandon his method of reproduction in favor of her own. This then sets a contradictory imperative for him to pair with a woman who will satisfy his methodology. A male must sacrifice his reproductive schedule to satisfy that of the woman he pairs with. Thus, with so much genetic potential at stake on his part of the risk, he want’s not only to ensure that she is the best possible candidate for breeding (and future breeding), but also to know that his progeny will benefit from both parent’s investment.
+
 话虽如此，这两种方法论在实践中存在冲突。为了最大限度地确保幼崽的生存，男性必须放弃自己的繁殖方式，转而采用女性的方式。这进而为他设定了一个矛盾的指令，即要与一个能满足其繁殖方法的女性配对。男性必须牺牲自己的繁殖计划以适应与之配对的女性的计划。因此，由于他的风险承担部分涉及大量遗传潜力，他不仅希望确保她是最佳的繁殖（及未来繁殖）候选人，还希望知道他的后代能从双方的投资中获益。
 
 Side note: One interesting outcome of this psycho-biological dynamic is men’s ability to spot their own children in a crowd of other children more quickly and with greater acuity than even their mothers. Studies have shown that men have the ability to more quickly and accurately identify their own children in a room full of kids dressed in the same uniforms than the mothers of the child. Again, this stresses the subconscious importance of this genetic trade off.
+
 附注：这一心理生物学动态的一个有趣结果是，男性在众多儿童中识别自己孩子的速度和准确度，甚至超过母亲。研究表明，男性能在满屋穿着相同制服的孩子中，比孩子的母亲更快更准确地辨认出自己的孩子。这再次强调了这种基因交换在潜意识中的重要性。
 
 These are the rudiments of human sexual selection and reproduction. There are many other social, emotional, psychological intricacies that are associated with these fundamentals, but they are the underlying motivations and considerations that subconsciously influence sexual selection.
+
 这些是人类性选择和繁殖的基础。还有许多其他与这些基本原则相关的社会、情感和心理复杂性，但它们是潜意识中影响性选择的根本动机和考虑因素。
 
 Social Convention 社会习俗
 To counter this subconscious dynamic to their own genetic advantage women initiate social conventions and psychological schemas to better facilitate their own breeding methodologies. This is why women always have the “prerogative to change her mind” and the most fickle of behaviors become socially excusable, while men’s behavior is constrained to a higher standard of responsibility to “do the right thing” which is invariably to the advantage of a woman’s reproductive scheme . This is why guys who are ‘Players’, and fathers who abandon mothers to pursue their innate reproduction method are villains, and fathers who selflessly sacrifice themselves financially, emotionally and life decision-wise, often to the benefit of children they didn’t father, are considered social heroes for complying with women’s genetic imperatives.
+
 为了对抗这种潜意识中对自身基因有利的动态，女性会发起社会习俗和心理模式，以更好地促进自身的繁衍策略。这就是为什么女性总是拥有“改变主意的特权”，最反复无常的行为也变得社会可接受，而男性的行为则被约束在更高的责任感标准上，即“做正确的事”，而这往往符合女性的生殖计划。这就是为什么那些“花花公子”和抛弃母亲去追求其固有繁衍方式的父亲被视为恶人，而那些无私地从经济、情感乃至生活决策上牺牲自己，常常惠及非亲生子女的父亲，则因顺应女性的基因需求而被视为社会英雄。
 
 This is also the root motivation for female-specific social dynamics such as LJBF rejections, women’s propensity for victimhood (as they’ve learned that this engenders ‘savior’ mental schemas for men’s breeding schedules – Cap’n Save a Ho) and even marriage itself.
+
 这也是女性特有的社会动态的根源，如“朋友区”拒绝、女性倾向于扮演受害者角色（因为她们已了解到这会激发男性“拯救者”心理模式，以适应其繁衍计划——“船长救美”），乃至婚姻本身。
 
 Good Dads vs Good Genes
@@ -30,6 +35,7 @@ The two greatest difficulties for women to overcome in their own methodology is 
 女性在自身方法论中需克服的两大难题是，她们在性方面具有生育能力的巅峰期非常短暂（通常在 20 多岁），以及那些构成长期理想伴侣（好父亲）的特质与那些利于优良后代繁衍（优质基因）的特质，极少在同一男性身上同时体现。与一个好父亲结合，其提供的物质保障和安全潜力是强大的驱动力，但这些特质在遗传、身体吸引力及冒险精神方面，通常不及那些更能赋予孩子适应环境优势（即更强壮、更快速、更具吸引力，以确保自身基因能传递至后代）的男性。这便是进化尺度上的“混蛋与好人”悖论。
 
 Men and women innately (though unconsciously) understand this dynamic, so in order for a woman to have the best that the Good Dad has to offer while taking advantage of the best that the Good Genes man has, she must invent and constantly modify social conventions to keep the advantage in her biological favor.
+
 男女双方天生（尽管是无意识地）理解这一动态，因此，为了让女性既能获得好父亲所能提供的最佳条件，又能利用好基因男性的优势，她必须创造并不断修改社会习俗，以保持其生物学上的优势。
 
 Reproductive Schedules 生殖时间表
@@ -47,14 +53,18 @@ Proactive cheating is the single Mommy dilema. This form of ‘cheating’ relie
 主动欺骗是单亲妈妈面临的独特困境。这种“欺骗”行为依赖于女性与拥有优质基因的男性生育，产下他的孩子后，或被他抛弃，或通过虚构的社会习俗主动离开他，以便寻找一个好父亲型的男性来供养她和前一位优质基因伴侣的孩子，确保他们的生活稳定。
 
 I want to stress again that (most) women do not have some consciously constructed and recognized master plan to enact this cycle and deliberately trap men into it. Rather, the motivations for this behavior and the accompanying social rationales invented to justify it are an unconscious process. For the most part, women are unaware of this dynamic, but are nonetheless subject to its influence. For a female of any species to facilitate a methodology for breeding with the best genetic partner she’s able to attract AND to ensure her own and her offspring’s survival with the best provisioning partner; this is an evolutionary jackpot.
+
 我想再次强调，（大多数）女性并没有一个刻意构建并被认可的主计划来实施这一循环，并故意将其中的男性困住。相反，这种行为的动机以及随之而来的、用以证明其合理性的社会理由，是一个无意识的过程。在很大程度上，女性并不了解这一动态，但仍然受到其影响。对于任何物种的女性来说，能够促成一种与她能吸引到的最佳基因伴侣繁殖的方法，并确保自己和后代与最佳供养伴侣一起生存；这无疑是进化的巨大胜利。
 
 The Cuckold 《绿帽丈夫》
 On some level of consciousness, men innately sense something is wrong with this situation, though they may not be able to place why they feel it or misunderstand it in the confusion of women’s justifications for it. Or they become frustrated by the social pressures to ‘do the right thing’, are shamed into martyrdom/savior-hood and committed to a feigned responsibility to these conventions. Nevertheless, some see it well enough to steer clear of single mothers, either by prior experience or observing other male cuckolds saddled with the responsibility of raising and providing for – no matter how involved or uninvolved – another man’s successful reproduction efforts with this woman.
+
 在某种意识层面，男性本能地察觉到这种情境存在问题，尽管他们可能无法明确为何有此感觉，或在女性对此情境的辩解中感到困惑而误解。或者，他们因社会压力要求“做正确的事”而感到沮丧，被迫陷入牺牲/救赎的角色，并承担起对这些传统规范的虚假责任。尽管如此，有些人通过先前经历或观察到其他男性背负起抚养与供养——无论参与度如何——另一个男人与该女性成功繁衍后代的责任，从而明智地选择避开单亲妈妈。
 
 Men often fall into the role of the proactive or reactive Cuckold. He will never enjoy the same benefits as his mates short term partner(s) to the same degree, in the way of sexual desire or immediacy of it, while at the same time enduring the social pressures of having to provide for this Good Genes father’s progeny. It could be argued that he may contribute minimally to their welfare, but on some level, whether emotional, physical, financial or educational he will contribute some effort for another man’s genetic stock in exchange for a limited form of sexuality/intimacy from the mother. To some degree, (even if only by his presence) he is sharing the parental investment that should be borne by the short term partner. If nothing else, he contributes the time and effort to her he could be better invested in finding a sexual partner with which he could pursue his own genetic imperative by his own methodology.
+
 男性常常陷入主动或被动的绿帽角色。他永远无法像伴侣的短期伴侣那样，在性欲望或即时性方面享受到同等程度的满足，同时还要承受着为这位“优质基因”父亲的后代提供生活保障的社会压力。可以说，他对这些后代的福祉贡献甚微，但在某种层面上，无论是情感、身体、经济还是教育方面，他都会为另一个男人的基因库付出一些努力，以换取母亲有限的性或亲密形式。在某种程度上，（即使仅仅是通过他的存在）他分担了本应由短期伴侣承担的父母投资。若非如此，他投入的时间和精力本可以更好地用于寻找一个能通过自己的方式追求自身基因传承的性伴侣。
 
 However, needless to say, there is no shortage of men sexually deprived enough to ‘see past’ the long term disadvantages, and not only rewarding, but reinforcing a single mother’s bad decisions (bad from his own interest’s POV) with regard to her breeding selections and schedules in exchange for short term sexual gratification. Furthermore, by reinforcing her behavior thusly, he reinforces the social convention for both men and women. It’s important to bear in mind that in this age women are ultimately, soley responsible for the men they choose to mate with (baring rape of course) AND giving birth to their children. Men do bear responsibility for their actions no doubt, but it is ultimately the decision of the female and her judgement that decides her and her children’s fate
+
 然而，毋庸置疑，不乏有性需求极度匮乏的男性，他们能够“忽视”长期的不利因素，不仅奖励，还强化了单身母亲在生育选择和时间安排上的错误决策（从他自身利益的角度来看是错误的），以换取短期的性满足。此外，通过这种方式强化她的行为，他也强化了男女双方的社会规范。需要铭记的是，在这个时代，女性最终要独自承担起选择伴侣（当然不包括强奸的情况）和生育子女的责任。男性无疑要为自己的行为负责，但最终决定女性及其孩子命运的，是女性的选择和判断。
