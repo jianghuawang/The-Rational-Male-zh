@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Alpha</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html" class="active"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="alpha"><a class="header" href="#alpha">Alpha</a></h1>
+<p>The Alpha Buddah, Corey Worthington.
+阿尔法·布达，科里·沃辛顿。</p>
+<p>What I’m about to type here is not going to make me any new friends. I know because any discussion of what constitutes Alpha characteristics in a Man always becomes clouded by the self-perceptions of how well we think we align with them. As I’ve covered in prior postings, the ‘community’, the ‘manosphere’, the new understanding of gender relations that’s picked up momentum for the last 12 years has always generated it’s own terminologies for more abstract concepts. The danger in this is that these terms lack real, universal definition. For purposes of illustrating a concept these terms are usually serviceable – we have a general understanding of what makes for a ‘Beta’ or a Herb, or a man who falls into a ‘provider’ mentality. Even ‘Alpha’ in a specific context is useful as an illustrative tool, when the subject isn’t directly about ‘Alpha-ness’. It’s when we try to universally define what constitutes Alpha that the sparks start to fly. So before you continue on reading further, think about what you believe makes a guy Alpha. Got it in your head now? Good, now put all of that aside, purge that from your head, and read the next few paragraphs from the perspective that you don’t know anything about Alpha.</p>
+<p>我即将在此输入的内容不会为我赢得任何新朋友。我知道这一点，因为任何关于男性 Alpha 特质构成的讨论总是被我们对自己与这些特质相符程度的自我认知所模糊。正如我在之前的帖子中所述，“社群”、“男性圈”以及过去 12 年里势头渐起的性别关系新理解，总是为更抽象的概念创造自己的术语。这种做法的危险在于，这些术语缺乏真正普遍的定义。为了说明一个概念，这些术语通常是可行的——我们对什么是“Beta”或“草本”，或陷入“供养者”心态的男性有一个大致的理解。即使在特定情境下，“Alpha”作为一个说明工具也是有用的，尤其是当话题并非直接关于“Alpha 特质”时。正是当我们试图普遍定义什么是 Alpha 时，争议才开始四起。因此，在你继续阅读之前，思考一下你认为什么使一个男人成为 Alpha。现在脑海中有答案了吗？ 好的，现在请将这些内容暂时搁置，从脑海中清除，并从对 Alpha 一无所知的角度阅读接下来的几段文字。</p>
+<p>I was first introduced to the Alpha Buddah courtesy of Roissy and this post “Umm, sorry?” You can go ahead and read this from the Chateau’s perspective, and I think the analysis is pretty good. I call Corey the Alpha Buddah not in the hopes that men will aspire to his almost Zen like ‘being’ in Alpha, but rather to provide an example of Alpha in it’s most pure form. He literally IS Alpha, unclouded by pretense, afterthought, or conscious awareness of any influence that could have a hope of prompting introspection about his state.</p>
+<p>我首次接触到 Alpha Buddha 这一概念，得益于 Roissy 以及这篇博文“嗯，抱歉？”你可以从 Chateau 的角度去阅读并理解，我认为其分析相当到位。我将 Corey 称为 Alpha Buddha，并非期望男性们去模仿他那种近乎禅宗般的 Alpha 存在状态，而是旨在展示 Alpha 本质的最纯粹形态。他简直就是 Alpha 的化身，不受任何矫饰、事后思考或自觉意识的影响，这些因素本可能引发对他自身状态的反思。</p>
+<p>Corey Worthington is a piss poor example of a human being, but he’s a textbook example of Alpha. I could use a lot of adjectives to describe this kid, but “beta” wouldn’t be one of them. What’s funny, and a bit ironic, is this kid has probably never come across Mystery Method or “the community” or even heard of ‘peacocking’ and he gets naturally what millions of guys pay small fortunes at PUA seminars to acquire over the course of a lifetime. He’s a selfish little prick, but what makes him insulting to ‘normal’ men is his having the natural, internalized Alpha bravado so many AFCs wish they had. If you could bottle and sell this Alpha essence, you’d be rich beyond imagine.</p>
+<p>科里·沃辛顿是一个糟糕透顶的人类样本，但他却是阿尔法（Alpha）的典型范例。我可以用许多形容词来描述这个孩子，但“贝塔（Beta）”绝不在其中。有趣且略带讽刺的是，这孩子可能从未接触过《神秘方法》或“社区”，甚至没听说过“孔雀开屏”，却自然而然地掌握了无数男性花费毕生精力在 PUA 研讨会上追求的技能。他是个自私的小混蛋，但他对“正常”男性的侮辱之处在于，他天生就拥有许多挫男（AFC）梦寐以求的内在化阿尔法自信。如果能将这种阿尔法特质装瓶出售，你将富可敌国。</p>
+<p>Right about now all of those self-affirming preconceptions you had about Alpha-ness (that I told you to stow away before reading this) are probably yelling to be let out of the mental box you put them in. “,..but, but Rollo, how can you possibly think this arrogant douchebag kid could ever be an example of anything remotely Alpha?!” You’ll be pleased to know I fully empathize your outrage. You work hard to be a “better man”, you put in the self analysis, you paid your dues coming to terms with unplugging and reinventing yourself. You’re a success, Corey is fuck-up. Corey’s not a better Man than you are, however, he understands Alpha better than you do.</p>
+<p>就在此刻，你心中那些关于 Alpha 特质的自我肯定的预设（我之前让你在阅读本文前先搁置一边）可能正大声疾呼，想要从你心里的那个小盒子里挣脱出来。“但是，但是，Rollo，你怎么可能认为这个自大狂妄的小子能成为任何接近 Alpha 特质的例子呢？！”你将会高兴地知道，我完全理解你的愤怒。你努力成为一个“更好的男人”，你进行了自我剖析，你付出了代价，接受了自我重塑的过程。你是成功的，而 Corey 是个失败者。Corey 并不比你更优秀，然而，他比你更懂得 Alpha 的含义。</p>
+<p>Alpha is mindset, not a demographic.
+阿尔法是一种思维方式，而非特定人群。</p>
+<p>Alpha is as Alpha does, it isn’t what we say it is. There are noble Alphas and there are scoundrel Alphas, the difference is all in how they apply themselves. There’s a tendency to approach every “Alpha” argument from what a guy thinks is righteousness; ergo, his personal definition of Alpha is what appeals best to his sense of virtue. He earned his Alpha cred, played by the rules, and by God people (women) should respect that. However, the sad truth is that prisons are full of Alpha males who simply channeled their drive toward destructive and anti-social endeavors. There are plenty of examples of indifferent Asshole Alphas who you wouldn’t say are upstanding moral leaders at all, yet women will literally kill each other (or themselves) in order to bang them because they exude a natural Alpha-ness. Just as Corey does here. There are Alpha drug dealing gang leaders, and there are Alpha husbands, fathers and leaders of industry. It’s all in the application. Genghis Khan was Alpha as fuck, and a leader-of-men, but probably would be on most people’s douchebag list for that era. Here’s an illustration:
+阿尔法的行为定义了阿尔法，而非我们口中的定义。有高尚的阿尔法，也有卑鄙的阿尔法，区别全在于他们如何运用自己。人们往往从个人认为的正义角度来解读每一个“阿尔法”争论；因此，他个人对阿尔法的定义最能迎合他的道德感。他凭借规则赢得了阿尔法的声誉，人们（尤其是女性）理应对此表示尊重。然而，可悲的现实是，监狱里满是那些将动力导向破坏性和反社会行为的阿尔法男性。不乏冷漠的混蛋阿尔法，你绝不会认为他们是道德楷模，但女性们却会为了与他们发生关系而争斗甚至自残，因为他们散发着自然的阿尔法气质。正如科里在这里所展现的。有贩毒团伙的阿尔法头目，也有阿尔法的丈夫、父亲和行业领袖。一切都取决于应用方式。成吉思汗无疑是极具阿尔法特质的领袖，但他很可能在当时大多数人眼中是个混蛋。这里有个例子：</p>
+<p>Guy’s like Corey infuriate men who have invested their self-worth in the accomplishments of what they think ought to be universally appreciated and rewarded. So when they’re confronted with a natural Alpha being undeservedly rewarded for brazenly acting out of accord with what they think the rules ought to be, they seethe with resentment. The natural response in the face of such an inconsistency is to redefine the term ‘Alpha’ to cater to themselves and their accomplishments as “real men” and exclude the perpetrator. The conflict then comes from seeing his new definition of Alpha not being rewarded or even appreciated as well as a natural Alpha attitude and the cycle continues. Your respect (or anyone else’s) for an Alpha has nothing to do with whether or not he possess an Alpha mindset. 3 failed marriages and 100+ lays has nothing to do with his having or not having an Alpha mindset. There are many well respected betas who’ve never had a passing thought of infidelity, or may have 300 lays either with prostitutes or because they possess fame or stunning good looks and women come to him by matter of course.</p>
+<p>像 Corey 这样的人会激怒那些将自我价值投资于他们认为应得到普遍赞赏和回报的成就上的男性。因此，当他们面对一个自然 Alpha 因公然违反他们认为应遵守的规则而未受应得奖赏时，他们会充满怨恨。面对这种不一致，自然的反应是重新定义“Alpha”一词，以迎合他们自己及其作为“真正男人”的成就，并排除肇事者。冲突随之而来，因为他们看到自己对 Alpha 的新定义未得到奖赏或甚至未得到与自然 Alpha 态度相同的赞赏，循环往复。你对一个 Alpha 的尊重（或任何人的）与他是否拥有 Alpha 心态无关。三次失败的婚姻和超过 100 次的性经历与他是否拥有 Alpha 心态无关。有许多备受尊敬的 Beta，他们从未有过不忠的念头，或者可能与妓女或因拥有名声或惊人美貌而自然吸引女性有过 300 次性经历。</p>
+<p>The take home message here is that you are not Alpha because of your achievements, you have your achievements because you are Alpha. You possess a mindset you either had to develop or it came naturally to you. I constantly field questions from young men asking me whether some action or behavior they displayed to a woman was Alpha, or Alpha enough. The real answer is that Alpha behaviors are manifestations of an Alpha mindset. And just like Corey the Alpha Buddah, the introspect required to wonder if something was or wasn’t Alpha wouldn’t ever be a consideration enough to ask. You almost need to have a childlike understanding to really appreciate what Alpha really is. Kids get Alpha. Even the picked on, introverted, beta-to-be kid has a better understanding of Alpha than most adult men do because he lacks the abstract thinking required to rationalize Alpha for himself. Most men, by our socialization, and to varying degrees, lose this in-born Alpha mindset over time. The naturals, the Corey’s of the world, have a better grasp on it’s usefulness and repurpose it; either to their adulthood advantage or their detriment.</p>
+<p>这里的核心观点是，你并非因为成就而成为阿尔法，而是因为你是阿尔法才取得那些成就。你拥有一种心态，要么是后天培养的，要么是与生俱来的。我经常收到年轻男性的询问，想知道他们对女性展现的某种行为或举止是否足够阿尔法。真正的答案是，阿尔法行为是阿尔法心态的体现。就像阿尔法佛陀科里一样，那种需要反思是否某事是否阿尔法的念头，根本不值得去问。你几乎需要像孩子一样纯真的理解力，才能真正领悟阿尔法的真谛。孩子们懂得阿尔法。即使是那些被欺负、内向、即将成为贝塔的孩子，他们对阿尔法的理解也比大多数成年男性更深刻，因为他们缺乏抽象思维来为自己合理化阿尔法。随着时间的推移，大多数人在社会化的过程中，或多或少地失去了这种天生的阿尔法心态。那些天生的，比如科里这样的人，更懂得其价值并加以利用；无论是在成年后发挥优势还是带来不利。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../basic/social_mathing_theory.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../blank.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../basic/social_mathing_theory.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../blank.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

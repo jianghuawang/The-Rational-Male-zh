@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Imagination</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html" class="active"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="imagination"><a class="header" href="#imagination">Imagination</a></h1>
+<p>A woman’s imagination is the single most useful tool in your Game arsenal. Every technique, every casual response, every gesture, intimation and subcommunication hinges on stimulating her imagination. Competition anxiety relies on it. DHV relies on it. Sexual tension (gina tingles) relies on it. Call it “Caffeinating the Hamster” if you will, but stimulating a woman’s imaginings is the single most potent talent you can learn in any context of a relationship (LTR, STR, ONS, Plate Spinning.)
+女性的想象力是你游戏武器库中最有用的单一工具。每一种技巧、每一个随意的回应、每一个手势、暗示和潜沟通都依赖于激发她的想象力。竞争焦虑依赖于它。展示高价值依赖于它。性张力（吉娜的颤动）依赖于它。如果你愿意，可以称之为“给仓鼠加咖啡”，但在任何关系情境中（长期关系、短期关系、一夜情、盘旋），激发女性的想象力是你能学到的最强大的技能。
+This is the single greatest failing of average frustrated chumps; they vomit out everything about themselves, divulging the full truth of themselves to women in the mistaken belief that women desire that truth as a basis for qualifying for their intimacy. Learn this now: <strong>Women NEVER want full disclosure</strong>. Nothing is more self-satisfying for a woman than to think she’s figured a Man out based solely on her mythical feminine intuition (i.e. imagination).
+这是普通挫败者的最大败笔；他们毫无保留地倾吐自我，向女性透露全部真相，误以为女性渴望以此作为亲近的基础。现在就明白这一点：女性绝不需要完全坦白。对女性而言，没有什么比仅凭她那神秘的女性直觉（即想象力）自以为看透一个男人更令人满足的了。</p>
+<p>When a man overtly confirms his character, his story, his value, etc. for a woman, the mystery is dispelled and the bio-chemical rush she enjoyed from her imaginings, her suspicions, her self-confirmations about you are GONE. AFCs classically do exactly this on the first date and wonder why they get LJBF’d promptly after it – this is why. Familiarity is anti-seductive. Nothing kills Game, lust and libido like comfortable familiarity. Despite their common bleating filibuster tactics, women don’t want to be comfortable with a potential (or proven) sex partner, they need their imaginations stoked to be excited, aroused and anxious to want sex with a potential partner.
+当一个男人向女性明确展示他的性格、故事、价值等时，神秘感便消失了，她从想象、猜疑以及自我确认中获得的生物化学冲动也随之消散。"AFCs"（平均挫男）通常在初次约会时就犯下这个错误，随后困惑为何会立即被"LJBF"（Let's Just Be Friends，仅限朋友）对待——原因就在于此。熟悉感是反诱惑的。没有什么比舒适的熟悉感更能扼杀游戏、欲望和性欲了。尽管女性常用喋喋不休的拖延战术，但她们并不希望与潜在（或已证实的）性伴侣感到舒适，她们需要被激发想象力，以感到兴奋、被唤醒并渴望与潜在伴侣发生性关系。</p>
+<p>In an LTR there’s an even more critical need to keep prodding that imagination. I would go so far as to say it’s imperative for a healthy relationship, but then you’ll ask, how do you go about that when your LTR GF or wife already knows your story and the familiarity becomes cemented in?
+在长期关系（LTR）中，保持激发想象力显得尤为关键。我甚至可以说，这对于一段健康的关系是必不可少的。但接下来你会问，当你的长期伴侣，无论是女友还是妻子，已经熟知你的故事，熟悉感已然根深蒂固时，你该如何着手呢？
+The easy answer is never let it be from the outset – <strong>the health of any LTR you might entertain depends and survives on the frame you enter into it with.</strong> The foundations of a healthy LTR are laid while you’re single and dating non-exclusively. I’ve yet to meet the guy who’s told me he’s getting more frequent, more intense sex after his LTR / Marriage / Live-in situation was established. The primary reason for this is the relaxation of the competition anxiety that made the urgency of fucking you with lustful abandon in your dating phase an imperative to get you to commit to her frame. And that’s the crux of the matter that so many guys fail in, they surrender the frame BEFORE they commit to an LTR. They believe, (thanks to their Matrix conditioning) that commitment is synonymous with acquiescing to her frame control. Combine this with anti-seductive familiarity and the growing commonness of your own value because of it, and you can see exactly why her sexual interest wanes.
+简单答案是，从一开始就不让它发生——你所考虑的任何长期关系（LTR）的健康与否，取决于你进入这段关系时的框架。一个健康 LTR 的基础是在你单身且非独占性约会期间奠定的。我至今未遇到过有人告诉我，在 LTR/婚姻/同居关系确立后，他的性生活变得更频繁、更激烈。主要原因在于，约会阶段因竞争焦虑而产生的迫切需要，即以激情放纵的方式与你发生关系以促使你接受她的框架，这种紧迫感随着关系的稳定而放松了。这就是许多男性失败的关键所在，他们在承诺进入 LTR 之前就放弃了框架。他们错误地认为（受矩阵式思维影响），承诺等同于屈服于她的框架控制。再加上反诱惑的熟悉感和因之而来的自身价值的普遍化，不难理解为何她的性趣会逐渐减退。</p>
+<p>So what do you do to prevent that? First and foremost, understand that whose frame you enter into an LTR sets the foundation of that LTR. If you find yourself buying into an “it’s women’s world and we just live in it” mentality where your default presumption is that commitment means she wins, you lose and that’s just how it is, don’t even consider an LTR. She enters your world, not the other way around.
+那么，你如何预防这种情况呢？首先，最重要的是要明白，你进入谁的框架决定了长期关系的基础。如果你发现自己陷入了“这是女人的世界，我们只是生活在其中”的心态，默认假设是承诺意味着她赢你输，而且事情本就如此，那么根本不要考虑长期关系。是她进入你的世界，而非相反。</p>
+<p>Secondly, you need to cultivate an element of unpredictability about yourself prior to, and into, an LTR. Always remember POOK’s proverb, <strong>Perfect is BORING</strong>. Women will cry a river about wanting Mr. Dependable and then go off to fuck Mr. Exciting. In an LTR it’s necessary to be both, but not one at the expense of the other. Too many married men are TERRIFIED to rock the excitement boat with their wives because their sex lives hang in the balance of placating to her and her already preset frame. She must be reminded daily why you’re fun, unpredictable and exciting, not only to her, but other women as well. This requires covertly implying that other women find you desirable. Women crave the chemical rush that comes from suspicion and indignation. If you don’t provide it, they’ll happily get it from tabloids, romance novels, The View, Tyra Banks or otherwise living vicariously through their single girlfriends.
+其次，在进入长期关系（LTR）之前及之后，你需要培养自己的不可预测性。始终牢记 POOK 的格言：完美即乏味。女性会为渴望可靠先生而流泪，转头却投入激情先生的怀抱。在 LTR 中，你需要同时兼具两者，而非牺牲其一。太多已婚男士因担心性生活受影响而不敢与妻子制造惊喜，他们的性福悬于迁就她及她既定的框架之上。你必须每日提醒她，为何你既有趣、不可预测又充满激情，不仅对她如此，对其他女性亦然。这需要巧妙暗示其他女性对你抱有好感。女性渴望由猜疑与愤慨带来的化学刺激。若你不提供这些，她们会乐意从八卦杂志、言情小说、《观点》节目、泰拉·班克斯秀或通过单身闺蜜的生活中获得这种体验。</p>
+<p>By playfully staying her source of that rush you maintain the position of stimulating her imagination. Married men, who were defeated before they committed, don’t think that elements of Game apply to marriage out of fear of upsetting their wives frame, when in fact C&amp;F and Negs and many other aspects of Game work wonderfully. Just kicking her in the ass or busting her chops, playfully, is sometimes enough to send the message that you’re fearless of her response. You can break her frame with cockiness and the imaginings that come with it.
+通过巧妙地保持这种刺激的源泉，你维持了激发她想象力的地位。已婚男士，在承诺之前就已败下阵来，往往因害怕破坏妻子的框架而不认为游戏中的元素适用于婚姻，而实际上，挑战与顺从、否定以及其他许多游戏中的策略都能发挥出色。只需轻松地踢她一脚或调侃几句，有时便足以传达出你无惧她反应的信息。你可以用自信和随之而来的想象打破她的框架。</p>
+<p>Breaking from an established, predictable familiarity is often a great way to fire her imagination. Married guys will report how sexual their wives become after they get to the gym and start shaping up after a long layoff (or for the first time). It’s easy to pass this off as looking better makes women more aroused (which is true), but underneath that is the breaking of a pattern. You’re controllable and predictable so long as you’re pudgy and listless – what other woman would want you? But start changing your patterns, get into shape, make more money, get a promotion, improve and demonstrate your higher value in some appreciable way and the imagination and competition anxiety returns.
+打破既定的、可预测的熟悉感，往往是激发她想象力的绝佳方式。已婚男士们会讲述，他们的妻子在长时间休息后（或首次）开始健身并塑形后，变得多么性感。人们很容易将此归因于外表改善使女性更兴奋（这确实没错），但更深层次的原因在于打破了固有模式。只要你肥胖且无精打采，你就是可控且可预测的——还有哪个女人会对你感兴趣呢？但一旦你开始改变模式，锻炼身材，增加收入，获得晋升，以某种可感知的方式提升并展示你的高价值，她的想象力和竞争焦虑便会重新被激发。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../basic/buffers.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../basic/social_mathing_theory.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../basic/buffers.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../basic/social_mathing_theory.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

@@ -1,5 +1,11 @@
 [book]
 authors = []
-language = "en"
-multilingual = false
+language = "en,zh"
+multilingual = true
 src = "src"
+
+
+[output.html]
+
+[output.epub]
+

@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Bitter Taste of the Red Pill</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html" class="active"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="the-bitter-taste-of-the-red-pill"><a class="header" href="#the-bitter-taste-of-the-red-pill">The Bitter Taste of the Red Pill</a></h1>
+<p>A lot gets made of the Dark Triad or the Dark Side of Game where a skillful player can sadistically use his newly learned red-pill super powers for evil instead of for the greater good of mankind. Game-aware women – the ones who have been forcibly exhausted of all pretense of maintaing the illusion that Game is a lie – feel as though it’s owed to them, in their concession of Game’s reality, that Men should use Game to women’s benefit. Even to the last effort women still cling to the tools of a feminized acculturation;
+关于黑暗三元组或游戏中的黑暗面，人们有很多讨论，其中技巧娴熟的玩家可能会残忍地运用其新掌握的红药丸超能力为恶，而非造福人类。那些深谙游戏之道的女性——她们已被迫耗尽所有维持游戏是谎言这一假象的伪装——感觉，既然她们承认了游戏的真实性，那么男性就应该利用游戏来造福女性。即便到了最后关头，女性依然紧握着女性化文化熏陶下的工具；</p>
+<p>“Yeah, OK, you got us, Game is really what women want, hypergamy is the law of womankind, but now it’s your responsibility that you use it for the better benefit of society by molding a new breed of improved Betas to accommodate fem-centric monogamy. You owe us our security for having admitted to the grand illusion that’s kept you in thrall for so long.”
+“是的，好吧，你抓住了我们，游戏确实是女性所追求的，高攀是女性的天性法则，但现在你有责任利用它为社会的更好利益服务，通过塑造新一代改良版的贝塔男性来适应女性中心的单配偶制。你欠我们一个保障，因为你承认了那个长久以来让你沉迷的宏大幻象。”</p>
+<p>It’s an indictment of Game-aware women, and sympathizing men, that they should feel a need to delineate some aspects of Game into good camps (pro woman, pro feminized monogamy) and bad camps (manipulative, polygynous, male-centered). Even in the admission of the truth that Game has enlightened Men of, the feminine imperative still seeks to categorize the application of Game to its own end. That Men might have some means of access to their own sexual strategy is too terrible a Threat; Game must be colored good or bad as it concerns the imperatives of women and a fem-centric societal norm.
+这是对游戏意识女性及同情男性的一种控诉，他们竟感到有必要将游戏的一些方面划分为好的阵营（亲女性、亲女性化一夫一妻制）和坏的阵营（操纵性、多妻制、男性中心）。即便在承认游戏所启迪男性的真相时，女性主导原则仍试图将游戏的应用归类为其自身目的。男性可能拥有一些获取自身性策略的手段，这一威胁太过可怕；游戏必须根据女性的主导原则和以女性为中心的社会规范被标定为好或坏。</p>
+<p>As the default, socially correct and virtuous concern, women have an easier time of this. As Game becomes increasingly more difficult to deny or misdirect for the feminine, the natural next step in accepting it becomes qualifying its acceptable uses. While hypergamy is an ugly truth, the characterization of it becomes “just how women are” –an unfortunate legacy of their evolution. However for Men, the characterizations of the harsher aspects of Game in its rawest form  (contingencies for hypergamy) are dubbed “the dark arts”.
+作为默认的、社会认可的美德关怀，女性在这方面相对容易应对。随着游戏对女性而言越来越难以否认或误导，接受它的自然下一步就是限定其可接受的用途。尽管择优婚配是一个丑陋的真相，但其特征被描述为“女性就是这样”——这是她们进化过程中不幸的遗产。然而对于男性来说，游戏中最严酷方面的原始形态（择优婚配的权宜之计）被冠以“黑暗艺术”的称号。</p>
+<h2 id="myth-of-the-dark-arts"><a class="header" href="#myth-of-the-dark-arts">Myth of the Dark Arts</a></h2>
+<p>黑魔法传说</p>
+<p>According to common definition, the Dark Triad is a group of three personality traits: narcissism, Machiavellianism and psychopathy, all of which are interpersonally aversive. Depending upon context, that may be a convenient assessment of a sociopathic personality, but it is hardly an accurate assessment of Game as a whole. In its desperation to come to terms with a more widespread acceptance of Game, the feminine imperative had to make some effort to disuade the common man (see Beta) from embracing the means to his release from the feminine Matrix. Associating Game with Dark Triad personality traits makes this qualification process much easier, since the feminine imperative owns the definition authority of what is social and what is anti-social.
+根据普遍定义，黑暗三合一指的是三种人格特质：自恋、马基雅维利主义和精神病态，这些特质在人际关系中均具有排斥性。在特定情境下，这或许是对反社会人格的一种便捷评估，但远非对整个游戏策略的准确评价。为了应对游戏被更广泛接受的局面，女性主导原则不得不努力劝阻普通男性（如贝塔男）采纳解脱女性矩阵束缚的方法。将游戏与黑暗三合一的人格特质相联系，使得这一甄别过程变得容易许多，毕竟女性主导原则掌握着社会与反社会定义的权威。</p>
+<p>The problem then becomes one of defining what acceptable use of Game is social and anti-social. Predictably Game-accepting women will want to cast Game into terms that suit them individually and accommodating for their own personal conditions as well as the priorities of their particular phase of life. However, because of such diverse conditions, consequently there is a lot of disagreement amongst Game-accepting women about what contextually constitutes appropriate use, thus a pick-and-pull form of rationalization about aspects of Game gets thrown about in their internal debates.
+问题于是转化为界定游戏使用的社会性与反社会性。可以预见，接受游戏的女人们会倾向于将游戏解读为符合她们个人需求，并适应她们自身条件以及特定生活阶段优先级的概念。然而，由于这些条件的多样性，导致接受游戏的女人们之间对于何为情境下的恰当运用存在大量分歧，因此，她们内部争论中充斥着对游戏各方面进行选择性解读和拉扯的合理化过程。</p>
+<p>For feminized men this is a very confusing debate. It’s difficult enough for them to accept that women love Jerks (despite being told the contrary for half their lives by women), but for the Game-accepting women they still think are ‘quality’ it’s a bitter pill to swallow when these women debate the aspects of acceptable, lovable Jerk-like qualities and the evil, user, manipulative, ‘dark art’ Jerk that only contextually misaligns with their present conditions and priorities. For both the plugged-in and the freshly unplugged this is an incongruency that they have a tough time reconciling against the ideals of moralism that a fem-centric society has unwittingly convinced them of.
+对于女性化的男性来说，这场辩论非常令人困惑。他们已经很难接受女性喜欢“混蛋”这一事实（尽管半生以来一直被女性告知相反的情况），但对于那些他们仍认为是“优质”、接受“游戏”规则的女性来说，当这些女性讨论可接受的、可爱的“混蛋”特质与邪恶、利用、操纵的“黑暗艺术”混蛋之间的区别时，这种辩论无疑是一剂苦药。对于那些深陷其中或刚刚觉醒的人来说，这种不一致性让他们难以与道德主义理想相调和，而一个以女性为中心的社会无意中让他们深信这些理想。</p>
+<p>While a broader understanding of hypergamy and Game make for useful tools for enlightened single men, the Game-accepting Beta plug-in will still see it strictly as a means to satisfying the female imperative – long-term provisional monogamy. Any deviation from this narrative, any guy using Game for personal gain, personal pleasure or to enact his own sexual strategy is guilty of crimes against (feminized) society. Since the societal Greater Good has been defined by the feminine imperative, anything counter to it is definitively evil, counterproductive, anti-social and manipulative sociopathy.
+虽然对一妻多夫制和游戏策略的更广泛理解对开明的单身男性来说是实用的工具，但接受游戏观念的贝塔男仍会将其严格视为满足女性主导需求的手段——长期临时一夫一妻制。任何偏离这一叙事的行为，任何利用游戏策略谋取个人利益、个人享乐或实施自身性策略的男性，都被视为对（女性化）社会的犯罪。既然社会的大善已被女性主导需求所定义，那么与之相悖的一切无疑就是邪恶、反生产、反社会和操纵性的社会病态行为。</p>
+<h2 id="the-bitter-taste-of-the-red-pill-1"><a class="header" href="#the-bitter-taste-of-the-red-pill-1">The Bitter Taste of the Red Pill</a></h2>
+<p>红色药丸的苦涩滋味</p>
+<p>The truth will set you free, but it doesn’t make truth hurt any less, nor does it make truth any prettier, and it certainly doesn’t absolve you of the responsibilities that truth requires. One of the biggest obstacles guys face in unplugging is accepting the hard truths that Game forces upon them. Among these is bearing the burden of realizing what you’ve been conditioned to believe for so long were comfortable ideals and loving expectations are really liabilities. Call them lies if you want, but there’s a certain hopeless nihilism that accompanies categorizing what really amounts to a system that you are now cut away from. It is not that you’re hopeless, it’s that you lack the insight at this point to see that you can create hope in a new system – one in which you have more direct control over.
+真相会让你自由，但它不会减轻真相带来的痛苦，也不会让真相变得更美好，更不会免除真相所要求的责任。在摆脱束缚的过程中，男性面临的最大障碍之一是接受游戏强加给他们的残酷真相。其中之一是承担起认识到长期以来你被灌输的所谓舒适理想和充满爱的期望实际上是负担的重担。如果你想称之为谎言，那就随你吧，但将这些实际上是你现在脱离的体系归类为谎言，会伴随着一种绝望的虚无主义。并非你无望，而是你此刻缺乏洞察力，看不到你可以在一个新体系中创造希望——一个你能更直接掌控的体系。</p>
+<p>There are no “Dark Arts”, this is simply one last desperate effort of the feminine imperative to drag you back into the Matrix. There is only Game and the degree to which you accept it and are comfortable in using it in the context that YOU define. If that context is under the auspices of a mutually beneficial, mutually loving, mutually respecting LTR monogamy of YOUR choosing, know that it’s the fundaments of Game that are at the root of its success or failure. If that context is in terms of spinning multiple plates, liberating the affections of women from other men, and enjoying a love life based on your personal satisfactions, also understand that it lives and dies based on your understanding the fundaments of Game.
+不存在所谓的“黑暗艺术”，这只是女性迫切需要的最后一次绝望尝试，试图将你拖回矩阵。只有游戏，以及你在多大程度上接受它并在你定义的情境中自如运用它。如果这个情境是在你选择的、互惠互利、互爱互敬的长期一夫一妻制关系下，要知道，游戏的基本原则是其成功或失败的根本。如果这个情境涉及同时维持多段关系、从其他男人那里解放女性的情感，并享受基于个人满足的爱情生活，同样要明白，它的存亡取决于你对游戏基本原则的理解。</p>
+<p>Just as Alpha is not inherently nobel or deplorable, Game is neither inherently good nor evil – the Devil is in the details and whomever’s defined context in which you use it. In the introduction section of the 48 Laws of Power, author Robert Greene explains the same about power. Power is neither good nor evil, it simply is, and your capacity to use power, your comfort in using it, doesn’t invalidate the principles of power. Likewise, your discomfort or inability to accept those principles does not excuse you from the consequence of having that power used upon you.
+正如 Alpha 本身并无高贵或可鄙之分，游戏亦非天生善恶——魔鬼藏在细节中，取决于你使用的定义情境。在《权力的 48 条法则》的引言部分，作者罗伯特·格林对权力进行了同样的阐述。权力本身并无善恶之分，它只是存在，而你运用权力的能力、使用它的舒适度，并不否定权力的原则。同样，你对这些原则的不适或无法接受，并不能使你免于权力施加于你的后果。</p>
+<p>The unwritten, 49th Law of Power, is denying the utility of power itself, or demonizing its use both moralistically and socially. With the wide dispersion of Game theory this has been the reactionary tact of the feminine imperative; appeal to the deeply conditioned moral, ethical, honorable, virtuous ideals engrammatically planted in men by a fem-centric society, while redefining the acceptable use of the same Game the imperative demonizes for its own purposes.
+未成文的第 49 条权力法则，即否认权力本身的实用性，或从道德和社会角度妖魔化其使用。随着博弈论的广泛传播，这种反应性策略已成为女性主导原则的应对手段；它诉诸于女性中心社会在男性心中根深蒂固的道德、伦理、荣誉和美德理想，同时为了自身目的重新定义博弈论的正当使用，而这一博弈论正是主导原则所妖魔化的。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../unplug/5stage.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../unplug/dtm.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../unplug/5stage.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../unplug/dtm.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

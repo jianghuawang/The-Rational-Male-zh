@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Plate Theory IV: Goal-State Monogamy</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html" class="active"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="plate-theory-iv-goal-state-monogamy"><a class="header" href="#plate-theory-iv-goal-state-monogamy">Plate Theory IV: Goal-State Monogamy</a></h1>
+<p>Whenever a guy uninitiated to the concept of spinning plates reads the theory for the first time his first response is usually rejection of it because it conflicts with their monogamy-as-goal mindset. Understand, this is always going to be a tough stretch for any AFC of course, but also the ‘natural’ guy who doesn’t have much trouble attracting women. Monogamy-as-a-goal is a feminine imperative social contrivance, but it also has roots in our natural desire for security, so it makes anything even remotely like plate spinning counterintuitive. The feminine imperative pounds into men’s collective consciousnesses over the course of a lifetime that monogamy will cure loneliness, make them responsible, provide them with a constant supply of sex, and a host of other things that assures them it’s “the right thing to do” and in their own best interest. This then leads the more option-less individuals to develop and practice AFC methods and rationales in accordance with what they believe (and have been told by) women is required of them in order to achieve their monogamous intimacy.</p>
+<p>每当一个未接触过“旋转盘子”概念的男性初次阅读这一理论时，他的第一反应通常是拒绝，因为它与他们以一夫一妻制为目标的心态相冲突。理解这一点，对于任何 AFC（平均水平男性）来说，这总是一个艰难的跨越，对于那些自然吸引女性并无太大困难的“天生”男性也是如此。以一夫一妻制为目标是一种女性主导的社会构造，但它也植根于我们对安全感的自然渴望，因此，任何与旋转盘子稍有相似的行为都显得反直觉。女性主导的观念一生都在不断灌输给男性的集体意识，即一夫一妻制能治愈孤独，使他们负责任，为他们提供持续的性供应，以及其他诸多保证，让他们相信这是“正确的事情”，并符合他们的最佳利益。这导致那些选择较少的人根据他们所相信（以及被女性告知）的，为了实现一夫一妻制的亲密关系，而发展和实践 AFC 的方法和理由。</p>
+<p>So understandably when the principle of being non-exclusive is presented to them in a rational way (in stead of a ridiculed way as it’s normally passed off as) it conflicts with this perceived path to happiness in monogamy. The very idea that any man would be better off with more options in this arena of life, or could feasibly and logistically pull it off seems foreign. As a counter to this he makes up rationales as to why it wont work or wont work for him.</p>
+<p>因此，当以理性方式（而非通常被嘲笑的方式）向他们提出非排他性原则时，这与他们所认为的通向一夫一妻制幸福的路径产生了冲突。任何男人在这个生活领域中拥有更多选择会更好，或者在实际操作和逻辑上能够实现这一点的想法，似乎都显得陌生。作为对此的反驳，他会编造出一些理由，解释为什么这行不通，或者对他来说行不通。</p>
+<h2 id="logistics-物流"><a class="header" href="#logistics-物流">Logistics 物流</a></h2>
+<p><em>“I can’t spin plates because I have too little time, I can’t manage more than one without the other finding out, etc.”</em>
+<em>“我无法同时处理多件事，因为时间太少，我无法同时管理多个事务而不让其他事情察觉到，等等。”</em></p>
+<p>If you are indeed spinning plates in a healthy, upfront, non-exclusive way this should never be an issue. There are Game-aware Men with less time than most who manage 4-5 different girls in a week without having them consume all their leisure and business time. I don’t suggest that you go this route per se, because for the better part PUAs rely on a dishonesty in non-exclusivity. However, the reason they are capable of this is because they’ve perfected plate spinning effectively enough to have the plates spin themselves.</p>
+<p>如果你确实以健康、坦诚、非独占的方式在转盘子，这应该永远不会成为问题。有些时间比大多数人少的游戏意识强的男性，一周内能管理 4-5 个不同的女孩，而不让她们占用全部的休闲和商务时间。我并不建议你走这条路，因为大多数 PUA 依赖于非独占性中的不诚实。然而，他们能做到这一点的原因是，他们已经将转盘子技巧磨练得足够好，以至于盘子能自行旋转。</p>
+<p>Most uninitiated AFCs reason that they MUST, at all costs, apply a constant effort to each and every girl they encounter at risk of losing a “good one.” Besides this being indicative of ‘soul-mate thinking’, what they fear is losing a plate because they are unaccustomed to having the leisure to do so. This is evidence of a scarcity mentality that is a result of their monogamy-as-goal preconditioning. Plate Theory necessitates an attitude of fearlessness – not carelessness, fearlessness. When you’re practicing Plate Theory your plates should call you. You are the PRIZE and the Prince who’s time is valuable and sought after. You should be the object of women’s pursuit. That said, you still have to make an effort to see them and keep the attention you do apply to them valuable, but this must be done with the attitude that if one plate falls you’re confident in your other options or your ability to generate new options.</p>
+<p>大多数未入门的 AFC（平均挫男）认为，他们必须不惜一切代价，对遇到的每一位女性都持续付出努力，以免错失“好女孩”。这不仅表明了他们“灵魂伴侣”的思维模式，他们还担心失去一个盘子，因为他们不习惯有闲暇去这样做。这是由于他们将一夫一妻制作为目标的预设条件导致的稀缺心态。盘子理论要求一种无畏的态度——不是粗心大意，而是无畏。当你实践盘子理论时，应该是你的盘子主动联系你。你是奖赏，是时间宝贵、备受追捧的王子。你应该成为女性追求的对象。尽管如此，你仍需努力去见她们，并确保你对她们的关注有价值，但这种努力必须建立在你自信于其他选择或创造新选择的能力上，即使一个盘子掉落也不影响大局。</p>
+<p><em>Personality Type 人格类型</em></p>
+<p><em>“I’m just not like that. I don’t want to be considered a playah. I could never do that to a woman. How can anyone be like that?”</em>
+<em>“我就是不像那样。我不想被视为花花公子。我绝不会那样对待一个女人。怎么有人能那样呢？”</em></p>
+<p>This rationale is a common one and not limited just to AFCs. There are plenty of otherwise confident, positively masculine men who’d still think they owe it to women to allow them to set the frame of their relationships without any fear of competition anxiety. Players are men who’re dishonest – they are not spinning plates because they are isolating each plate independent of the other, and this goes back to logistics. Of course you can’t find time for anything else if all you do is try to coordinate each individual story with each plate for fear that they discover each other. The plate spinning Man has no need for this, because he NEVER IMPLIES EXCLUSIVITY TO ANY PLATE. Either they accept this or they’re not a plate to consider. Done in a frank, honest, yet indirect above-table way you will not be a ‘Player’ and you will establish yourself as Man who’s attention is worth competing for.</p>
+<p>这种逻辑很常见，并非仅限于 AFC（平均水平的男人）。许多原本自信、阳刚气质十足的男人，仍会认为他们应该让女性主导关系框架，无需担心竞争焦虑。所谓“玩家”，指的是那些不诚实的男性——他们并非在同时经营多段关系，而是将每段关系孤立开来，这归根结底是关于资源调配的问题。如果你整天忙于协调每段关系，生怕它们相互揭露，自然无暇顾及其他。而擅长“转盘子”的男人则无需如此，因为他从不向任何一方暗示排他性。要么对方接受这一点，要么就不算作他考虑的“盘子”。以坦诚、直接但又不失礼貌的方式行事，你便不会沦为“玩家”，而会树立起一个值得他人争夺关注的男性形象。</p>
+<p>Women would rather share a successful man than be saddled with a faithful loser. This perfectly sums up Plate Theory vs. Monogamy-as-Goal mindsets. Men in general gravely underestimate the power of female competition anxiety and how useful it really is. As I’ve said before, women are natural plate theorists – they are accustomed from a very early age to mitigate multiple sex-interests, they simply learn how to balance their indirect communications with that anxiety in their own plate spinning. Anxiety in women is good for men. Even when they make no effort to use it or would never consider it if they knew it’s usefulness it is ALWAYS present. Everything a woman does on a daily basis is colored by competition anxiety. Make up, clothing, shoes (God, the SHOES!), indirect communications with men and women, social contrivances, comparing and evaluating dates and possible suitors, EVERYTHING is bourn from this competitive desire to achieve security with the best possible guy and make damn sure the girl next door doesn’t get him first. This anxiety is analogous to men’s consummate fear of rejection and all of the myriad rationales he’ll create and the Buffers he’ll devise to avoid it.</p>
+<p>女性宁愿分享一个成功的男人，也不愿背负一个忠诚的失败者。这完美地概括了盘论与一夫一妻制目标心态之间的对比。男性普遍严重低估了女性竞争焦虑的力量及其真正效用。正如我之前所说，女性天生就是盘论者——她们从小便习惯于应对多重性兴趣，并学会如何在旋转盘子时平衡自己的间接沟通与这种焦虑。女性的焦虑对男性有益。即便她们无意利用它，或即便知晓其效用也从未考虑过，这种焦虑始终存在。女性日常所做的一切都受到竞争焦虑的影响。化妆、服饰、鞋子（天哪，那些鞋子！）、与男女的间接沟通、社交手段、比较和评估约会对象及潜在追求者，所有这一切都源于这种竞争欲望，即力求与最优秀的男性获得安全感，并确保隔壁女孩不会捷足先登。这种焦虑类似于男性对拒绝的终极恐惧，以及他们为避免拒绝而创造的各种理由和设计的缓冲机制。</p>
+<p>Bear in mind that monogamy is a dictate of the feminine imperative. It is the social contract that the feminine ultimately needs in order to quell a constant desire for security in a very chaotic world. When you are predisposed to monogamy-as-goal thinking, or trying to break yourself of this, understand that this is a tool of the feminine imperative. That’s not to discount the overall merits of monogamy, but it is to make you aware of how it’s acculturated into men as a responsibility to providing monogamy. Men who find themselves in a state of internal conflict about abandoning monogamy-as-goal are really confronting a fundamental shift in their prior conditioning.</p>
+<p>请记住，一夫一妻制是女性主导原则的指令。这是女性最终需要的社会契约，以便在一个极度混乱的世界中平息对安全感的持续渴望。当你倾向于将一夫一妻制视为目标的思维，或试图摆脱这种思维时，要明白这是女性主导原则的工具。这并不是要否定一夫一妻制的整体优点，而是要让你意识到它如何被文化塑造为男性提供一夫一妻制的责任。那些发现自己内心冲突于放弃一夫一妻制目标的男性，实际上正面临其先前条件作用的基本转变。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../plate_theory/plate_theory_iii.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../plate_theory/plate_theory_v.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../plate_theory/plate_theory_iii.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../plate_theory/plate_theory_v.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Plate Theory II: Non-Exclusivity</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html" class="active"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="plate-theory-ii-non-exclusivity"><a class="header" href="#plate-theory-ii-non-exclusivity">Plate Theory II: Non-Exclusivity</a></h1>
+<p><em><strong>Women would rather share a high value Man than be saddled by a faithful loser.</strong></em>
+<em>女性宁愿与一个高价值男性分享，也不愿被一个忠诚的失败者拖累。</em></p>
+<p>*<em>“I just started applying Plate Theory, and I have to say with all honesty that this is probably the best thing I’ve ever done in my entire life. The feeling of having options is addictive; the whole idea that you don’t come from a necessitous emotional state is genius, and in fact the more options you have, the more attractive you become to women (through the unconscious changes in your behavior), the more women become attracted to you, and the more options you have. Once you get it started, it’s hard to stop it.</em>
+<em>“我刚开始运用板块理论，老实说，这可能是我一生中做过的最棒的事情。拥有选择的感觉令人上瘾；那种你并非出自需求情感状态的理念真是天才之举，事实上，你拥有的选择越多，通过你行为中潜移默化的改变，你对女性的吸引力就越大，反过来，吸引的女性越多，你的选择也就越多。一旦开始，就很难停下来。”</em></p>
+<p><em>Recently I’ve been Spinning Plates with some success, but there comes a point when I risk one girl finding out about another. How do I handle this without the risk of losing one of my plates? Should I even bother with the effort of spinning plates that aren’t as high a value as others?”</em>
+<em>最近我在同时处理多段关系方面取得了一些成功，但总有一个时刻，我担心一个女孩会发现另一个的存在。我该如何处理这种情况，以避免失去其中任何一个？我是否还应该费心去维持那些价值不如其他的盘子呢？</em></p>
+<p>Real options are the cornerstone of confidence, so try not to think of it in terms of risk – as in you’re risking the loss of “a great girl”. Most guys get to a point where Game and plate spinning give them their first taste of real options to select from or fall back on when another doesn’t pan out. The problem arises when they spin enough plates successfully to the point where they think they’ve maxed out to their “best” option and the old scarcity mentality returns. Most times a guy who newly practices Game and plate spinning never really spins plates per se; he uses it for the first monogamous opportunity that’s been eluding him for so long and calls it quits. He never actualizes and internalizes an abundance mentality.</p>
+<p>实物期权是信心的基石，因此尽量不要从风险的角度去思考它——比如你冒着失去“一个好女孩”的风险。大多数男性在游戏和盘旋中达到一定程度时，会首次尝到真正的选择，无论是从中挑选还是作为备选。问题出现在他们成功地旋转足够多的盘子，以至于认为自己已经达到了“最佳”选择，而旧有的稀缺心态再次回归。很多时候，一个新接触游戏和盘旋的男性实际上并没有真正旋转盘子；他只是利用它来抓住那个长期逃避他的第一次一夫一妻制机会，然后就放弃了。他从未实现和内化一种丰盛的心态。</p>
+<p>Spinning Plates doesn’t necessarily mean you’re fucking all of your plates. It’s more of a spreading out of your efforts across a wider pool of subjects. Some will reciprocate, and those you entertain. Others will not, or prove to be less desirable, and those you let fall. This isn’t as difficult as it sounds once you’ve established your own resolve to be non-exclusive. At some point women will attempt to corner you into exclusivity and this is where your resolve will be tested. Women love to say how they have Rules, well you must have Rules as well. This means not shacking up with a woman, not slipping into any routine with her, not calling her more than necessary to set up another sporadic date, saving your weekends for women who’ve had a proven IL in you (i.e. sex or intimacy) and relegating those who haven’t to Tuesdays &amp; Wednesdays, etc. This may seem like a lot of micromanagement, but once you put it into practice in as pragmatic a way possible to accomodate your life you’ll find that the decisions you make regarding the plates you are choosing to spin will become automatic.</p>
+<p>旋转盘子并不一定意味着你与所有盘子都有性关系。它更多的是指将你的精力分散到更广泛的群体中。有些会回应，那些你便与之交往；另一些则不会，或显得不那么吸引人，那些你便任其落下。一旦你确立了自己非独占的决心，这并不像听起来那么难。在某些时候，女性会试图将你逼入独占关系，这时你的决心将受到考验。女性喜欢说她们有规则，那么你也要有自己的规则。这意味着不与女性同居，不与她陷入任何常规，不必要时不要频繁打电话给她以安排另一次随机的约会，将周末留给那些已证明与你有过亲密接触（如性或亲密关系）的女性，而将那些没有的女性安排在周二和周三等。这可能看起来像是大量的微观管理，但一旦你以尽可能务实的方式将其融入你的生活，你会发现关于选择旋转哪些盘子的决定将变得自动化。</p>
+<p>If you feel that you have something to lose with a particular girl, you’re no longer spinning plates – you’re thinking and approaching dating in terms of exclusivity. POOK’s great quote: “women would rather share a high value Man than be saddled by a faithful loser” A lot of guys (and almost every woman) have a big problem with the truth of this because they take it too literally. POOK was never suggesting that you overtly declare that you’ll be open to other options and that your girls should consciously be expected to accept this. Every woman takes this quote in this way, and with good reason because they don’t want to seem like an easy mark. When it’s on the table like that it unsurprisingly becomes an affront to their pride and self-worth. However, in practice, non-exclusivity has to be covert. It needs to be implied, not declared. Thus you see the truth in POOK’s observation – women’s behavior will bear him out. Imagination and competition anxiety paired with implied non-exclusivity are the tools for successful plate spinning.</p>
+<p>如果你觉得与某个女孩有所得失，那么你已不再是单纯地旋转盘子——你是在以排他性的思维来思考和接近约会。POOK 有句名言：“女性宁愿分享一个高价值的男人，也不愿被一个忠诚的失败者束缚。”许多男性（以及几乎所有女性）对此真理感到困扰，因为他们过于字面理解。POOK 从未建议你公开宣称自己会开放选择，并期望你的女孩们自觉接受这一点。每位女性都这样解读这句话，这有其合理性，因为她们不想显得容易被利用。当这种观点被摆上台面时，它自然会冒犯到她们的骄傲和自我价值感。然而，在实践中，非排他性必须是隐秘的。它需要被暗示，而非声明。因此，你看到了 POOK 观察的真实性——女性的行为将证实他的观点。想象力和竞争焦虑加上暗示的非排他性，是成功旋转盘子的工具。</p>
+<p><strong>Become the commodity she’s looking for.</strong>
+<strong>成为她所寻找的商品。</strong></p>
+<p>A high value Man can spin plates, and sometimes those plates suspect there are, or know there are other plates in his rotation. They’ll tolerate it so long as he remains high enough value (or effectively presents that perception) or hypergamy wil move them along to another high value Man. As I state in Plate Theory, some plates fall off to be replaced by new plates. You must be willing and confident enough to let some of them fall. This is a tough reality for recovering chumps new to Game to accept. Deprivation has conditioned them to hang onto a “sure thing” and this becomes all the more difficult when the plate they happen to drop was the first woman they’d ever successfully applied Game to, or was hotter than any girl they’d previously been with.</p>
+<p>一个高价值的男人能够同时应对多个女性，有时这些女性会怀疑或知道他还有其他交往对象。只要他保持足够高的价值（或有效地呈现这种认知），她们就会容忍这种情况，否则她们会通过择偶升级转向另一个高价值的男人。正如我在“盘子理论”中提到的，有些盘子会掉落，被新的盘子取代。你必须愿意并且有信心让其中一些掉落。对于刚接触游戏并试图摆脱失败者心态的人来说，接受这一现实是艰难的。长期的匮乏感使他们习惯于抓住“确定的事物”，当他们不小心放手的盘子是他们第一个成功运用游戏策略的女性，或是比以往任何交往过的女孩都更迷人时，这种困难尤为明显。</p>
+<p>As I stated earlier, you don’t have to be sexual with every one of the plates you’re spinning (this used to be called “dating” in the days before serial monogamy became the fashion). It’s the potential in knowing that you could be, or that there are women who will value your attention that prompts a competitive anxiety in women – often when you don’t even know you’re doing it. If you are sexual with some of the plates you’re spinning, so much the better since you know that they’re proven commodities and if one isn’t performing as you’d like, you have the unconscious knowledge that others will, or you have the proven ability to generate more options for yourself.</p>
+<p>正如我先前所述，你不必与每一个正在交往的女性发生性关系（这在连续一夫一妻制成为潮流之前被称为“约会”）。正是这种知晓自己可能与她们发生关系，或是知道有些女性会珍视你关注的潜在可能性，激发了女性的竞争焦虑——往往在你甚至未察觉自己在这样做时。如果你与其中一些女性发生了性关系，那就更好了，因为你已确认她们是可靠的，如果某一个不如你所愿，你潜意识里知道其他人会，或者你有能力为自己创造更多选择。</p>
+<p><strong>Monogamy is a byproduct, not a goal.</strong>
+<strong>一夫一妻制是副产品，而非目标。</strong></p>
+<p>One of the biggest hurdles guys have with Plate Theory is breaking themselves of this ‘LTR-as-Goal’ mentality. Obviously I’m not anti-monogamy, however monogamy should never be a goal, it should be a by-product of Plate Theory, but only when you’ve properly filtered through enough plates to understand how options play into confidence and controlling the frame. If a woman is unwilling to be non-exclusive with you (i.e. “she’ll leave me if I see other girls” fear) she isn’t a plate to spin. This seems counterintuitive to a guy with an LTR-As-Goal mentality and it is, but the guy who can fearlessly, and honestly stay above-board with his intent is the one who’ll be spinning more plates. Most guys (AFCs in particular) are deathly afraid of losing that ONE perfect girl and so never even attempt to spin more than one plate, much less have any others to compare her ‘perfection’ to in the first place. I’ve even seen PUAs do exactly this. They’re so impressed with the success of newly perfected techniques that they settle for the ONE ‘dream girl’ and find that their attentions become valueless to her because she perceives she is his only option for intimacy, his script gets flipped on him, and he gets marginalized. It’s not a failure in technique, but rather a failure in his mindset.</p>
+<p>男性在理解“板块理论”时面临的最大障碍之一，是摆脱“以长期关系为目标”的心态。显然，我并不反对一夫一妻制，但一夫一妻制绝不应成为目标，而应是“板块理论”的副产品，前提是你已充分筛选过足够多的“板块”，从而理解选择如何影响自信和掌控局面。如果一个女性不愿与你保持非独占关系（即“如果我与其他女孩交往，她会离开我”的恐惧），那么她就不应被视为一个可旋转的“板块”。这看似与“以长期关系为目标”的思维相悖，确实如此，但那些能无畏且坦诚地表明自己意图的男性，才是能旋转更多“板块”的人。大多数男性（尤其是 AFC 们）极其害怕失去那唯一完美的女孩，因此从未尝试过同时旋转多个“板块”，更不用说有其他“板块”来比较她的“完美”了。我甚至见过 PUA 们也这么做。 他们对新近完善的技术所取得的成功印象深刻，以至于满足于仅拥有一位“梦中情人”，却发现他们对她的关注变得毫无价值，因为她意识到自己是他亲密关系的唯一选择，他的剧本被翻转，而他则被边缘化。这并非技术上的失败，而是他心态上的失败。</p>
+<p>So what do you do to establish your plates and be truly, and successfully, non-exclusive with women? Initially I’d suggest doing exactly what most women have perfected for the better part of their lifetimes, stay intentionally ambiguous. Women practice Plate Theory by default – they play the Coquette (hard to get), they know how to be ambiguous enough to keep their options open, but not so much as to let a guy’s interest fail. They naturally know that we only chase what runs away from us. They never commit fully, but still keep the carrot in front of the donkey.</p>
+<p>那么，你该如何确立自己的“盘子”，真正且成功地与女性保持非排他性关系呢？首先，我建议你效仿大多数女性在她们大半生中精通的策略：保持有意模糊。女性默认实践“盘子理论”——她们扮演难以捉摸的“娇羞女郎”（难以接近），懂得如何保持足够的模糊性以保持选择开放，但又不会过度以至于让男性的兴趣消退。她们本能地知道，我们只会追逐那些逃避我们的事物。她们从不完全投入，却始终让希望在前方牵引着追求者。</p>
+<p>Women communicate COVERTLY, with gesture, with looks, with veiled meanings – you have to communicate your intent to be non-exclusive COVERTLY. Never OVERTLY tell a woman you’ve got other plates than her spinning. Allow her to discover this by your mannerisms, your behaviors, and definitely by your availability to her. Create value through scarcity, don’t be so available to her, but just enough to keep her interest and allow her mind to consider that maybe you have other options. Even when you don’t, fomenting this anxiety is a VERY useful tool for you while you do get more plates to spin. Even the ambient confidence that comes from knowing you have a past, proven, ability to generate more sexual options for yourself will manifest itself in your personality and trigger this competition anxiety.</p>
+<p>女性以隐晦的方式交流，通过手势、眼神和含蓄的含义——你必须隐秘地传达出你非独占的意图。绝不要直接告诉一位女性你还有其他选择在旋转。让她通过你的举止、行为，尤其是你对她的可得性来发现这一点。通过稀缺性创造价值，不要对她过于可得，但要恰到好处以保持她的兴趣，并让她心中考虑或许你还有其他选项。即便你并没有，制造这种焦虑在你获取更多选择时是一个极其有用的工具。甚至那种源自知晓自己过去曾证明有能力为自己创造更多性选择的自信，也会在你的个性中显现，并触发这种竞争焦虑。</p>
+<p>At some point a woman will resort to OVERT communications when she’s run out of options in her COVERT communications tool set. This is the point the anxiety becomes unbearable and the need for security forces her to be OVERT. This is usually the stage at which she’s ask something like “where is this going?” or “am I your girlfriend?” or she may even give you an ultimatum. See this for what it is, she feels powerless and this is a press to commit. This is the point at which you will end up as a “cheater” or you’ll continue to spin plates. You actually have a lot of options in this situation, in fact more than you will ever have with any individual woman. You can of course take the coward’s path and just agree to exclusivity with her, but in doing so you lose all options (for as far as you’re willing to commit) as she intently becomes your only means of intimacy. She becomes the broker for your sexuality and you lose power, whereas before YOU were in control of your sexual availability.</p>
+<p>在某些时候，当一个女人在她的隐性沟通工具箱中用尽所有选项后，她会转向显性沟通。这是焦虑变得难以忍受，对安全感的迫切需求迫使她变得显性的时刻。通常在这个阶段，她会问一些问题，比如“我们这是在往哪儿发展？”或“我是你的女朋友吗？”甚至可能给你一个最后通牒。要明白这是怎么回事，她感到无能为力，这是在逼你做出承诺。在这个节点上，你最终可能成为“骗子”，或者继续同时与多人保持关系。实际上，在这种情况下你有很多选择，事实上比与任何单一女性相处时都多。当然，你可以选择懦夫的路径，仅仅同意与她独占关系，但这样做你会失去所有其他选项（只要你愿意承诺的程度），因为她将专注成为你唯一的亲密途径。她成为你性行为的经纪人，你失去了权力，而之前是你控制着自己的性可得性。</p>
+<p>You could continue to spin her as well, but bear in mind she’s resorted to OVERTLY confronting you about it and it wont be the last you hear of it. Depending on how long you’ve had her around, you may simply just let her drop. You might also keep her going, but let her cool a bit and come back to her in a few week’s time. Again, this seems counterintuitive, but your attention will either wildly increase in her value of it or she’ll simply bug out in which case it wasn’t worth pursuing and you aren’t wasting your time and effort on a woman with less than 100% IL.</p>
+<p>你也可以继续与她周旋，但请记住，她已公然向你提出质疑，这不会是你最后一次听到此事。根据她在你身边的时间长短，你或许可以直接让她离开。你也可能选择继续维持关系，但先让她冷静一段时间，几周后再重新接触。这看似有违直觉，但你的关注要么会极大地提升她对此的重视，要么她会直接放弃，那样的话就不值得追求，你也不会在一个连 100%投入都没有的女人身上浪费时间和精力。</p>
+<p><strong>Confidence is derived from options.</strong>
+<strong>信心源自选择。</strong></p>
+<p>Don’t think of plate theory as a filter so much as it is a means to reinforce confidence. If you were to step into the ring with a professional UFC fighter right now it’d probably be suicide for you. But train for a few years, spar with other fighters and win a few bouts and you’ll probably be confident enough in your past performances that you know you can hold your own in the ring. That’s the idea, confidence derived from the options of non-exclusive women in hand and from having successfully generated those options in the past.</p>
+<p>不要将板块理论视为过滤器，而应将其视为增强自信的手段。假设你现在步入八角笼与一位职业 UFC 选手对决，那对你来说无异于自寻死路。但若经过几年的训练，与他人实战切磋并赢得几场比赛，你很可能就会因过往的表现而信心满满，深知自己能在笼中一展身手。这就是板块理论的精髓所在：自信源自手中握有的非排他性女性选择权，以及过去成功创造这些选择权的经历。</p>
+<p>It’s not a numbers game, it’s a non-exclusivity game. The goal isn’t racking up as many women as humanly possible in order to sift through the throng and find that one little golden flower. In fact that’s the key to disaster. There is no Quality Woman, that’s an idealization. Some are better than others of course, but you don’t find the perfect woman, you make the perfect woman. There is no needle in the haystack – that is Scarcity / ONEitis thinking – the point is to mold yourself and any woman who you do exclusively end up with into your own frame. This is a process that should come before you commit to exclusivity, not after. The world is filled with guys forever trying to catch up, control the frame and be the Man they should’ve been long before they entered an LTR. They spend the better part of their LTRs/Marriages trying to prove that they deserve their GF’s / Wife’s respect when they’d have done better in letting her come to that conclusion well before the commitment through a healthy dose of competition anxiety.</p>
+<p>这不是数字游戏，而是非排他性游戏。目标并非竭尽所能地积累尽可能多的女性，以便从人群中筛选出那一朵小小的金花。事实上，那正是灾难的根源。并不存在所谓的优质女性，那只是一种理想化。当然，有些女性优于其他，但你不会找到完美的女人，而是要塑造出完美的女人。没有藏在稻草堆里的针——那是稀缺/唯一症思维——关键在于塑造你自己以及你最终独占的任何女性，使之符合你的框架。这一过程应在承诺独占之前进行，而非之后。世界上充斥着那些永远试图追赶、掌控框架并成为他们本应在进入长期关系前就成为的男人。他们将大部分时间花在长期关系/婚姻中，试图证明自己配得上女友/妻子的尊重，而更好的做法是通过适度的竞争焦虑，让她在承诺之前就得出这个结论。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../plate_theory/plate_theory.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../plate_theory/plate_theory_iii.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../plate_theory/plate_theory.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../plate_theory/plate_theory_iii.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Enter White Knight</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html" class="active"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="enter-white-knight"><a class="header" href="#enter-white-knight">Enter White Knight</a></h1>
+<p>The following was a timely question by SoSuave member “OnTheWayUp”;
+以下是 SoSuave 会员“OnTheWayUp”提出的一个及时问题；</p>
+<ul>
+<li>Just wanted to find out: who do you talk to about aspects of game with off this site? I’m talking here about “game” in the broadest sense of the term, so pick-up, but also self-esteem, how to keep a relationship healthy, the roles of men and women in society etc.*
+只是想了解一下：关于游戏方面的内容，你通常会与谁交流，而不局限于此网站？我这里所说的“游戏”是指该词最广泛的意义，包括搭讪技巧、自我价值感、如何维持健康关系，以及男女在社会中的角色等。</li>
+</ul>
+<p><em>My experience with voicing the views advocated on here in public has nearly always been negative. I have 3 – 4 good male friends who are interested in pick-up (one has read the Mystery Method, for example), and they love it. But these friends are the exception rather than the rule. My parents (beta dad, controlling mum) think my attitude towards women is sexist and my opinion of ONSs “disgusting.” Just about everybody I know subscribes to the Disney/ soulmate view of relationships, and some of my contemporaries (I’m 21) are even starting to settle down and get married. God help them. Talking to girls in bed about what they find attractive in a man is interesting, if only to see the extent to which they delude themselves, but ultimately counter-productive, since a woman (tacitly) expects a man to know how to express his sexuality.</em>
+在公开场合表达这里所倡导的观点，我的经历几乎总是负面的。我有三四个对搭讪感兴趣的好朋友，其中一位甚至读过《谜男方法》，他们对此非常热衷。但这些朋友只是少数。我的父母（温和的父亲，控制欲强的母亲）认为我对女性的态度带有性别歧视，对一夜情的看法“令人作呕”。我认识的几乎每个人都信奉迪士尼式的灵魂伴侣关系观，甚至我的一些同龄人（我 21 岁）已经开始安定下来步入婚姻。愿上帝保佑他们。与床上的女孩讨论她们对男性吸引力的看法颇有趣味，尽管这能揭示她们自我欺骗的程度，但最终却适得其反，因为女性（默许地）期望男性懂得如何表达自己的性魅力。</p>
+<p><em>Can we as men ever talk about these things in public? What are your experiences?</em>
+我们作为男性能在公共场合谈论这些事吗？你的经历是怎样的？</p>
+<p>Before I begin, let me say that I think it’s encouraging to see such an insightful question posed by so young a Man.
+在我开始之前，请允许我表达，看到如此年轻的人提出这样有见地的问题，我感到非常鼓舞。</p>
+<p><em>Morpheus: The Matrix is a system, Neo. That system is our enemy. But when you’re inside, you look around, what do you see? Businessmen, teachers, lawyers, carpenters. The very minds of the people we are trying to save. But until we do, these people are still a part of that system and that makes them our enemy. You have to understand, most of these people are not ready to be unplugged. And many of them are so inured, so hopelessly dependent on the system, that they will fight to protect it.</em>
+<em>墨菲斯：矩阵是一个系统，尼奥。那个系统是我们的敌人。但当你身处其中，环顾四周，你看到了什么？商人、教师、律师、木匠。正是这些我们试图拯救的人的头脑。但在我们做到之前，这些人仍然是那个系统的一部分，这使他们成为我们的敌人。你必须明白，这些人中的大多数还没有准备好被拔除。而且他们中有许多人已经如此习惯，如此绝望地依赖于这个系统，以至于他们会为之战斗，保护它。</em></p>
+<p>Every random chump within earshot of your conversation about Game, about your ‘changed’ way of seeing inter-gender relations, about your most objective critical observations of how women ‘are’, etc. – understand, that chump waits everyday for an opportunity to “correct” you in as public a way as he’s able to muster. That AFC who’s been fed on a steady diet of noble intent, with ambitions of endearing a woman’s intimacy through his unique form of chivalry; that guy, he’s aching for an opportunity to prove his quality by publicly redressing a “villain” like you for your chauvinism. Even under the conditions of relative anonymity (like the internet), he’ll still cling to that want of proving his uniqueness just on the off chance that a woman might read his rebuff and be fatefully attracted to him.
+每个偶然听闻你关于游戏、关于你“改变”的性别关系视角、关于你对女性“本质”最客观批判观察的闲人——请明白，那个闲人每天都在等待机会，以他能聚集的最大公众方式来“纠正”你。那个一直接受高尚意图熏陶、梦想通过其独特骑士精神赢得女性亲密的 AFC；那个家伙，他渴望有机会通过公开纠正你这样的“恶棍”来证明自己的品质，因为你表现出的大男子主义。即使在相对匿名的条件下（如互联网），他仍会坚持证明自己独特性的欲望，只因万一有女性读到他的反驳，可能会被命运般地吸引。</p>
+<p>This is the bread and butter of the White Knight beta. It’s best to assume that most guys who pick up on just your Game vibe, to say nothing of overtly talking about it, are going to side with the feminine imperative by default. For practitioners of Beta Game (which is to say the better part of 90% of guys) this is an organic opportunity to identify with women and engage in the same shaming conventions women use without the fear of having it seem contrived.
+这是白骑士测试版的核心内容。最好假设，大多数仅凭你的游戏氛围，更不用说公开谈论它的人，默认情况下都会支持女性主导原则。对于贝塔游戏（即大约 90%的男性）的实践者来说，这是一个自然的机会，可以与女性产生共鸣，并采用她们使用的相同羞辱惯例，而不必担心显得做作。</p>
+<p>Now this is the mechanics of it, but the rabbit hole goes deeper than that. For the Beta Game that our noble white knight is so invested in to work, he depends on an assumed system. He depends upon reaffirming his assumed understanding of how to best achieve a woman’s intimacy (sex). He must reaffirm that presumption BY defending it and looking for opportunities to show he adheres to the feminine imperative (or the version of the imperative he’s been taught to believe). His Game, his ego-invested identity IS literally dependent upon that system. So not only is he defending his Game and his ego, be he’s also defending the social architecture that makes his Beta Game even possible.
+现在，这是其机制，但这个兔子洞比那更深。为了让我们的高贵白骑士如此投入的 Beta 游戏运作，他依赖于一个假定的系统。他依赖于重申他对如何最好地获得女性亲密（性）的假定理解。他必须通过捍卫这一假设并寻找机会展示他遵守女性主导原则（或他所学到的原则版本）来重申这一假设。他的游戏，他自我投入的身份实际上依赖于那个系统。因此，他不仅在捍卫他的游戏和自我，还在捍卫使他的 Beta 游戏成为可能的社会架构。</p>
+<p>You see, when an AFC clings to the mental schemas that make up an AFC mindset it requires a constant need for affirmation and reinforcement, particularly in light of a glaring lack of verifiable success with women while clinging to, and behaving in accordance with the mindset. AFCs are like crabs in a barrel – once one gets to the top to climb out another drags him back in. The AFC needs other AFCs to affirm his blatantly obvious lack of success. He needs other AFCs to tell him, “don’t worry just be yourself” or “she’s just not a quality woman because she can’t see how great a guy you are.”
+你看，当一个 AFC（平均失败者）坚持那些构成 AFC 心态的心理模式时，他需要不断的肯定和强化，尤其是在面对与女性交往中明显缺乏可验证成功的情况下，仍然坚持并按照这种心态行事。AFC 们就像桶里的螃蟹——一旦有一个爬到顶端试图逃脱，另一个就会把他拖回去。AFC 需要其他 AFC 来肯定他显而易见的失败。他需要其他 AFC 告诉他，“别担心，做你自己就好”或者“她不是优质女性，因为她看不到你有多棒。”</p>
+<p>So when an AFC finally does get a second date and then finally does get laid it becomes the ultimate validation for his mindset. “See, you just have to be a patient nice guy and the right ONE really does come along.” This is when the self-righteous phase begins and he can begin telling his PUA friends that Beta Game does work, and he’s “getting some” now without all the Positive Masculinity claptrap. In actuality he rationalizes away all of the conditions that lead up to him getting the girlfriend and the fundamental flaw that he’s settling for a woman “who’d fuck him”, but this doesn’t stop him from claiming a moral high ground. His long wait is over and he’s finally hit White Knight pay-dirt.
+因此，当一个 AFC 最终获得第二次约会并最终成功上床时，这成为他心态的终极验证。“看，你只需做一个耐心的好人，对的那个人真的会出现。”这时，自以为是阶段开始，他可以开始告诉他的 PUA 朋友们，Beta 游戏确实有效，他现在“有所收获”，而不需要那些正向男性气质的废话。实际上，他合理化了自己获得女友的所有条件和根本缺陷，即他满足于一个“愿意和他上床”的女人，但这并没有阻止他宣称道德高地。他漫长的等待结束了，他终于达到了白骑士的回报。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../blank.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../plugged_in/afc.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../blank.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../plugged_in/afc.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
