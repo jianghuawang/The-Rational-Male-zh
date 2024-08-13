@@ -1,11 +1,14 @@
 # Schedules of Mating
+
 There are methods and social contrivances women have used for centuries to ensure that the best male’s genes are selected and secured with the best male provisioning she’s capable of attracting. Ideally the best Man should exemplify both, **but rarely do the two exist in the same male** (particularly these days) so in the interest of achieving her biological imperative, and prompted by an innate need for security, the feminine as a whole had to develop social conventions and methodologies (which change as her environment and personal conditions do) to effect this. Men are not only up against a female genetic imperative, but also centuries long feminine social conventions established and adapted from a time long before human beings could accurately determine genetic origins.
+
 几个世纪以来，女性运用各种方法和社会手段，以确保选择并确保最佳男性的基因，并吸引到她所能吸引到的最佳男性的供养。理想情况下，最佳男性应兼具这两者，但这两者很少同时存在于同一个男性身上（尤其是在当今时代）。因此，为了实现其生物学上的使命，并在内在安全需求的驱使下，女性作为一个整体，不得不发展出社会习俗和方法论（这些会随着她的环境和个体条件的变化而变化），以实现这一目标。男性不仅面临着女性的遗传使命，还面临着由来已久的女性社会习俗，这些习俗建立并适应于人类能够准确确定遗传起源之前的漫长时期。
 
 I’ve detailed in many prior threads that mate selection is a psycho-biological function that millennia of evolution has hardwired into both sexes. So internalized and socialized is this process into our collective psyches that we rarely recognize we’re subject to these motivators even when we continually repeat the same behaviors manifested by them (such as having the second kid with the Alpha Bad Boy). So saying that we’re not subject to conditions we’re or are only vaguely aware of is a bit naive.
 我在许多先前的讨论中详细阐述了，择偶是一种心理生物学功能，经过数千年的进化，已被深深植入两性之中。这一过程如此内化和社会化地融入我们的集体心理，以至于我们很少意识到自己受到这些动机的驱使，即使我们不断重复由它们表现出的相同行为（例如与阿尔法坏男孩生第二个孩子）。因此，声称我们不受那些我们或仅模糊意识到的条件的制约，未免有些天真。
 
 It’s simple deductive logic to follow that for a species to survive it must provide its offspring with the best possible conditions to ensure its survival – either that or to reproduce in such quantity that it ensures survival. The obvious application of this for women is sharing parental investment with the best possible mate her own genetics allow her to attract and who can provide long term security for her and any potential offspring. Thus women are biologically, psychologically and sociologically the filters of their own reproduction, where as men’s reproductive methodology is to scatter as much of his genetic material as humanly possible to the widest available quantity of sexually available females. He of course has his own criteria for mating selection and determining the best genetic pairing for his reproduction (i.e. she’s gotta be hot), but his criteria is certainly less discriminating than that for women (i.e. no one’s ugly after 2am). This is evidenced in our own hormonal biology; men possess between 12 and17 times the amount of testosterone (the primary hormone in sexual arousal) women do and women produce substantially more estrogen (instrumental in sexual caution) and oxytocin (fostering feelings of security and nurturing) than men.
+
 遵循简单的演绎逻辑，一个物种要生存下去，必须为其后代提供最佳的生存条件，或者通过大量繁殖来确保生存。对女性而言，这一逻辑的直接应用是与最优质的伴侣共同承担育儿责任，这个伴侣应是她凭借自身基因能够吸引到的，并能为其及任何潜在后代提供长期保障的人。因此，女性在生物学、心理学和社会学层面上，都是自身繁殖的筛选者，而男性的繁殖策略则是尽可能广泛地将其遗传物质散布给尽可能多的可交配女性。当然，男性在选择交配对象和确定最佳遗传组合时也有自己的标准（比如她必须有吸引力），但相比女性，他们的标准显然不那么严格（比如凌晨两点后没人是丑的）。 这一点在我们的荷尔蒙生物学中得到了体现；男性体内的睾酮（性兴奋的主要激素）含量是女性的 12 至 17 倍，而女性产生的雌激素（与性警觉相关）和催产素（促进安全感和养育感）则远多于男性。
 
 That stated, both of these methodologies conflict in practice. For a woman to best ensure the survival of her young, a man must necessarily abandon his method of reproduction in favor of her own. This then sets a contradictory imperative for him to pair with a woman who will satisfy his methodology. A male must sacrifice his reproductive schedule to satisfy that of the woman he pairs with. Thus, with so much genetic potential at stake on his part of the risk, he want’s not only to ensure that she is the best possible candidate for breeding (and future breeding), but also to know that his progeny will benefit from both parent’s investment.
@@ -20,7 +23,7 @@ These are the rudiments of human sexual selection and reproduction. There are ma
 
 这些是人类性选择和繁殖的基础。还有许多其他与这些基本原则相关的社会、情感和心理复杂性，但它们是潜意识中影响性选择的根本动机和考虑因素。
 
-Social Convention 社会习俗
+## Social Convention 社会习俗
 To counter this subconscious dynamic to their own genetic advantage women initiate social conventions and psychological schemas to better facilitate their own breeding methodologies. This is why women always have the “prerogative to change her mind” and the most fickle of behaviors become socially excusable, while men’s behavior is constrained to a higher standard of responsibility to “do the right thing” which is invariably to the advantage of a woman’s reproductive scheme . This is why guys who are ‘Players’, and fathers who abandon mothers to pursue their innate reproduction method are villains, and fathers who selflessly sacrifice themselves financially, emotionally and life decision-wise, often to the benefit of children they didn’t father, are considered social heroes for complying with women’s genetic imperatives.
 
 为了对抗这种潜意识中对自身基因有利的动态，女性会发起社会习俗和心理模式，以更好地促进自身的繁衍策略。这就是为什么女性总是拥有“改变主意的特权”，最反复无常的行为也变得社会可接受，而男性的行为则被约束在更高的责任感标准上，即“做正确的事”，而这往往符合女性的生殖计划。这就是为什么那些“花花公子”和抛弃母亲去追求其固有繁衍方式的父亲被视为恶人，而那些无私地从经济、情感乃至生活决策上牺牲自己，常常惠及非亲生子女的父亲，则因顺应女性的基因需求而被视为社会英雄。
@@ -29,8 +32,7 @@ This is also the root motivation for female-specific social dynamics such as LJB
 
 这也是女性特有的社会动态的根源，如“朋友区”拒绝、女性倾向于扮演受害者角色（因为她们已了解到这会激发男性“拯救者”心理模式，以适应其繁衍计划——“船长救美”），乃至婚姻本身。
 
-Good Dads vs Good Genes
-好爸爸与好基因
+## Good Dads vs Good Genes 好爸爸与好基因
 The two greatest difficulties for women to overcome in their own methodology is that they are only at a sexually viable peak for a short window of time (generally their 20s) and the fact that the qualities that make a good long term partner (the Good Dad) and the qualities that make for good breeding stock (Good Genes) only rarely manifest themselves in the same male. Provisioning and security potential are fantastic motivators for pairing with a Good Dad, but the same characteristics that make him such are generally a disadvantage when compared with the man who better exemplifies genetic, physical attraction and the risk taking qualities that would imbue her child with a better capacity to adapt to its environment (i.e stronger, faster, more attractive than others to ensure the passing of her own genetic material to future generations). This is the Jerk vs. Nice Guy paradox writ large on an evolutionary scale.
 女性在自身方法论中需克服的两大难题是，她们在性方面具有生育能力的巅峰期非常短暂（通常在 20 多岁），以及那些构成长期理想伴侣（好父亲）的特质与那些利于优良后代繁衍（优质基因）的特质，极少在同一男性身上同时体现。与一个好父亲结合，其提供的物质保障和安全潜力是强大的驱动力，但这些特质在遗传、身体吸引力及冒险精神方面，通常不及那些更能赋予孩子适应环境优势（即更强壮、更快速、更具吸引力，以确保自身基因能传递至后代）的男性。这便是进化尺度上的“混蛋与好人”悖论。
 
@@ -38,11 +40,11 @@ Men and women innately (though unconsciously) understand this dynamic, so in ord
 
 男女双方天生（尽管是无意识地）理解这一动态，因此，为了让女性既能获得好父亲所能提供的最佳条件，又能利用好基因男性的优势，她必须创造并不断修改社会习俗，以保持其生物学上的优势。
 
-Reproductive Schedules 生殖时间表
+## Reproductive Schedules 生殖时间表
 This paradox then necessitates that women (and by default men) must subscribe to short term and long term schedules of mating. Short term schedules facilitate breeding with the Good Genes male, while long term breeding is reserved the Good Dad male. This convention and the psycho-social schemas that accompany it are precisely why women will marry the Nice Guy, stable, loyal, (preferably) doctor and still fuck the pool boy or the cute surfer she met on spring break. In our genetic past, a male with good genes implied an ability to be a good provider, but modern convention has thwarted this, so new social and mental schemas had to be developed for women.
 这一悖论进而要求女性（以及默认的男性）必须遵循短期和长期的交配时间表。短期时间表便于与拥有优质基因的男性繁殖，而长期繁殖则留给成为好父亲的男性。这种惯例及其伴随的心理社会模式正是为何女性会嫁给那位善良、稳定、忠诚（最好是）医生的原因，同时仍会与泳池管理员或春假期间遇到的迷人冲浪者发生关系。在我们基因的过去，拥有优质基因的男性意味着有能力成为好的供养者，但现代习俗已颠覆了这一点，因此女性需要发展新的社会和心理模式。
 
-Cheating 作弊
+## Cheating 作弊
 For this dynamic and the practicality of enjoying the best of both genetic worlds, women find it necessary to ‘cheat’. This cheating can be done proactively or reactively.
 为了这种动态以及享受两种基因世界最佳之处的实用性，女性发现有必要“作弊”。这种作弊可以是主动进行的，也可以是被动应对的。
 
@@ -56,7 +58,7 @@ I want to stress again that (most) women do not have some consciously constructe
 
 我想再次强调，（大多数）女性并没有一个刻意构建并被认可的主计划来实施这一循环，并故意将其中的男性困住。相反，这种行为的动机以及随之而来的、用以证明其合理性的社会理由，是一个无意识的过程。在很大程度上，女性并不了解这一动态，但仍然受到其影响。对于任何物种的女性来说，能够促成一种与她能吸引到的最佳基因伴侣繁殖的方法，并确保自己和后代与最佳供养伴侣一起生存；这无疑是进化的巨大胜利。
 
-The Cuckold 《绿帽丈夫》
+## The Cuckold 《绿帽丈夫》
 On some level of consciousness, men innately sense something is wrong with this situation, though they may not be able to place why they feel it or misunderstand it in the confusion of women’s justifications for it. Or they become frustrated by the social pressures to ‘do the right thing’, are shamed into martyrdom/savior-hood and committed to a feigned responsibility to these conventions. Nevertheless, some see it well enough to steer clear of single mothers, either by prior experience or observing other male cuckolds saddled with the responsibility of raising and providing for – no matter how involved or uninvolved – another man’s successful reproduction efforts with this woman.
 
 在某种意识层面，男性本能地察觉到这种情境存在问题，尽管他们可能无法明确为何有此感觉，或在女性对此情境的辩解中感到困惑而误解。或者，他们因社会压力要求“做正确的事”而感到沮丧，被迫陷入牺牲/救赎的角色，并承担起对这些传统规范的虚假责任。尽管如此，有些人通过先前经历或观察到其他男性背负起抚养与供养——无论参与度如何——另一个男人与该女性成功繁衍后代的责任，从而明智地选择避开单亲妈妈。
