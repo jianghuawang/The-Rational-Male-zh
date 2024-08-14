@@ -7,12 +7,15 @@
 *过多曝光导致价值下降：你越频繁地出现在他人视野和耳语中，你的形象就越显平凡。若你已在某个群体中确立地位，适时地暂时退出，反而能引发更多讨论，甚至更受敬仰。你必须学会何时抽身。通过稀缺性创造价值。*
 
 Plate Theory is for your benefit, not for women’s. That might sound harsh, but it’s a method intended to increase your value as a commodity that works on two levels. First, the external – by practicing honest, non-exclusive dating you communicate to your prospective plates that you are in demand. I’ve gone so far as to tell men to foster this sense by never answering the phone from Friday to Sunday evening, even when they have no other plans. The perception that your attention is sought after increases it’s value – it’s when men are too eager to get with a woman that their attention becomes worthless and IL declines. Nothing serves a man better than having 3 or 4 women competing for his exclusive attention and fostering in them that feminine competitivie anxiety in as subtle and covert a way as possible. It’s a real art that women are all too familiar with. Women are natural plate theorists, they simply use their varying degrees of physical attractiveness to line their plates up.
+
 板块理论是为了你的利益，而非女性的。这听起来可能有些刺耳，但它是一种旨在从两个层面提升你作为商品价值的方法。首先，是外在层面——通过实践诚实、非独占性的约会，你向潜在的板块传达出你备受追捧的信息。我甚至建议男性培养这种感觉，从周五到周日晚上不接电话，即便他们没有其他安排。你的关注被渴望的认知提升了其价值——当男性过于急切地想要接近女性时，他们的关注就变得一文不值，吸引力水平也随之下降。没有什么比拥有三四个女性竞争他的独占关注更能彰显男性魅力，并以尽可能微妙和隐蔽的方式激发她们的竞争焦虑更有效了。这是一门真正的艺术，而女性对此再熟悉不过。女性天生就是板块理论家，她们只是利用自己不同程度的身体吸引力来排列她们的板块。
 
 Secondly, plate theory is for a man’s own internal benefit. As I said in my original thread, it’s much easier for a man not to give a shit if he truly doesn’t give a shit. It’s far easier to deal with women on the basis of indifference when you have a subconscious knowledge that there are at least 3 other women who’ll be happy to have your attention if one plays games with you.
+
 其次，板块理论是为了个人内在利益。正如我在原帖中所说，如果一个人真的不在乎，那么他更容易不放在心上。当你潜意识里知道至少还有另外三位女性会因得到你的关注而高兴，如果其中一位对你耍花样，那么以冷漠的态度对待女性会容易得多。
 
 You will invariably pass most shit tests in this fashion. The reason men fail most shit tests is because they subconsciously telegraph too much interest in a single woman. Essentially a shit test is used by women to determine one, or a combination of these factors:
+
 你将以这种方式必然通过大多数的考验。男性在大多数考验中失败的原因，是因为他们在潜意识中对单一女性流露出过多的兴趣。本质上，女性使用考验来确定一个或多个因素的组合：
 
 a.) Confidence – first and foremost
