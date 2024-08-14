@@ -1,1 +1,53 @@
 # Have A Look
+
+One of the hardest things to drive home for a freshly unplugged guy is their tendency towards absolutism. You can’t really blame a guy who’s been desperate for intimacy for so long to want to follow some prescribed program that will only solve his most immediate problem. “OK, what do I haffta do to get girls? Wear this? Say this? Act like so?,..” It’s exactly this type of literalistic, binary bent that makes most Plugins skeptical of the proponents of Game, and thus the veracity of Game itself.
+
+对于一个刚脱离束缚的人来说，最难灌输的一点就是他们倾向于绝对主义。你不能真的责怪一个长期渴望亲密关系的人，希望遵循某个规定程序来解决他最迫切的问题。“好吧，我该怎么做才能吸引女孩？穿这个？说这个？表现得这样？……”正是这种字面化、二元化的倾向，使得大多数插件用户对游戏倡导者持怀疑态度，进而对游戏本身的可信度产生质疑。
+
+Understanding the difference between Peacocking and having a style is one of these major entanglements. “Wear a funny top hat? Black nail polish? Get the fuck outta here!,..” Most guys new to Game tend to conflate the more extreme aspects of Peacocking with having a style or as Adam Carolla puts it here, having A look. This is a very awkward progression for ‘regular’ guys to make because for so long they’ve been told to Just Be Themselves. They find comfort in saying things like “I don’t want to be with a girl who doesn’t like me for who I am” yet wonder why they’re dateless virgins who’ve never kissed a girl at 29.
+
+理解孔雀开屏与拥有个人风格之间的区别，是这些主要困惑之一。“戴一顶滑稽的高顶帽？涂黑色指甲油？滚开吧！...”大多数刚接触游戏的新手倾向于将孔雀开屏的更极端方面与拥有风格或如亚当·卡罗拉在此所说的“一种形象”混为一谈。对于“普通”男性来说，这是一个非常尴尬的转变过程，因为他们长期以来一直被教导要“做自己”。他们在说出“我不想和一个不喜欢真正的我的女孩在一起”这样的话时感到安慰，却又纳闷为何自己 29 岁了还是个没有约会经历、从未亲吻过女孩的处男。
+
+A Look 一瞥
+
+It’s important to have A Look. The basis of physical attraction is going to be conditional for any individual girl, but always bear in mind that A look is contextual. The archetypal “douchebag” with tats and an MMA appeal is a Look. Guyliner, black nail polish and Emo skinny jeans is a Look. The guy in a 3 piece Armani has a Look, and there are dozens more, but the point is that women are in fact like casting agents looking for the right character to fill a role.
+
+拥有一种“形象”至关重要。对任何女孩而言，身体吸引的基础都是条件性的，但始终要记住，“形象”是具有情境性的。那种带有纹身和综合格斗魅力的典型“混蛋”形象是一种“形象”。涂着眼线、黑色指甲油以及穿着紧身牛仔裤的“情绪化”风格也是一种“形象”。身着三件套阿玛尼西装的男士同样拥有一种“形象”，这样的例子不胜枚举，但关键在于，女性实际上就像选角导演，在寻找适合角色的合适人选。
+
+But, does “A” look really imply “any” look? Some of these men look so bizarre that it’s hard to imagine them conforming to an interesting character sought by a particular group of women. Can freakishness itself be a strong pivot in attracting women?
+
+但是，“A”型外貌真的意味着“任何”外貌吗？这些男性中的一些人看起来如此怪异，以至于很难想象他们能符合某个特定女性群体所寻求的有趣角色。难道怪异本身就能成为吸引女性的强大因素吗？
+
+“Freakishness” to some is mundane to others. Everyone is playing a role by order of degrees on any given day and in any given circumstance. Where I work I’m free to wear jeans and a t-shirt if I so desire, but I opt to dress much sharper than that, why? Because it commands a certain respect, even if it’s not necessarily legitimate. When I’m at a club, say, doing a new product launch, my persona and dress changes to match the environment.
+
+“怪异”对某些人而言是寻常，对他人则不然。每个人在任何特定日子和情境下，都按程度扮演着角色。在我工作的地方，我可以随意穿着牛仔裤和 T 恤，但我选择打扮得更精致，为何？因为它能赢得某种尊重，即便未必是正当的。比如在俱乐部进行新产品发布时，我的形象和着装会随之调整以适应环境。
+
+A guy like Mystery doesn’t go around wearing elevator boots and top hats to the 7-11 to buy a big gulp. I doubt he even wears that getup to clubs any longer;  those shots were taken in his experimental phase. He still peacocks for sure, but it takes far less now because guys like him have distilled the principle down to what draws attention in various situations.
+
+像 Mystery 这样的家伙不会穿着增高鞋和礼帽去 7-11 买大杯饮料。我怀疑他现在甚至不再穿那种装扮去夜店了；那些照片是在他的实验阶段拍摄的。他依然会通过装扮吸引眼球，但如今所需的程度已大大降低，因为像他这样的人已经将吸引注意力的原则提炼到了各种情境中。
+
+Club hopping in full Gene Simmons stage attire isn’t impressing anyone, but that’s what a lot of guys without a Look like to poke fun at – the extremes. An extreme douchebag, an extreme Emo, an extreme Orange County Chopper style, etc. make for easy targets, but that’s not the point of having A look.
+
+穿着全套吉恩·西蒙斯舞台装扮在夜店间穿梭并不会给人留下深刻印象，但许多没有独特风格的人却喜欢以此取笑——那些极端。极端的混蛋、极端的 Emo、极端的橙县摩托车手风格等等，都成了容易攻击的目标，但这并不是拥有独特风格的真正意义。
+
+Peacocking 孔雀开屏
+
+Peacocking is not a style, it is a functional PUA skill ( use of props actually). It takes a sense of style to know how to pull it off effectively, but peacocking as a skill is more about use-of-instance than it is about your overall look.
+
+孔雀开屏并非一种风格，而是一项实用的 PUA 技巧（实际上是道具的运用）。要有效地运用这一技巧，需要一定的时尚感，但作为一项技能，孔雀开屏更侧重于场合的运用，而非整体外观。
+
+When PUA studies were in their infancy, the idea of peacocking was pretty much a no-brainer. It’s not too hard a concept to follow since most socially intelligent people will want to set themselves apart from the mating herd. Truth be told, everyone peacocks to some degree. Just selecting a tie or a pair of shoes for an occasion may seem innocuous enough, but subconsciously you make choices and develop preferences for certain items in certain situations because you think they improve your appearance, and thus your odds for drawing attention to yourself.
+
+在 PUA 研究初期，孔雀开屏的概念几乎是不言而喻的。这个概念并不难理解，因为大多数社交智商高的人都会想要在求偶群体中脱颖而出。事实上，每个人在某种程度上都会孔雀开屏。仅仅是为某个场合挑选一条领带或一双鞋子，看似无伤大雅，但潜意识里，你会在特定情境下做出选择，培养对某些物品的偏好，因为你认为它们能提升你的外观，从而增加吸引他人注意的几率。
+
+The intent behind peacocking is more about having a subtle difference, or a conversation piece that draws a woman into your frame. Oddly enough (or not) I’ve found that nice expensive shoes seem to be a natural pull for some girls. This isn’t surprising considering most women’s obsession with shoes. One thing that’s important to remember is women’s sensitivity to covert subcommunication, body language, appearance, non-verbal cues, etc. In the briefest glance they’ll size one another up and come to operative conclusions about a woman’s status in their girl-hierarchy. It follows that they use the same tools with the Men they find attractive.
+
+孔雀开屏的意图更多在于展现一种微妙的差异，或是一个能引发女性兴趣的话题，从而将她引入你的框架。奇怪的是（或并不奇怪），我发现一些女孩似乎对昂贵的好鞋有着天然的吸引力。考虑到大多数女性对鞋子的痴迷，这并不令人意外。需要记住的一点是，女性对隐性子沟通、肢体语言、外表、非言语信号等非常敏感。在短暂的目光交流中，她们就能相互评估，并就一个女性在其女性等级中的地位得出实际结论。因此，她们对吸引自己的男性也会运用同样的评判工具。
+
+Most newly Game-aware men who are comfortable enough to venture using Peacocking don’t realize that a little goes a long way. Your Game isn’t peacocking, it’s just the flashy lure to get the fish to strike. It’s up to you to play the fish once it’s hooked.
+
+大多数刚了解游戏并敢于尝试孔雀开屏策略的人并未意识到，适度即可事半功倍。你的游戏并非孔雀开屏本身，那只是吸引鱼儿上钩的闪亮诱饵。一旦鱼儿上钩，如何操控则全凭你的技巧。
+
+I should add here that it sometimes helps if you can combine an element of  Chick Crack to your flair item. Of all the strippers I’ve ‘dated’ every one subscribed to some form of non-mainstream spiritualism. This girl Angie I used to bang kept Tarot cards in her pink lady’s devotional Bible, another professed to be a psychic, etc. These types look for that connection in a guy. For instance I bought a very smal silver yin-yang ring that I’ve worn for almost 18 years now when I was in college. I don’t really have any eastern mystic beliefs, I just bought it from a street vendor at the time when I felt I needed a reminder to keep balance in my life. But damned if I haven’t had more women point it out and ask me about it, and have it be some karmic conversation starter since I got it. The thing is tiny, but that’s a cue that they gravitate towards.
+
+我应该在这里补充一点，如果你能在你的魅力物品中融入一丝“小妞迷药”的元素，有时会大有裨益。在我“交往”过的所有脱衣舞女中，每一位都信奉某种非主流的灵性主义。比如，我曾交往的安吉，她将塔罗牌放在她那本粉红色的女士祈祷圣经里；另一位则自称是灵媒，等等。这类女性在寻找与男性的那种精神上的联系。举个例子，我在大学时买了一枚非常小的银质阴阳戒指，至今已佩戴了近 18 年。我并没有什么东方神秘信仰，当时只是觉得需要在生活中保持平衡，便从街边小贩那里买下了它。但自从戴上它后，确实有更多女性注意到并询问我关于它的故事，它成了开启心灵对话的契机。这戒指虽小，却是她们所倾向的信号。
