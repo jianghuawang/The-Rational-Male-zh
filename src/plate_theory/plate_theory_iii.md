@@ -6,31 +6,31 @@
 The following was posted with permission from a consult I did.
 以下内容经咨询后获得许可发布。
 
-```
-Hi Rollo, my name is Akash and I am big fan of your posts. They are always lucid, logical, and insightful.
+*Hi Rollo, my name is Akash and I am big fan of your posts. They are always lucid, logical, and insightful.*
 嗨，罗洛，我叫阿卡什，是你文章的忠实粉丝。它们总是清晰、有逻辑且富有洞见。
 
-I discovered the community about 5 months ago after yet another failed relationship characterized by highly AFC behavior on my part. I ended it with a tremendous amount of guilt as I felt that because she was a “good person” I ought to have made it work even though I wasn’t in love with her. I am 27 years old.
+*I discovered the community about 5 months ago after yet another failed relationship characterized by highly AFC behavior on my part. I ended it with a tremendous amount of guilt as I felt that because she was a “good person” I ought to have made it work even though I wasn’t in love with her. I am 27 years old.*
 大约 5 个月前，在又一次因我极度缺乏恋爱技巧而导致的关系失败后，我发现了这个社区。我带着巨大的内疚感结束了这段关系，因为我感到，既然她是个“好人”，我就应该努力维持，尽管我对她没有爱情。我今年 27 岁。
 
-Based on your posts I would really appreciate your advice on two issues:
+*Based on your posts I would really appreciate your advice on two issues:*
 根据您的帖子，我非常希望能得到您对两个问题的建议：
-(1) how to make the best use of my impending return to school in May for a second undergraduate degree and;
-(1) 如何充分利用我即将在五月重返校园攻读第二个本科学位的时机；
-(2) how to overcome the cognitive dissonance I feel about pursuing women outside the confines of a committed relationship as I still suffer from social conditioning that tells me I will hurt women by pursuing primarily sexual relationships with them and so it is immoral to do so.
-(2) 如何克服我在追求非承诺关系之外的女性时所感受到的认知失调，因为我仍受到社会条件的制约，认为我主要追求与她们的性关系会伤害女性，因此这样做是不道德的。
+*(1) how to make the best use of my impending return to school in May for a second undergraduate degree and;*
 
-If you would like to post a reply on the forum, rather than by a PM, for the benefit of others that is fine with me. I wanted to direct these queries to you though as I believe I could benefit from your worldy wise opinion.
-如果您愿意在论坛上发表回复，而不是通过私信，以便让其他人受益，我对此没有意见。不过，我想直接向您提出这些问题，因为我相信我能从您丰富的人生智慧中获益。
+*(1) 如何充分利用我即将在五月重返校园攻读第二个本科学位的时机；*
+*(2) how to overcome the cognitive dissonance I feel about pursuing women outside the confines of a committed relationship as I still suffer from social conditioning that tells me I will hurt women by pursuing primarily sexual relationships with them and so it is immoral to do so.*
 
-Sincerely look forward to hearing from you.
-衷心期待您的回复。
+*(2) 如何克服我在追求非承诺关系之外的女性时所感受到的认知失调，因为我仍受到社会条件的制约，认为我主要追求与她们的性关系会伤害女性，因此这样做是不道德的。*
 
-Best, 最好的，
-Akash 阿卡什
-```
+*If you would like to post a reply on the forum, rather than by a PM, for the benefit of others that is fine with me. I wanted to direct these queries to you though as I believe I could benefit from your worldy wise opinion.*
 
-Akash, 阿卡什，
+*如果您愿意在论坛上发表回复，而不是通过私信，以便让其他人受益，我对此没有意见。不过，我想直接向您提出这些问题，因为我相信我能从您丰富的人生智慧中获益。*
+
+*Sincerely look forward to hearing from you.*
+
+*衷心期待您的回复*。
+
+*Best, 最好的，*
+*Akash 阿卡什*
 
 I’ll give you a run down of what I can gather from your initial post, but understand that what you’ve given me here is pretty limited as far as information is concerned. I can only assume certain things from the very brief description of your life so take what I write with that in mind. In the future give me a better account of what your AFC behaviors were, how your relationships have ended, family background, where you live, why you’re pursuing a second degree, etc. I can be more accurate and avoid assumptions this way.
 
@@ -56,8 +56,11 @@ I’m not sure how or if this fits into your conditions, but let it serve as an 
 我不确定这如何或是否符合您的条件，但愿它能为重塑您个人特质提供一个例证。唯有您能凭借后见之明，评判自己一生中某些决策的缘由。我仅是恳请您，对这些决策背后的真实动机进行毫不留情的自我审视。或许，现在是时候回顾一下，当初为何决定攻读第二个学位了？
 
 **(2) how to overcome the cognitive dissonance I feel about pursuing women outside the confines of a committed relationship as I still suffer from social conditioning that tells me I will hurt women by pursuing primarily sexual relationships with them and so it is immoral to do so.**
+
 (2) 如何克服我在追求非承诺关系之外的女性时所感受到的认知失调，因为我仍受到社会条件的制约，认为我主要追求与她们的性关系会伤害女性，因此这样做是不道德的。
+
 Akash, any reasonably attractive woman knows you’d like to have sex with her. It’s a primal, chemical instinct and to be bluntly honest, there’s nothing wrong with it. In certain Muslim sects men are allowed to take “temporary” wives for a set period of time in addition to their “permanent” wives so long as they support them financially. Some Mormons practice open polygamy in a similar fashion. Some men marry and divorce multiple times (and support them congruously). All of these practices are considered, to a greater or lesser degree, moral. The dissonance occurs when the rationalizations for a behavior conflict with the motivations for it and the associative psycho-social stigmas that get attached to it. Sorry for the $10 words here, but your feelings of guilt or hesitancy in a desire to explore multiple relationships is a calculated result of a very effective social conditioning with a latent purpose meant to curb a natural impulse.
+
 阿卡什，任何相貌尚可的女性都知道你想与她发生性关系。这是一种原始的、化学性的本能，坦率地说，这并无不妥。在某些穆斯林教派中，男性除了“永久”妻子外，还可以拥有“临时”妻子一段时间，只要他们能经济支持她们。一些摩门教徒以类似方式实行开放的多妻制。有些男性多次结婚又离婚（并相应地提供经济支持）。这些做法在不同程度上都被视为道德的。当行为的合理化与动机相冲突，以及与之相关的社会心理污名附着其上时，就会产生不协调。这里用了些高级词汇，但你对探索多重关系感到的内疚或犹豫，是社会有效条件作用的结果，其潜在目的在于抑制一种自然冲动。
 
 Recognizing this is the first step to progressing beyond it and actually using it (responsibly) to your own advantage. As men, our biological impetus is to have unlimited access to unlimited sexuality with females bearing the best physical attributes. This is a rudimentary fact and on some level of consciousness both men and women understand this. No amount of proselytizing or social conditioning will erase what God and evolution hard-coded into our collective bio-psychological desires and behaviors. Admittedly, social conventions have historically made a good run at limiting this drive, but it can never (nor should it ever) purge this, because in essence it is a survival-ensuring attribute for us.

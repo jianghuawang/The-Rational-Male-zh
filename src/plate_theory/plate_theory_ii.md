@@ -1,12 +1,15 @@
 # Plate Theory II: Non-Exclusivity
 
 ***Women would rather share a high value Man than be saddled by a faithful loser.***
+
 *女性宁愿与一个高价值男性分享，也不愿被一个忠诚的失败者拖累。*
 
 **“I just started applying Plate Theory, and I have to say with all honesty that this is probably the best thing I’ve ever done in my entire life. The feeling of having options is addictive; the whole idea that you don’t come from a necessitous emotional state is genius, and in fact the more options you have, the more attractive you become to women (through the unconscious changes in your behavior), the more women become attracted to you, and the more options you have. Once you get it started, it’s hard to stop it.*
+
 *“我刚开始运用板块理论，老实说，这可能是我一生中做过的最棒的事情。拥有选择的感觉令人上瘾；那种你并非出自需求情感状态的理念真是天才之举，事实上，你拥有的选择越多，通过你行为中潜移默化的改变，你对女性的吸引力就越大，反过来，吸引的女性越多，你的选择也就越多。一旦开始，就很难停下来。”*
 
 *Recently I’ve been Spinning Plates with some success, but there comes a point when I risk one girl finding out about another. How do I handle this without the risk of losing one of my plates? Should I even bother with the effort of spinning plates that aren’t as high a value as others?”*
+
 *最近我在同时处理多段关系方面取得了一些成功，但总有一个时刻，我担心一个女孩会发现另一个的存在。我该如何处理这种情况，以避免失去其中任何一个？我是否还应该费心去维持那些价值不如其他的盘子呢？*
 
 Real options are the cornerstone of confidence, so try not to think of it in terms of risk – as in you’re risking the loss of “a great girl”. Most guys get to a point where Game and plate spinning give them their first taste of real options to select from or fall back on when another doesn’t pan out. The problem arises when they spin enough plates successfully to the point where they think they’ve maxed out to their “best” option and the old scarcity mentality returns. Most times a guy who newly practices Game and plate spinning never really spins plates per se; he uses it for the first monogamous opportunity that’s been eluding him for so long and calls it quits. He never actualizes and internalizes an abundance mentality.
