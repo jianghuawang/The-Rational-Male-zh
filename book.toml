@@ -5,6 +5,7 @@ multilingual = true
 src = "src"
 
 [build]
+use-default-preprocessors = true  # use the default preprocessors
 build-dir = "doc"                # the directory where the output is placed
 create-missing = true             # whether or not to create missing pages
 
