@@ -17,6 +17,7 @@ The following was posted with permission from a consult I did.
 *(1) how to make the best use of my impending return to school in May for a second undergraduate degree and;*
 
 *(1) 如何充分利用我即将在五月重返校园攻读第二个本科学位的时机；*
+
 *(2) how to overcome the cognitive dissonance I feel about pursuing women outside the confines of a committed relationship as I still suffer from social conditioning that tells me I will hurt women by pursuing primarily sexual relationships with them and so it is immoral to do so.*
 
 *(2) 如何克服我在追求非承诺关系之外的女性时所感受到的认知失调，因为我仍受到社会条件的制约，认为我主要追求与她们的性关系会伤害女性，因此这样做是不道德的。*

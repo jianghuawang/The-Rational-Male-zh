@@ -11,6 +11,7 @@ So understandably when the principle of being non-exclusive is presented to them
 ## Logistics 物流
 
 *“I can’t spin plates because I have too little time, I can’t manage more than one without the other finding out, etc.”*
+
 *“我无法同时处理多件事，因为时间太少，我无法同时管理多个事务而不让其他事情察觉到，等等。”*
 
 If you are indeed spinning plates in a healthy, upfront, non-exclusive way this should never be an issue. There are Game-aware Men with less time than most who manage 4-5 different girls in a week without having them consume all their leisure and business time. I don’t suggest that you go this route per se, because for the better part PUAs rely on a dishonesty in non-exclusivity. However, the reason they are capable of this is because they’ve perfected plate spinning effectively enough to have the plates spin themselves.
@@ -24,6 +25,7 @@ Most uninitiated AFCs reason that they MUST, at all costs, apply a constant effo
 *Personality Type 人格类型*
 
 *“I’m just not like that. I don’t want to be considered a playah. I could never do that to a woman. How can anyone be like that?”*
+
 *“我就是不像那样。我不想被视为花花公子。我绝不会那样对待一个女人。怎么有人能那样呢？”*
 
 This rationale is a common one and not limited just to AFCs. There are plenty of otherwise confident, positively masculine men who’d still think they owe it to women to allow them to set the frame of their relationships without any fear of competition anxiety. Players are men who’re dishonest – they are not spinning plates because they are isolating each plate independent of the other, and this goes back to logistics. Of course you can’t find time for anything else if all you do is try to coordinate each individual story with each plate for fear that they discover each other. The plate spinning Man has no need for this, because he NEVER IMPLIES EXCLUSIVITY TO ANY PLATE. Either they accept this or they’re not a plate to consider. Done in a frank, honest, yet indirect above-table way you will not be a ‘Player’ and you will establish yourself as Man who’s attention is worth competing for.
