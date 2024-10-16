@@ -7,12 +7,15 @@ The following was a timely question by SoSuave member “OnTheWayUp”;
 只是想了解一下：关于游戏方面的内容，你通常会与谁交流，而不局限于此网站？我这里所说的“游戏”是指该词最广泛的意义，包括搭讪技巧、自我价值感、如何维持健康关系，以及男女在社会中的角色等。
 
 *My experience with voicing the views advocated on here in public has nearly always been negative. I have 3 – 4 good male friends who are interested in pick-up (one has read the Mystery Method, for example), and they love it. But these friends are the exception rather than the rule. My parents (beta dad, controlling mum) think my attitude towards women is sexist and my opinion of ONSs “disgusting.” Just about everybody I know subscribes to the Disney/ soulmate view of relationships, and some of my contemporaries (I’m 21) are even starting to settle down and get married. God help them. Talking to girls in bed about what they find attractive in a man is interesting, if only to see the extent to which they delude themselves, but ultimately counter-productive, since a woman (tacitly) expects a man to know how to express his sexuality.*
+
 在公开场合表达这里所倡导的观点，我的经历几乎总是负面的。我有三四个对搭讪感兴趣的好朋友，其中一位甚至读过《谜男方法》，他们对此非常热衷。但这些朋友只是少数。我的父母（温和的父亲，控制欲强的母亲）认为我对女性的态度带有性别歧视，对一夜情的看法“令人作呕”。我认识的几乎每个人都信奉迪士尼式的灵魂伴侣关系观，甚至我的一些同龄人（我 21 岁）已经开始安定下来步入婚姻。愿上帝保佑他们。与床上的女孩讨论她们对男性吸引力的看法颇有趣味，尽管这能揭示她们自我欺骗的程度，但最终却适得其反，因为女性（默许地）期望男性懂得如何表达自己的性魅力。
 
 *Can we as men ever talk about these things in public? What are your experiences?*
+
 我们作为男性能在公共场合谈论这些事吗？你的经历是怎样的？
 
 Before I begin, let me say that I think it’s encouraging to see such an insightful question posed by so young a Man.
+
 在我开始之前，请允许我表达，看到如此年轻的人提出这样有见地的问题，我感到非常鼓舞。
 
 *Morpheus: The Matrix is a system, Neo. That system is our enemy. But when you’re inside, you look around, what do you see? Businessmen, teachers, lawyers, carpenters. The very minds of the people we are trying to save. But until we do, these people are still a part of that system and that makes them our enemy. You have to understand, most of these people are not ready to be unplugged. And many of them are so inured, so hopelessly dependent on the system, that they will fight to protect it.*

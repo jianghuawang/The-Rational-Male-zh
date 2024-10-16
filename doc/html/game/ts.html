@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Three Strikes</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">5.</strong> Game</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../game/beta_game.html"><strong aria-hidden="true">5.1.</strong> Beta Game</a></li><li class="chapter-item expanded "><a href="../game/rewrite_rules.html"><strong aria-hidden="true">5.2.</strong> Rewriting the Rules</a></li><li class="chapter-item expanded "><a href="../game/tpb.html"><strong aria-hidden="true">5.3.</strong> The Pheromonal Beta</a></li><li class="chapter-item expanded "><a href="../game/mg.html"><strong aria-hidden="true">5.4.</strong> Meta-Game</a></li><li class="chapter-item expanded "><a href="../game/jby.html"><strong aria-hidden="true">5.5.</strong> Just Be Yourself</a></li><li class="chapter-item expanded "><a href="../game/ts.html" class="active"><strong aria-hidden="true">5.6.</strong> Three Strikes</a></li><li class="chapter-item expanded "><a href="../game/dread_games.html"><strong aria-hidden="true">5.7.</strong> Dread Games</a></li><li class="chapter-item expanded "><a href="../game/nts.html"><strong aria-hidden="true">5.8.</strong> Navigating the SMV</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">6.</strong> Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../communication/medium_is_message.html"><strong aria-hidden="true">6.1.</strong> The Medium IS the Message</a></li><li class="chapter-item expanded "><a href="../communication/qotp.html"><strong aria-hidden="true">6.2.</strong> Qualities of the Prince (my personal favorite of 2011)</a></li><li class="chapter-item expanded "><a href="../communication/tgoa.html"><strong aria-hidden="true">6.3.</strong> The Gift of Anxiety</a></li><li class="chapter-item expanded "><a href="../communication/jgi.html"><strong aria-hidden="true">6.4.</strong> Just Get It</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">7.</strong> Social Conventions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social_conventions/osc.html"><strong aria-hidden="true">7.1.</strong> Operative Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/afcss.html"><strong aria-hidden="true">7.2.</strong> AFC Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/poc.html"><strong aria-hidden="true">7.3.</strong> Paradox of Commitment</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">8.</strong> Hypergamy</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hypergamy/td.html"><strong aria-hidden="true">8.1.</strong> The Disposables</a></li><li class="chapter-item expanded "><a href="../hypergamy/mh.html"><strong aria-hidden="true">8.2.</strong> Mrs. Hyde</a></li><li class="chapter-item expanded "><a href="../hypergamy/tp.html"><strong aria-hidden="true">8.3.</strong> The Pet</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="three-strikes-三振出局"><a class="header" href="#three-strikes-三振出局">Three Strikes 三振出局</a></h1>
+<p>From European DJ on the SoSuave:</p>
+<p>来自 SoSuave 的欧洲 DJ：</p>
+<p>How many dates max, before you fuck her?</p>
+<p>你最多约会几次，才会和她上床？</p>
+<p>Let mé know your thought and an explanation.</p>
+<p>请告知您的想法和解释。</p>
+<p>Regards 此致</p>
+<p>The problem inherent with coming up with hard and fast Game rules of engagement is that there’s always going to be a caveat or special conditions for a guy’s particular girl of focus at the time. Even when there’s not, guys are prone to think “there’s something special about this one.” Part of the reason that Plate Theory is integral to Game is that it encourages Men to disabuse themselves of their previous beta impressions of each woman they accidentally drew interest from as some unique little snowflake. It’s hard for your average chump to think of a woman showing base-line rudimentary IOIs (indicators of interest) and NOT think she’s predestined for him by virtue of his self-acknowledged scarcity mentality. When you’re starving in the desert, Saltine crackers seem like mana from heaven.</p>
+<p>制定严格且固定的游戏规则时固有的问题是，总会有一个例外或特殊条件适用于某个特定时期某个男人关注的女孩。即使没有，男人们也倾向于认为“这个有点特别。”盘子理论在游戏中至关重要的部分原因在于，它鼓励男性摒弃自己对每个意外引起兴趣的女性的先前贝塔印象，不再视她们为独一无二的雪花。对于普通笨蛋来说，很难看到一个女人表现出基本的初步兴趣指标（IOI）而不认为她是因他自认的稀缺心态而注定属于他的。当你在沙漠中饥肠辘辘时，苏打饼干都像是天赐的甘露。</p>
+<h2 id="risk--reward-风险与回报"><a class="header" href="#risk--reward-风险与回报">Risk &amp; Reward 风险与回报</a></h2>
+<p>In Game, there is a subtle balance that needs to be recognized between risks of over-investing in a particular woman with regards to practicality and not throwing the proverbial baby out with the bath water and losing on a potentially rewarding opportunity. Women, as is particular to their own Game, will naturally come down on the side of casting doubt on a man’s valid assessment of a woman’s potential value, both in long term perspectives and potential sexual satisfaction. This presumption of doubt is a built in failsafe social convention for women; if only you’d been more patient, if only you invested a little bit more, you’d be rewarded with a great mother for your children and the best pussy of your life – don’t blow it now!</p>
+<p>在游戏中，需要在实际性与不因噎废食之间找到微妙的平衡，即在特定女性身上过度投资的风险与不因小失大、错失潜在回报机会之间。女性，以其特有的游戏方式，自然会倾向于对男性对女性潜在价值的合理评估产生怀疑，无论是从长远角度还是潜在的性满足来看。这种怀疑的假设是女性内置的社会安全机制；如果你再耐心一点，再多投入一些，你就能得到一个伟大的孩子母亲和一生中最棒的性体验——现在别搞砸了！</p>
+<p>The short version is that it’s not in women’s best sexual-strategy interests for a man to have sexual options. Women’s sexual strategy is very schizophrenic – ideally women want a Man that other women want to fuck, but in order to assess his sexual market value to other women he’s got to have exercisable options for her to compete against, or at least display indirect social proof to that effect. So, she needs to limit his options while simultaneously determining he has those options. Now add to this the hypergamous necessity of maintaining  a reasonable pool of suitors suspended in doubt of her own SMV in order to determine the best one among them for short term sexual provisioning and long term security provisioning.</p>
+<p>简而言之，对女性而言，男性的性选择并非最佳策略。女性的性策略颇为矛盾——理想情况下，女性希望拥有其他女性渴望的男性，但要评估他在其他女性眼中的性市场价值，他必须具备可供她竞争的选择，或至少展示间接的社会证明。因此，她需要限制他的选择，同时确认他确实拥有这些选择。再加上维持一定数量的追求者对其自身性市场价值的怀疑，以从中挑选出短期性供给和长期安全保障的最佳人选，这种超偶配的必要性使得情况更加复杂。</p>
+<h2 id="pragmatism-实用主义"><a class="header" href="#pragmatism-实用主义">Pragmatism 实用主义</a></h2>
+<p>In light of understanding women’s sexual strategy, it’s important for Men to adopt an mental schema of pragmatism – in the SMP you’re really another commodity in hypergamy’s estimation. I realize the difficulty most guys (particularly younger guys) have with mentally training themselves for thinking this way, so let me state from the outset that I’m not suggesting you kill your romantic, artistic souls in favor of cold calculations. In fact it’s vital you do keep that side of yourself intact for the survival of any future relationship and a more balanced human experience. Plate Theory and, really, efficient Game can seem dehumanizing, but what Game denialists fail to grasp is that they’re already operating in a dehumanized environment – it’s the social conditioning of the feminine imperative that makes men believe that Game is inhumane, because the feminine imperative has made itself synonymous with humanity.</p>
+<p>鉴于对女性性策略的理解，男性采用一种实用主义的心理框架至关重要——在性市场体系中，你实际上是超母性评估中的另一种商品。我意识到大多数男性（尤其是年轻男性）在心理上训练自己以这种方式思考的困难，因此让我从一开始就声明，我并不是建议你为了冷酷的计算而扼杀自己的浪漫和艺术灵魂。事实上，保持你这一面的完整性对于未来任何关系的生存和更平衡的人类体验至关重要。盘子理论，实际上，高效的策略可能会显得去人性化，但策略否认者未能理解的是，他们已经在一个人性化的环境中运作——正是女性主导的社会教化让男性认为策略是不人道的，因为女性主导已经将自己与人性等同起来。</p>
+<p>Hypergamy doesn’t care if you’re a great, poetic soul. Hypergamy doesn’t care about your most sincere religious devotions. Hypergamy doesn’t care if you’re a great Father to your kids. Hypergamy seeks better than its own level, it wants the best commodity it’s capable of attracting and maintaining. Hypergamy is above all, practical, and thus Men, the True Romantics must be pragmatists to enact their own sexual strategy.</p>
+<p>高攀择偶不在乎你是否拥有伟大的诗意灵魂，不在乎你最虔诚的宗教信仰，也不在乎你是否是孩子们的伟大父亲。高攀择偶追求的是超越自身层次的更优选择，它渴望吸引并维持所能达到的最佳伴侣。高攀择偶本质上极为务实，因此，男人们，作为真正的浪漫主义者，必须成为实用主义者，以实施他们自身的性策略。</p>
+<h2 id="three-strikes-三振出局-1"><a class="header" href="#three-strikes-三振出局-1">Three Strikes 三振出局</a></h2>
+<p>I had a lot of shit slung at me when I offered up Wait For It? As I stated above, I had the predictable feminine doubt doctrine lobbed at me in response from the beginning. I expected that, but to answer European DJ’s question more definitively, be pragmatic.</p>
+<p>当我提出《等待它？》时，我遭受了不少非议。如前所述，从一开始我就预料到会有女性怀疑论的教条向我袭来。我对此有所预期，但为了更明确地回答欧洲 DJ 的问题，还是务实些吧。</p>
+<p>Put it this way, with just average Game, in 3 dates you should be able to determine if her desire level is high enough to want to fuck you.</p>
+<p>这么说吧，只需一般水平的游戏，在三次约会后，你应该能判断出她的欲望程度是否足够高，以至于想和你上床。</p>
+<p>In 3 dates you’ll know if her desire is genuine or if it’s mitigated by something else – another guy in rotation, sexual hangups, filibustering, etc.</p>
+<p>在三次约会后，你就能判断她的欲望是否真诚，还是被其他因素所影响——比如有其他备选对象、性心理障碍、拖延战术等。</p>
+<p>In 3 dates you’ll have had sex or you’ll have had the “I wanna wait / I need to be comfortable talk.”</p>
+<p>在三次约会后，要么你已经发生了性关系，要么你已经进行了“我想等待/我需要感到舒适”的对话。</p>
+<p>If you have sex on the 1st date or a same-night-lay, in all likelihood she’s really hot for, and into, fucking you based on physical criteria alone.</p>
+<p>如果在第一次约会或当晚就发生性关系，那么她很可能仅仅基于身体条件就非常渴望并喜欢和你做爱。</p>
+<p>If you have sex on the 2nd or 3rd date, she’s into fucking you and probably wants a relationship because she wanted to give you a token impression of her not being ‘easy’.</p>
+<p>如果在第二次或第三次约会时发生性关系，她对你有兴趣，并且可能想要一段关系，因为她想给你留下一个她不是“随便”的印象。</p>
+<p>If she fucks you after the 4th date, you’ll do as her first alternate.</p>
+<p>如果她在第四次约会后与你发生关系，你将成为她的第一备选。</p>
+<p>If you’re sexless after 5-6 dates you’ve probably been at it for over 6 weeks and The Medium is the Message. NEXT.</p>
+<p>如果 5-6 次约会后仍无进展，你可能已经持续了超过 6 周，而“媒介即信息”。下一个。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../game/jby.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../game/dread_games.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../game/jby.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../game/dread_games.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

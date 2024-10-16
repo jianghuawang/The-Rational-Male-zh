@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Gift of Anxiety</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">5.</strong> Game</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../game/beta_game.html"><strong aria-hidden="true">5.1.</strong> Beta Game</a></li><li class="chapter-item expanded "><a href="../game/rewrite_rules.html"><strong aria-hidden="true">5.2.</strong> Rewriting the Rules</a></li><li class="chapter-item expanded "><a href="../game/tpb.html"><strong aria-hidden="true">5.3.</strong> The Pheromonal Beta</a></li><li class="chapter-item expanded "><a href="../game/mg.html"><strong aria-hidden="true">5.4.</strong> Meta-Game</a></li><li class="chapter-item expanded "><a href="../game/jby.html"><strong aria-hidden="true">5.5.</strong> Just Be Yourself</a></li><li class="chapter-item expanded "><a href="../game/ts.html"><strong aria-hidden="true">5.6.</strong> Three Strikes</a></li><li class="chapter-item expanded "><a href="../game/dread_games.html"><strong aria-hidden="true">5.7.</strong> Dread Games</a></li><li class="chapter-item expanded "><a href="../game/nts.html"><strong aria-hidden="true">5.8.</strong> Navigating the SMV</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">6.</strong> Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../communication/medium_is_message.html"><strong aria-hidden="true">6.1.</strong> The Medium IS the Message</a></li><li class="chapter-item expanded "><a href="../communication/qotp.html"><strong aria-hidden="true">6.2.</strong> Qualities of the Prince (my personal favorite of 2011)</a></li><li class="chapter-item expanded "><a href="../communication/tgoa.html" class="active"><strong aria-hidden="true">6.3.</strong> The Gift of Anxiety</a></li><li class="chapter-item expanded "><a href="../communication/jgi.html"><strong aria-hidden="true">6.4.</strong> Just Get It</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">7.</strong> Social Conventions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social_conventions/osc.html"><strong aria-hidden="true">7.1.</strong> Operative Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/afcss.html"><strong aria-hidden="true">7.2.</strong> AFC Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/poc.html"><strong aria-hidden="true">7.3.</strong> Paradox of Commitment</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">8.</strong> Hypergamy</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hypergamy/td.html"><strong aria-hidden="true">8.1.</strong> The Disposables</a></li><li class="chapter-item expanded "><a href="../hypergamy/mh.html"><strong aria-hidden="true">8.2.</strong> Mrs. Hyde</a></li><li class="chapter-item expanded "><a href="../hypergamy/tp.html"><strong aria-hidden="true">8.3.</strong> The Pet</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="the-gift-of-anxiety-焦虑的礼物"><a class="header" href="#the-gift-of-anxiety-焦虑的礼物">The Gift of Anxiety 焦虑的礼物</a></h1>
+<p>Well since Aunt Sue’s decided to click on the ‘echo chamber’ setting on her blog’s comment filters I thought I’d take the opportunity to retype my deleted response to her (once again) on my unmoderated blog. Aunt Sue has a big problem with competition anxiety, and since she secretly loves me, she can’t make it too obvious that she reads my blog posts regularly for inspiration. Hell, it’s almost a Friday tradition now! It’s OK dear, I’ll entertain you for the weekend. Roissy, Roosh and Dalrock send you their unrequited regards too,…</p>
+<p>既然苏姨决定在她博客的评论过滤器上点击“回音壁”设置，我想趁机在我未受审查的博客上重新输入我被删除的回复（又一次）。苏姨对竞争焦虑有严重问题，而且由于她暗地里喜欢我，她不能太明显地表现出她经常阅读我的博客文章以获取灵感。天哪，这几乎成了周五的传统！亲爱的，没关系，周末我会让你开心的。Roissy、Roosh 和 Dalrock 也向你致以未被回应的问候，……</p>
+<p>Dear Sue, you know instead of paraphrasing my perspective on this you could simply quote the bit in my post that set you off (again):</p>
+<p>亲爱的苏，你知道吗，与其转述我对这件事的看法，你完全可以直接引用我帖子中让你再次感到不满的那部分内容：</p>
+<p>Women don’t want a Man to cheat, but they love a Man who could cheat. Naturally you don’t want to appear to be seeking the flirtation – that would be OVERT – but rather playing along with it. I have encouraged or played along with casual flirtations with my wife present that leave her with the impression that other women find me desirable. When you’ve been together long enough and a strong emotional bond has formed, you will be surprised at how many shit tests and hypergamous evaluations you can avoid just by her perception of you being a commodity that other women are attracted to. Mrs. Tomassi has told me on at least a dozen occasions that she finds it flattering that other women would find me attractive. Always remember that your attractiveness to other women is an associative reflection on your spouse’s attractiveness to hold your sexual interest in the long term.</p>
+<p>女人不希望男人出轨，但她们喜欢一个可能出轨的男人。自然地，你不想表现出在寻求调情——那会显得过于明显——而是要顺其自然地参与其中。我曾在我妻子在场的情况下，鼓励或参与过随意的调情，让她觉得其他女人觉得我有吸引力。当你和伴侣相处足够久，情感纽带足够牢固时，你会发现，仅仅因为她认为你是一个吸引其他女人的商品，就能避免许多考验和超偶价值的评估。托马西夫人至少有十几次告诉我，她觉得其他女人觉得我有吸引力是件令人高兴的事。始终记住，你对其他女人的吸引力，是对你配偶长期保持你性兴趣的吸引力的一种关联反映。</p>
+<p>The trick to this is how you follow up after flirting. She has to be made to feel as though she’s still the one you choose to be with even though you have obvious, provable options. Women are always unconsciously evaluating the men they are with. Her self-worth is associated with his value. This is exactly why women in the stablest of relationships will still shit test. There are precious few ways for a Man in a long standing LTR to establish social proof and demonstrate higher value better than reciprocating a flirt with other women. Nothing stimulates a tired LTR like suspicion and jealousy. Her Imagination is the most important tool in your Game tool box. The hamster doesn’t stop spinning after marriage, but it’s incumbent upon you to make sure it keeps up the pace.</p>
+<p>关键在于调情后的跟进方式。即使你有明显、可证实的选择，也要让她感觉自己仍然是你选择在一起的人。女性总是在无意识地评估她们所处的男性。她的自我价值与他的价值相关联。这正是为什么即使在最稳定的关系中，女性仍会进行废物测试。在长期关系中，男人通过与其他女性调情来建立社交证明和展示高价值，几乎没有比这更好的方式了。没有什么比猜疑和嫉妒更能刺激一段疲惫的长期关系了。她的想象力是你游戏工具箱中最重要的工具。仓鼠在婚后不会停止转动，但你有责任确保它保持节奏。</p>
+<p>The problem you have with my take on this is that you see it in an absolutist, all-or-nothing in-your-face disrespectful frame. As if every aspect of an LTR would be overshadowed by a malevolent ‘dread’ of loss bordering on emotional blackmail. You might be surprised to know I don’t actually agree with the idea of using the impending doom of ‘dread‘ per se.</p>
+<p>你对我的观点的质疑在于，你将其视为一种绝对主义、非此即彼、咄咄逼人的不尊重框架。仿佛长期关系（LTR）的每一个方面都会被一种近乎情感勒索的恶意“恐惧”所笼罩。你可能会惊讶地知道，我其实并不认同将即将到来的“恐惧”灾难作为核心观点。</p>
+<p>If you could get past your taste for the melodramatic you’d realize that returning casual flirtations is actually a compliment to the woman a Man is with. It satisfies that internal, hypergamous doubt as to whether the guy a woman committed herself to years ago is still the Man other men want to be and other women want to fuck.</p>
+<p>如果你能克服对戏剧性情节的偏好，你就会意识到，回应随意的调情实际上是对男人身边女人的一种赞美。它满足了女人内心深处那种超偶配对的不安，即她多年前承诺相伴的男人是否仍然是其他男人想要成为、其他女人想要与之共度的对象。</p>
+<p>You see the problem with your perspective Sue is that you view intergender relations from a ‘security first’ priority. This is mostly due to your fem-centric conditioning, but also because you’re in a phase of life now where security means more to you than it did when you were in your 20’s or 30’s. It’s difficult to see the value of adding measured degrees of insecurity into an LTR when your long-term security becomes your paramount concern. After the Wall, women dread the idea of having to start over in a sexual market place in which they are grossly outmatched, so even the slightest deviation from the ‘security forever’ script becomes a major ego threat.</p>
+<p>你看到苏你的观点的问题在于，你从“安全至上”的角度来看待两性关系。这主要源于你的女性中心化教育，同时也因为你现在处于一个阶段，安全对你来说比二三十岁时更为重要。当你将长期安全视为首要关注时，很难看到在长期关系中引入适度不安全性的价值。在“墙”之后，女性害怕不得不在一个她们明显处于劣势的性市场中重新开始，因此，即使是偏离“永远安全”剧本的微小偏差，也会成为重大的自我威胁。</p>
+<p>An LTR based on dread, a threat, or an implied ultimatum isn’t one based on genuine desire, and you know enough about my philosophy to understand how important real desire is to me. I think of it more as an ambient understanding that a Man is still desired by other women and this manifests in flirtatious behavior. Obviously if a guy is overtly seeking out opportunities to flaunt his flirtations with his LTR, that’d be indicative of him having other issues to resolve for himself. Guy’s thoroughly underestimate women’s sensitivity to nuance and subcommunication; it doesn’t take much to trigger her imaginings, but most guys think they need to beat her over the head with what he wants her to get; and that of course defeats his purpose – he’s too obvious.</p>
+<p>基于恐惧、威胁或隐含最后通牒的长期关系并非源自真正的渴望，而你对我哲学有足够了解，明白真实欲望对我而言何其重要。我更倾向于将其视为一种环境共识，即男人仍被其他女性所渴望，这种渴望通过调情行为得以体现。显然，如果一个男人公然寻求机会炫耀他与长期伴侣的调情，那表明他自身还有其他问题需要解决。男性往往低估了女性对微妙细节和潜沟通的敏感度；只需一点刺激便能引发她的想象，但大多数男人却认为需要对她进行明确暗示，而这恰恰违背了他的初衷——他显得过于明显。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../communication/qotp.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../communication/jgi.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../communication/qotp.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../communication/jgi.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

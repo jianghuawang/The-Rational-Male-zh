@@ -6,7 +6,7 @@ I had a good amount of response on last Friday’s Plate Theory post asking for 
 
 ## Female Plate Theory 女性板块理论
 
-For as often as I’ve mentioned women being natural plate theorists, I don’t think I’ve ever gone into detail about it. I think it’s pretty well established that I completely disagree with idea that women will only fuck one guy at a time. I could outline several women I know from experience in this, but really, observing behavior will bear this out fairly predictably. I will however agree that they are predisposed to, and are socially encouraged to, seek monogamy, but as in all things female the talk rarely matches the behavior. Sexuality is a woman’s first, best agency and even the homeliest woman know this – even when they’re just complaining about other women using it.
+$$For as often as I’ve mentioned women being natural plate theorists, I don’t think I’ve ever gone into detail about it. I think it’s pretty well established that I completely disagree with idea that women will only fuck one guy at a time. I could outline several women I know from experience in this, but really, observing behavior will bear this out fairly predictably. I will however agree that they are predisposed to, and are socially encouraged to, seek monogamy, but as in all things female the talk rarely matches the behavior. Sexuality is a woman’s first, best agency and even the homeliest woman know this – even when they’re just complaining about other women using it.
 
 尽管我多次提到女性天生是板块理论家，但我似乎从未详细阐述过这一点。我认为，我完全不同意女性一次只会与一个男性发生关系的观点，这一点已经相当明确。我可以列举几个我亲身经历过的女性例子，但实际上，观察她们的行为就能相当可预测地证实这一点。然而，我同意女性天生倾向于，并且社会鼓励她们追求一夫一妻制，但正如所有女性行为一样，言辞与实际行动往往不符。性是女性最首要、最有效的手段，即便是相貌平平的女性也深知这一点——即使她们只是在抱怨其他女性利用这一点。
 

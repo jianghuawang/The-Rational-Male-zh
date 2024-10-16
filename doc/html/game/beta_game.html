@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Beta Game</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">5.</strong> Game</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../game/beta_game.html" class="active"><strong aria-hidden="true">5.1.</strong> Beta Game</a></li><li class="chapter-item expanded "><a href="../game/rewrite_rules.html"><strong aria-hidden="true">5.2.</strong> Rewriting the Rules</a></li><li class="chapter-item expanded "><a href="../game/tpb.html"><strong aria-hidden="true">5.3.</strong> The Pheromonal Beta</a></li><li class="chapter-item expanded "><a href="../game/mg.html"><strong aria-hidden="true">5.4.</strong> Meta-Game</a></li><li class="chapter-item expanded "><a href="../game/jby.html"><strong aria-hidden="true">5.5.</strong> Just Be Yourself</a></li><li class="chapter-item expanded "><a href="../game/ts.html"><strong aria-hidden="true">5.6.</strong> Three Strikes</a></li><li class="chapter-item expanded "><a href="../game/dread_games.html"><strong aria-hidden="true">5.7.</strong> Dread Games</a></li><li class="chapter-item expanded "><a href="../game/nts.html"><strong aria-hidden="true">5.8.</strong> Navigating the SMV</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">6.</strong> Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../communication/medium_is_message.html"><strong aria-hidden="true">6.1.</strong> The Medium IS the Message</a></li><li class="chapter-item expanded "><a href="../communication/qotp.html"><strong aria-hidden="true">6.2.</strong> Qualities of the Prince (my personal favorite of 2011)</a></li><li class="chapter-item expanded "><a href="../communication/tgoa.html"><strong aria-hidden="true">6.3.</strong> The Gift of Anxiety</a></li><li class="chapter-item expanded "><a href="../communication/jgi.html"><strong aria-hidden="true">6.4.</strong> Just Get It</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">7.</strong> Social Conventions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social_conventions/osc.html"><strong aria-hidden="true">7.1.</strong> Operative Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/afcss.html"><strong aria-hidden="true">7.2.</strong> AFC Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/poc.html"><strong aria-hidden="true">7.3.</strong> Paradox of Commitment</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">8.</strong> Hypergamy</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hypergamy/td.html"><strong aria-hidden="true">8.1.</strong> The Disposables</a></li><li class="chapter-item expanded "><a href="../hypergamy/mh.html"><strong aria-hidden="true">8.2.</strong> Mrs. Hyde</a></li><li class="chapter-item expanded "><a href="../hypergamy/tp.html"><strong aria-hidden="true">8.3.</strong> The Pet</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="beta-game-测试游戏"><a class="header" href="#beta-game-测试游戏">Beta Game 测试游戏</a></h1>
+<p>Before I launch into this proper, let me define a few terms in the fashion that I interpret them. With the popularity of Roissy’s blog and a few notable others, there’s been a new push with regards to using the terms Alpha and Beta (and sometimes Omega) when describing certain classifications of males in modern culture. Allow me to go on record as viewing these ideas as mindsets whereas terms such as AFC or DJ are really states of being. For instance, an Alpha can still be an AFC (called a ‘paper alpha’) with regards to women. A Beta male can still be as wealthy and astute in status as his conditions and fortune have placed him in (often by circumstance). Some states necessitate certain mindsets – a positive masculine state requires an Alpha mindset as a requirement – others do not. Also, don’t make the mistake of associating success (personal and career) with an Alpha mindset. There are plenty of Alphas on hotchickswithdouchebags.com, however that doesn’t necessarily make them well rounded individuals. I tend to think of the ideas Alpha and Beta as subconscious energies or attitudes that manifest themselves in our thoughts, beliefs and actions.</p>
+<p>在我正式展开讨论之前，让我先以我的理解方式定义几个术语。随着 Roissy 博客及其他一些知名博客的流行，关于在现代文化中使用 Alpha、Beta（有时是 Omega）等术语来描述男性分类的新趋势应运而生。我在此声明，我将这些概念视为心态，而像 AFC 或 DJ 这样的术语则更像是存在状态。例如，一个 Alpha 男性在女性面前仍可能是一个 AFC（被称为“纸面 Alpha”）。Beta 男性则可能因其条件和运气而拥有相当的财富和地位上的精明（通常是出于偶然）。某些状态需要特定的心态——积极的男性状态需要 Alpha 心态作为前提——而其他则不然。此外，不要错误地将成功（个人和职业）与 Alpha 心态挂钩。hotchickswithdouchebags.com 上不乏 Alpha 男性，但这并不意味着他们就是全面发展的人。我倾向于将 Alpha 和 Beta 视为潜意识中的能量或态度，它们在我们的思想、信念和行动中得以体现。</p>
+<h2 id="beta-game-测试游戏-1"><a class="header" href="#beta-game-测试游戏-1">Beta Game 测试游戏</a></h2>
+<p>Alright now, with this in mind I’d like to propose the idea of Beta Game. Since we’re using the Alpha and Beta terminology here, it’s important to grasp where it comes from. Anyone with even a cursory understanding about animal social hierarchies knows the principal of Alpha and Beta individuals within a social collective. Alphas tend to be the males who exhibit the best genetic characteristics and behavioral skills that put them at the top of the potential breeding pool. In fact Betas are rarely mentioned as such in scientific studies; the Beta term, in PUA lingo is really something of a novelty. Relating these terms to human social interactions, while at times a subjective stretch, isn’t to hard to find parallels in. We can see the similarity, and the applications in long term and short term breeding methodologies that mirror our own.</p>
+<p>好了，考虑到这一点，我想提出“Beta 游戏”的概念。既然我们在这里使用 Alpha 和 Beta 的术语，理解其来源至关重要。任何对动物社会等级有初步了解的人都知道，社会集体中存在 Alpha 和 Beta 个体的主要原则。Alpha 通常是那些展现出最佳遗传特征和行为技能的雄性，使它们位于潜在繁殖池的顶端。事实上，Beta 在科学研究中很少被如此提及；在 PUA 术语中，Beta 一词实际上是一种新奇的说法。将这些术语与人类社会互动联系起来，虽然有时显得主观牵强，但不难找到相似之处。我们可以看到相似性，以及在长期和短期繁殖方法中与我们自身相映成趣的应用。</p>
+<p>Like any other Beta animal, alternate methodologies had to be developed in order to facilitate human breeding under the harsh conditions of Alpha competition. In essence, and as found in the wild, Beta males have developed (evolved?) methods which attempt to ‘poach’ potential females from an Alpha’s harem, or at least in this case his perceived, potential harem.</p>
+<p>与其他贝塔动物一样，为了在阿尔法竞争的严酷条件下促进人类繁殖，必须开发替代方法。本质上，正如在野外所发现的，贝塔雄性已经发展（进化？）出方法，试图从阿尔法的后宫中“偷猎”潜在的雌性，或者至少在这种情况下，从他感知到的潜在后宫中。</p>
+<h2 id="identification-识别"><a class="header" href="#identification-识别">Identification 识别</a></h2>
+<p>Beta male game focuses primarily on identifying and assimilating themselves to be more like the women they hope to connect with, but it goes further than this. The methodology dictates that the Beta be perceived as being unique (or at least set apart) from the more “common” Alpha males whom his desired women naturally prefer. This is the beginning of the “not-like-other-guys” mental schema he hopes to evoke in his idealized woman.</p>
+<p>贝塔男游戏主要关注于识别并同化自己，以更像他们希望与之建立联系的女性，但这远不止于此。该方法论要求贝塔男被视为独特（或至少与众不同），与那些他心仪女性自然偏爱的“普通”阿尔法男区分开来。这是他希望在其理想化女性心中唤起的“与众不同”心理模式的起点。</p>
+<p>Due to his inability to compete with an Alpha competitor in the physical, he must fight a psychological battle on his own terms. This involves convincing his target that her best parental investment should be with him (as per her stated requirements) as he more closely embodies her long term prerequisites. The Beta likens himself to her (and women in general) in an effort to maximize his compatibility and familiarity with her and the feminine.</p>
+<p>由于在体能上无法与阿尔法竞争者抗衡，他必须在心理层面按自己的条件展开较量。这包括说服目标对象，她最佳的亲职投资应投向他（根据她所陈述的要求），因为他更符合她的长期需求。贝塔男将自己比作她（及一般女性），以最大化与她及女性的兼容性和熟悉度。</p>
+<p>This identification process is then further reinforced through the feminine social conventions he subscribes to. Feminine society (both beta men and women) rewards him for more closely assimilating its ideal – be more like an archetypal woman; sensitive, empathic, emotional, security-seeking, etc.. And not only this, but take de facto feminine offense when presented with anything to the contrary of a female-positive perspective. Lift women up, become less so they become more, and in reciprocation she’s more apt to breed with the Beta.</p>
+<p>这一身份认同过程通过他所遵循的女性社会规范进一步强化。女性社会（包括贝塔男性和女性）奖励他更接近其理想形象——更像一个典型的女性；敏感、富有同理心、情感丰富、寻求安全感等。不仅如此，当面对任何与女性积极视角相悖的事物时，他还会实际表现出女性的反感。抬高女性，让自己变得不那么突出，以便她们更加闪耀，作为回报，她更倾向于与贝塔男繁衍后代。</p>
+<p>That’s the principle, not necessarily the reality. In some ways it’s a Cap’n Save a Ho mentality written on a grand scale. The fallacy in this of course is that like should attract like. They fail to understand that opposites attract, and most women don’t want to marry other women, least of all a carbon copy of herself.</p>
+<p>这是原则，未必是现实。在某些方面，它是一种大规模书写的“拯救失足女”心态。当然，这种谬误在于同类相吸。他们未能理解异性相吸，大多数女性并不想嫁给其他女性，更不用说与自己如出一辙的人了。</p>
+<h2 id="disqualification-取消资格"><a class="header" href="#disqualification-取消资格">Disqualification 取消资格</a></h2>
+<p>When presented with a competitor of superior status, both sex’s innate, subconscious reaction is to disqualify that competitor from breeding in as expedient a method as possible. For animals this usually involves some kind of courtship performance or outright competitive hostility. And while the same could be said for human beings, our natural social impulse requires we take a bit more tact. “Look at that girl, she must be a slut to wear / act like that”, or “Yeah, he’s pretty good looking, but guys like that are usually fags” are an example of the standard social weapons people use to disqualify their respective sex. Disqualify the competitor on the most base level – question their sexuality. Literally cast doubt on competitor’s sexual fitness to breed with potential mates.</p>
+<p>当面对地位更高的竞争对手时，两性天生的潜意识反应是尽快以最便捷的方式将其排除在繁殖之外。对于动物而言，这通常涉及某种求偶表演或直接的竞争敌意。虽然人类亦然，但我们的自然社交冲动要求我们采取更为圆滑的方式。“看那个女孩，她穿成/那样，一定是荡妇”，或“是啊，他挺帅的，但那种男人通常是同性恋”，这些是人们用来排除异性的标准社交手段。在最基本的层面上排除竞争对手——质疑他们的性取向。实际上是对竞争对手与潜在伴侣繁殖能力的性适应性提出质疑。</p>
+<p>While most men (Alpha or Beta) will make similar attempts to disqualify, the Beta’s methodology ties back into his need for feminine identification in his disqualifying a competitor. Essentially he relies on feminine ways of disqualification by drawing upon his likeness to the women he hopes to emulate (thus furthering potential attraction as he thinks). The competitor may not be gay, but he must be cast as inferior to himself due to his competitor’s inability (or lessened ability) to identify and empathize with his desired female.</p>
+<p>尽管大多数男性（无论阿尔法还是贝塔）都会尝试让对手失去资格，但贝塔男的方法论与其在让对手失去资格时需要女性认同的需求紧密相关。本质上，他依赖于女性化的让对手失去资格的方式，通过借鉴他希望模仿的女性特质（从而他认为这会进一步增加潜在的吸引力）。对手可能并非同性恋，但他必须被视为因无法（或能力减弱）识别和同情他心仪的女性而比自己低劣。</p>
+<p>With Alpha competitors, the field has already been plowed for him by feminine social conventions, all he need do is plant the seeds. The fact that the Alpha tends to embody the masculine opposite of what he’s embraced also feeds this drive. Women aren’t attracted to the macho tough guy, they want a man who’s kind and thoughtful; a good listener. So the natural recourse is to amplify this disparity – he’s a 1950’s neanderthal throwback, he’s “bitter”, he’s a misogynist, he’s a child in a man’s body with a fragile ego only interested in fucking women and moving on. He’s unlike anything on women’s collective stated list of prerequisites for an acceptable male. He must be ridiculed – as all women ridicule – for his selfish hyper-masculinity.</p>
+<p>在 Alpha 竞争者面前，女性社交惯例已为他铺平了道路，他只需播下种子。Alpha 往往体现了他所拥抱的男性对立面，这一事实也助长了他的动力。女性并不被粗犷的硬汉所吸引，她们渴望的是一个善良体贴、善于倾听的男人。因此，自然的反应是放大这种差异——他是 20 世纪 50 年代的原始人回归，他“苦涩”，他是厌女者，他是身体成熟但心智幼稚、自尊脆弱，只对玩弄女性并迅速抽身感兴趣。他与女性集体公认的合格男性标准格格不入。他必须被嘲笑——正如所有女性所嘲笑的那样——因为他自私的超男性气质。</p>
+<p>Furthermore, the Beta needs to make the Alpha seem common, while making himself seem unique. In order to effectively AMOG an Alpha, the Beta has to show his empathy for the feminine, and she must appreciate it or it’s been all for nothing (which it usually is). Not only is this an ego preservation mechanism, but it’s also perceived as a tool for achieving the desired sexual reciprocation / appreciation he desires.</p>
+<p>此外，贝塔需要让阿尔法显得普通，同时让自己显得独特。为了有效地压制阿尔法，贝塔必须表现出对女性的同理心，而她必须对此表示欣赏，否则一切努力都将白费（通常确实如此）。这不仅是一种自我保护机制，还被视为获取所期望的性互惠/欣赏的工具。</p>
+<h2 id="interpretation-口译"><a class="header" href="#interpretation-口译">Interpretation 口译</a></h2>
+<p>All of this really just scratches the surface of how Beta game has evolved. I’m sure there’ll be more input as to different methods that Betas use to facilitate breeding – sexual fetishes / preferences come to mind. I will add though that all of these methods come back to a common root; the need to breed under the duress of competition. Most of what I’ve gone into here, and primarily the feminine identity association, become ego-invested and internalized over the course of a lifetime. It gets to the point that under the auspices of relative anonymity (like the internet) that the Beta will still cling to his mental model, even in the face of very rational, empirical evidence to the contrary, for no other reason than that a woman, a potential mate with whom he could identify, might read his post and may become attracted to him. The Game is never dropped for him, even in light of proving his errors. Beta game is like the boy who decides to play on the girls team when a boys vs. girls kick ball game is started. He thinks it will endear himself to them, when all it really does is make him another girlfriend to giggle with.</p>
+<p>这一切实际上只是触及了 Beta 游戏演变的表面。我确信，随着不同方法的输入，Beta 们如何促进繁殖的讨论将更加深入——性癖好/偏好浮现在脑海。不过，所有这些方法都归结于一个共同根源：在竞争压力下繁殖的需求。我在这里探讨的大部分内容，尤其是女性身份的关联，随着一生中的积累，变得自我投入并内化。在相对匿名的庇护下（如互联网），Beta 仍会坚持他的心理模型，即便面对非常理性、实证的反面证据，也别无他因，只因一位女性，一位他可能认同的潜在伴侣，可能会读到他的帖子并被他吸引。游戏对他而言从未放下，即便在证明其错误之后。Beta 游戏就像男孩决定在男孩对女孩的踢球游戏中加入女孩队伍。他以为这会赢得她们的欢心，但实际上只是多了个一起傻笑的女朋友。</p>
+<p>Everyone has a Game in some respect. We don’t live in a vacuum, our ideas about seduction (in whatever form) is influenced and / or learned externally. The validity of that Game may be more or less effective, but at some point a man is going to adapt to a methodology of seduction as per his conditions and environment warrant. Even mPUAs still need to adapt their Game for differing environments – different clubs, types of women, socio-economic levels, countries, etc. – there needs to be adaptation and improvisation. The same applies for Betas, but the disparity is that the Beta tends to think of a one size fits all approach. For all the complaints of worry about the Game community turning into scripted ‘social robots’, it’s actually the Beta who adopts a far more embedded script and is less likely to variate from it. Betas tend to stick with what worked for them, what was reinforced for them, in the past.</p>
+<p>在某种程度上，每个人都有自己的游戏。我们并非生活在真空中，我们对诱惑（无论何种形式）的观念受到外界的影响和/或学习。这种游戏的有效性可能或多或少，但在某些时候，一个男人会根据他的条件和环境来适应诱惑的方法。即使是 mPUA（大师级诱惑者）也需要为不同的环境调整他们的游戏——不同的俱乐部、女性类型、社会经济水平、国家等——需要适应和即兴发挥。贝塔（Beta）也是如此，但不同的是，贝塔往往认为一种方法适用于所有情况。尽管有人担心游戏社区会变成按剧本行事的“社交机器人”，但实际上，贝塔更倾向于采用更为固定的剧本，并且不太可能从中变化。贝塔往往坚持过去对他们有效、被强化的方法。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../blank.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../game/rewrite_rules.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../blank.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../game/rewrite_rules.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Disposables</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">5.</strong> Game</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../game/beta_game.html"><strong aria-hidden="true">5.1.</strong> Beta Game</a></li><li class="chapter-item expanded "><a href="../game/rewrite_rules.html"><strong aria-hidden="true">5.2.</strong> Rewriting the Rules</a></li><li class="chapter-item expanded "><a href="../game/tpb.html"><strong aria-hidden="true">5.3.</strong> The Pheromonal Beta</a></li><li class="chapter-item expanded "><a href="../game/mg.html"><strong aria-hidden="true">5.4.</strong> Meta-Game</a></li><li class="chapter-item expanded "><a href="../game/jby.html"><strong aria-hidden="true">5.5.</strong> Just Be Yourself</a></li><li class="chapter-item expanded "><a href="../game/ts.html"><strong aria-hidden="true">5.6.</strong> Three Strikes</a></li><li class="chapter-item expanded "><a href="../game/dread_games.html"><strong aria-hidden="true">5.7.</strong> Dread Games</a></li><li class="chapter-item expanded "><a href="../game/nts.html"><strong aria-hidden="true">5.8.</strong> Navigating the SMV</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">6.</strong> Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../communication/medium_is_message.html"><strong aria-hidden="true">6.1.</strong> The Medium IS the Message</a></li><li class="chapter-item expanded "><a href="../communication/qotp.html"><strong aria-hidden="true">6.2.</strong> Qualities of the Prince (my personal favorite of 2011)</a></li><li class="chapter-item expanded "><a href="../communication/tgoa.html"><strong aria-hidden="true">6.3.</strong> The Gift of Anxiety</a></li><li class="chapter-item expanded "><a href="../communication/jgi.html"><strong aria-hidden="true">6.4.</strong> Just Get It</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">7.</strong> Social Conventions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social_conventions/osc.html"><strong aria-hidden="true">7.1.</strong> Operative Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/afcss.html"><strong aria-hidden="true">7.2.</strong> AFC Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/poc.html"><strong aria-hidden="true">7.3.</strong> Paradox of Commitment</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">8.</strong> Hypergamy</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hypergamy/td.html" class="active"><strong aria-hidden="true">8.1.</strong> The Disposables</a></li><li class="chapter-item expanded "><a href="../hypergamy/mh.html"><strong aria-hidden="true">8.2.</strong> Mrs. Hyde</a></li><li class="chapter-item expanded "><a href="../hypergamy/tp.html"><strong aria-hidden="true">8.3.</strong> The Pet</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="the-disposables-一次性用品"><a class="header" href="#the-disposables-一次性用品">The Disposables 一次性用品</a></h1>
+<p>Martyrdom is the ultimate expression of social proof.</p>
+<p>殉道是社会认同的终极体现。</p>
+<p>After I finished my Chivalry vs. Altruism post, I had to kind of pause for a moment to consider the impact of ‘women &amp; children first’ as an operative social convention. Even before the overt rise of the feminine imperative, this female protectionism was in effect, and I’m fairly certain that this was a result of our primal hind-brain wiring to protect our families. Most higher order animals have evolved this instinct so I don’t see that as much of a stretch. However, human’s being a much more complex species, I think that the social convention of WaCF goes a bit deeper than a simplistic protectionism. In fact, I’d argue that ‘familial protectionism’ is more of a convenient foil for women (and sympathetic men) who’d rather see men’s mortal sacrifice in honorific terms than the much uglier truth.</p>
+<p>在我完成《骑士精神与利他主义》这篇文章后，我不得不稍作停顿，思考“妇女与儿童优先”这一操作性社会规范的影响。即使在女性主导意识明显上升之前，这种女性保护主义就已经存在，我相当确信这是我们原始后脑结构中保护家庭的本能所致。大多数高等动物都进化出了这种本能，因此这并不算牵强。然而，人类作为一种更为复杂的物种，我认为“妇女与儿童优先”这一社会规范比简单的保护主义更为深刻。事实上，我主张“家庭保护主义”更多是女性（及同情女性的男性）为了美化男性牺牲而找的方便借口，而非直面那更为丑陋的真相。</p>
+<h2 id="tits-for-tat-以牙还牙"><a class="header" href="#tits-for-tat-以牙还牙">Tits for Tat 以牙还牙</a></h2>
+<p>In its rawest form, the sexual marketplace of our early ancestors would’ve been one where feminine hypergamy and Alpha dominance would’ve been more or less in balance. Obviously men being the stronger sex would’ve forcibly put women into a weaker position in the earliest incarnations of the SMP, but also consider that men fought and killed each other for access to those breeding rights – short version; men were disposable. As our species began to socialize, collectivize and cooperate, our earliest social conventions would’ve revolved around the environmental prompts and biological stimuli that were essential to the survival of their more feral ancestors.</p>
+<p>在最原始的形式中，我们早期祖先的性市场是一个女性高攀与男性优势大致平衡的地方。显然，作为更强壮的性别，男性会强行将女性置于性市场最早形态中的弱势地位，但也要考虑到男性为争夺繁殖权而相互争斗甚至杀戮——简而言之，男性是可牺牲的。随着我们物种开始社会化、集体化与合作，我们最早的社会习俗将围绕那些对更野性的祖先生存至关重要的环境提示和生物刺激展开。</p>
+<p>The earliest form of proto-Game would’ve been a sexual quid pro quo. Can’t figure out how to seduce that hot, hunter-gatherer woman in the tribe? Save her ass from being torn limb from limb by a sabre tooth tiger and she’ll reciprocate her gratitude with open legs. In other words, risk your life and women will reward you with sex in gratitude. Today that may not be a reality in practice, but it’s the A+B=C  logic that’s led to the psychological internalization and the social doctrines that follow it. It’s such a primal, male-deductive-logic principle that’s worked so successfully, for so long, that social contingencies were evolved to both mitigate it and exploit it. Don’t believe me? Promise a young middle eastern girl 70 virgins in heaven and see if she’ll strap explosives to herself. The downside to this is that men often do “die trying.”</p>
+<p>最早的原始游戏形式可能是性交易。不知道如何勾引部落里那个火辣的采集女猎人？从剑齿虎的利爪下救她一命，她会用敞开的双腿回报你的救命之恩。换句话说，冒生命危险，女人会以性作为感激的回报。如今这在实践中可能不再是现实，但这种 A+B=C 的逻辑导致了心理内化和社会教义的形成。这是一个如此原始、男性演绎逻辑的原则，长期以来如此成功，以至于社会条件既是为了缓解它，也是为了利用它而演化出来的。不信？向一个中东年轻女孩承诺天堂里有 70 个处女，看看她是否愿意在自己身上绑上炸药。这种做法的弊端在于，男人常常“死而后已”。</p>
+<p>All of this kind of brought me around to thinking about the psychological ‘software’ that’s been evolved into our species as a result of environmental adaptations of the past. In War Brides I went into detail about the Stockholm Syndrome women seem to have an inborn propensity for, which logically makes them predisposed to abandoning emotional investments more readily than men. Considering the brutality of our feral past, evolving a capacity for quick emotional abandonment and reinvestment would’ve been a valuable survival trait for women (thus insuring a perpetuation of the species), however, in the present it serves to complicate newly developed social dynamics in terms of parental and ethical considerations.</p>
+<p>这一切让我开始思考，由于过去环境适应而进化到我们物种的心理“软件”。在《战时新娘》中，我详细探讨了女性似乎天生就有的斯德哥尔摩综合症倾向，这使她们在情感投资上比男性更容易放弃。考虑到我们野蛮的过去，快速放弃和重新投入情感的能力对女性来说是一种宝贵的生存特质（从而确保物种的延续），然而在当下，这却给新形成的社会动态带来了复杂的亲子和伦理考量。</p>
+<p>Likewise, men have evolved into the disposable sex as a result of that same feral past. In today’s environment it’s very easy for men to draw upon ethical indignation about our disposable status, but it’s not primarily due to social influences. To be sure, social influence has definitely exploited men’s disposability, but the root of that devaluation (in contrast to women’s) really lies in our evolutionary past and our biological make up. Men have always been disposable – so much so that women evolved psychological contingencies (War Brides) to cope with that disposability.</p>
+<p>同样，由于那段野蛮的过去，男性也演变成了可随意处置的性别。在当今环境下，男性很容易对我们的可随意处置地位感到道德愤慨，但这主要并非社会影响所致。诚然，社会影响确实利用了男性的可随意处置性，但这种贬值（与女性相比）的根本原因实际上在于我们的进化历程和生物构成。男性历来都是可随意处置的——以至于女性进化出了心理应对机制（如战争新娘）来应对这种可随意处置性。</p>
+<p>As socialization and acculturation progressed, so too did the social rationales for men’s disposability. It became honorable to sacrifice oneself, ostensibly for a greater cause, but subversively as a means to recognition.</p>
+<p>随着社会化和文化适应的推进，男性可牺牲性的社会理由也日益增强。牺牲自己变得光荣，表面上是为了更伟大的事业，但暗地里却是为了获得认可。</p>
+<p>Martyrdom is the ultimate expression of social proof.</p>
+<p>殉道是社会认同的终极体现。</p>
+<h2 id="appreciating-the-sacrifice-感恩奉献"><a class="header" href="#appreciating-the-sacrifice-感恩奉献">Appreciating the Sacrifice 感恩奉献</a></h2>
+<p>Unfortunately, as is women’s biological imperative, once a man’s martyred himself women seek a suitable substitute within the week. I’m still getting a lot of response on my Appreciation post, and predictably most of the criticism is rooted in assuming my intent was to illustrate women being inferior to men in terms of sincerely appreciating the sacrifices he must make to facilitate her reality. The inability of women appreciating men’s sacrifices isn’t an issue of who’s better than who, it’s merely an observation of facts and corollaries. What I think critics fail to recognize is that I’m simply relating the observed mechanics; any conditionality they choose to apply to those mechanics are their own opinions and biases.</p>
+<p>遗憾的是，正如女性的生物本能所驱使，一旦男人牺牲了自己，女性往往会在一周内寻找合适的替代者。我的感谢帖仍收到大量回应，可以预见，大部分批评源于假设我的意图是展示女性在真诚感激男性为实现她的现实所做的牺牲方面不如男性。女性无法感激男性的牺牲，并非关乎谁更优越，而仅仅是事实及其推论的观察。我认为批评者未能认识到的是，我只是在陈述观察到的机制；他们选择附加于这些机制的任何条件性，都是他们自己的观点和偏见。</p>
+<p>“Yeah Rollo, it’s pretty fucked up that women have some inborn ability to ‘switch off’ their emotions for you in favor of a higher SMV male…”</p>
+<p>“是啊，罗洛，女性天生就有能力为了更高 SMV 的男性而‘关闭’对你的情感，这真是太糟糕了。”</p>
+<p>You’re right it’s pretty messed up. It’s also unethical, insincere and duplicitous when you also consider the planning involved in dissociating her emotional investment in favor of a new investment; but all of these are social conditions we apply to the underlying mechanic. It’s also pretty fucked up that men’s lives intrinsically have less value than women’s – but we can apply esoteric principles of honor, duty and courage to men killing themselves and engaging in the dynamic of their own disposability. We can also apply principles of cowardice and betrayal to men who refuse that sacrifice in favor of self-preservation, but these are qualification of social conventions that we establish as a culture.
+你说得对，这确实很混乱。当你考虑到为了新的投资而计划让她情感投入分离时，这也是不道德、不真诚和欺骗性的；但所有这些都是我们应用于基本机制的社会条件。男性生命内在价值低于女性，这也是相当糟糕的——但我们可以将荣誉、责任和勇气的深奥原则应用于男性自杀和参与自身可抛弃性的动态中。我们还可以将懦弱和背叛的原则应用于那些为了自我保护而拒绝牺牲的男性，但这些都是我们作为文化所建立的社会习俗的限定条件。</p>
+<p>The biomechanics are what they are, irrespective of the social paint we color them with. It’s not that women lack an intellectual capacity to appreciate men’s sacrifices, it’s that this isn’t their evolved psychological predisposition. The social constructs which tells her to expect a man’s sacrifice, which normalizes his martyrdom, have evolved to better dissociate her own investment in her biological imperatives (i.e. Hypergamy). In English this means evolution has prepared her socially and psychologically for his sacrifice, and readies her to move to a better provisioning should one present itself in her surroundings. Likewise, men putting themselves in harms way is rooted in our competing for resources – in this case breeding rights.
+生物力学就是那样，无论我们用社会色彩如何涂抹它们。并非女性缺乏理解男性牺牲的智力能力，而是这并非她们进化心理的倾向。那些告诉她期待男性牺牲、将他的牺牲视为常态的社会结构，已经进化到更好地使她与自身的生物需求（即超母性）脱钩。用英语来说，这意味着进化已使她在社会和心理上为他的牺牲做好准备，并使她准备好在他周围出现更好的供养者时，能够转向更好的选择。同样，男性将自己置于危险之中，根源在于我们争夺资源——在这种情况下是繁殖权。</p>
+<p>Ravenous wolves tearing apart a moose aren’t evil; they’re doing what nature has prepared them to do in order to survive. This isn’t to give anyone, male or female, some biologically determined free pass for bad behavior, it’s just to understand where this behavior originates and how it came to be what we make of it today.
+饥饿的狼群撕裂麋鹿并非出于邪恶；它们只是在执行自然赋予的生存本能。这并非为任何人，无论男女，提供生物学上的不良行为免责牌，而是为了理解这种行为起源及其如何演变成我们今日所见。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../blank.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../hypergamy/mh.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../blank.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../hypergamy/mh.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
