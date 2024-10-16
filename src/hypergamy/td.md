@@ -45,10 +45,13 @@ Unfortunately, as is women’s biological imperative, once a man’s martyred hi
 “是啊，罗洛，女性天生就有能力为了更高 SMV 的男性而‘关闭’对你的情感，这真是太糟糕了。”
 
 You’re right it’s pretty messed up. It’s also unethical, insincere and duplicitous when you also consider the planning involved in dissociating her emotional investment in favor of a new investment; but all of these are social conditions we apply to the underlying mechanic. It’s also pretty fucked up that men’s lives intrinsically have less value than women’s – but we can apply esoteric principles of honor, duty and courage to men killing themselves and engaging in the dynamic of their own disposability. We can also apply principles of cowardice and betrayal to men who refuse that sacrifice in favor of self-preservation, but these are qualification of social conventions that we establish as a culture.
+
 你说得对，这确实很混乱。当你考虑到为了新的投资而计划让她情感投入分离时，这也是不道德、不真诚和欺骗性的；但所有这些都是我们应用于基本机制的社会条件。男性生命内在价值低于女性，这也是相当糟糕的——但我们可以将荣誉、责任和勇气的深奥原则应用于男性自杀和参与自身可抛弃性的动态中。我们还可以将懦弱和背叛的原则应用于那些为了自我保护而拒绝牺牲的男性，但这些都是我们作为文化所建立的社会习俗的限定条件。
 
 The biomechanics are what they are, irrespective of the social paint we color them with. It’s not that women lack an intellectual capacity to appreciate men’s sacrifices, it’s that this isn’t their evolved psychological predisposition. The social constructs which tells her to expect a man’s sacrifice, which normalizes his martyrdom, have evolved to better dissociate her own investment in her biological imperatives (i.e. Hypergamy). In English this means evolution has prepared her socially and psychologically for his sacrifice, and readies her to move to a better provisioning should one present itself in her surroundings. Likewise, men putting themselves in harms way is rooted in our competing for resources – in this case breeding rights.
+
 生物力学就是那样，无论我们用社会色彩如何涂抹它们。并非女性缺乏理解男性牺牲的智力能力，而是这并非她们进化心理的倾向。那些告诉她期待男性牺牲、将他的牺牲视为常态的社会结构，已经进化到更好地使她与自身的生物需求（即超母性）脱钩。用英语来说，这意味着进化已使她在社会和心理上为他的牺牲做好准备，并使她准备好在他周围出现更好的供养者时，能够转向更好的选择。同样，男性将自己置于危险之中，根源在于我们争夺资源——在这种情况下是繁殖权。
 
 Ravenous wolves tearing apart a moose aren’t evil; they’re doing what nature has prepared them to do in order to survive. This isn’t to give anyone, male or female, some biologically determined free pass for bad behavior, it’s just to understand where this behavior originates and how it came to be what we make of it today.
+
 饥饿的狼群撕裂麋鹿并非出于邪恶；它们只是在执行自然赋予的生存本能。这并非为任何人，无论男女，提供生物学上的不良行为免责牌，而是为了理解这种行为起源及其如何演变成我们今日所见。
