@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Iron Rule #4</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">5.</strong> Game</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../game/beta_game.html"><strong aria-hidden="true">5.1.</strong> Beta Game</a></li><li class="chapter-item expanded "><a href="../game/rewrite_rules.html"><strong aria-hidden="true">5.2.</strong> Rewriting the Rules</a></li><li class="chapter-item expanded "><a href="../game/tpb.html"><strong aria-hidden="true">5.3.</strong> The Pheromonal Beta</a></li><li class="chapter-item expanded "><a href="../game/mg.html"><strong aria-hidden="true">5.4.</strong> Meta-Game</a></li><li class="chapter-item expanded "><a href="../game/jby.html"><strong aria-hidden="true">5.5.</strong> Just Be Yourself</a></li><li class="chapter-item expanded "><a href="../game/ts.html"><strong aria-hidden="true">5.6.</strong> Three Strikes</a></li><li class="chapter-item expanded "><a href="../game/dread_games.html"><strong aria-hidden="true">5.7.</strong> Dread Games</a></li><li class="chapter-item expanded "><a href="../game/nts.html"><strong aria-hidden="true">5.8.</strong> Navigating the SMV</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">6.</strong> Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../communication/medium_is_message.html"><strong aria-hidden="true">6.1.</strong> The Medium IS the Message</a></li><li class="chapter-item expanded "><a href="../communication/qotp.html"><strong aria-hidden="true">6.2.</strong> Qualities of the Prince (my personal favorite of 2011)</a></li><li class="chapter-item expanded "><a href="../communication/tgoa.html"><strong aria-hidden="true">6.3.</strong> The Gift of Anxiety</a></li><li class="chapter-item expanded "><a href="../communication/jgi.html"><strong aria-hidden="true">6.4.</strong> Just Get It</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">7.</strong> Social Conventions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social_conventions/osc.html"><strong aria-hidden="true">7.1.</strong> Operative Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/afcss.html"><strong aria-hidden="true">7.2.</strong> AFC Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/poc.html"><strong aria-hidden="true">7.3.</strong> Paradox of Commitment</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">8.</strong> Hypergamy</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hypergamy/td.html"><strong aria-hidden="true">8.1.</strong> The Disposables</a></li><li class="chapter-item expanded "><a href="../hypergamy/mh.html"><strong aria-hidden="true">8.2.</strong> Mrs. Hyde</a></li><li class="chapter-item expanded "><a href="../hypergamy/thc.html"><strong aria-hidden="true">8.3.</strong> The Hypergamy Conspiracy</a></li><li class="chapter-item expanded "><a href="../hypergamy/tp.html"><strong aria-hidden="true">8.4.</strong> The Pet</a></li><li class="chapter-item expanded "><a href="../hypergamy/hdc.html"><strong aria-hidden="true">8.5.</strong> Hypergamy Doesn’t Care</a></li><li class="chapter-item expanded "><a href="../hypergamy/re.html"><strong aria-hidden="true">8.6.</strong> Relational Equity</a></li><li class="chapter-item expanded "><a href="../hypergamy/wr.html"><strong aria-hidden="true">8.7.</strong> Women & Regret</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">9.</strong> Iron Rules of Tomassi</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_1.html"><strong aria-hidden="true">9.1.</strong> Iron Rule #1</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_2.html"><strong aria-hidden="true">9.2.</strong> Iron Rule #2</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_3.html"><strong aria-hidden="true">9.3.</strong> Iron Rule #3</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_4.html" class="active"><strong aria-hidden="true">9.4.</strong> Iron Rule #4</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_5.html"><strong aria-hidden="true">9.5.</strong> Iron Rule #5</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_6.html"><strong aria-hidden="true">9.6.</strong> Iron Rule #6</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_7.html"><strong aria-hidden="true">9.7.</strong> Iron Rule #7</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_8.html"><strong aria-hidden="true">9.8.</strong> Iron Rule #8</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_9.html"><strong aria-hidden="true">9.9.</strong> Iron Rule #9</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="shacking-up-同居"><a class="header" href="#shacking-up-同居">Shacking Up 同居</a></h1>
+<p><strong>Iron Rule of Tomassi #4 托马西的铁律 #4</strong></p>
+<p>NEVER under any circumstance live with a woman you aren’t married to or are not planning to marry in within 6 months.</p>
+<p>在任何情况下，永远不要与一个你未结婚或不打算在 6 个月内结婚的女人同居。</p>
+<p>You are utterly powerless in this situation. NEVER buy a home with a girlfriend, NEVER sign a rental lease with a girlfriend. NEVER agree to move into her home and absolutely NEVER move a woman into your own established living arrangement. I’m adamantly opposed to the “shacking up” dynamic, it is a trap that far too many men allow themselves to fall into. My fervor against this isn’t based on some moral issue, it is simple pragmatism. If you live with a woman you may as well be married because upon doing so every liability and accountability of marriage is then in effect. You not only lose any freedom of anonymity, you commit to, legally, being responsible for the continuation of your living arrangements regardless of how your relationship decays.</p>
+<p>在这种情况下，你完全无能为力。永远不要与女朋友一起买房，永远不要与女朋友签订租赁合同。永远不要同意搬进她的房子，绝对不要让女人搬进你已经建立的居住安排中。我坚决反对“同居”这种动态，这是太多男人让自己陷入的陷阱。我对此的强烈反对并不是基于某种道德问题，而是简单的实用主义。如果你与一个女人同居，你几乎就等于结婚了，因为这样做之后，婚姻中的所有责任和义务都会生效。你不仅失去了任何匿名的自由，你还承诺，在法律上，无论你们的关系如何恶化，都要继续维持你们的居住安排。</p>
+<p>I should also emphasize the point that when you commit (and it is a financial commitment) to cohabiting with a GF you will notice a marked decrease in her sexual availability and desire. The single most common complaint related to me in regards to how to reignite a woman’s desire comes as the result of the guy having moved into a living arrangement with his LTR. All of that competitive anxiety and it’s resulting sexual tension that made your single sex life so great is removed from her shoulders and she can comfortably relax in the knowledge that she is your ONLY source of sexual intimacy. Putting your name on that lease with her (even if it’s just your name) is akin to signing an insurance policy for her –</p>
+<p>我还应该强调一点，当你承诺（这是一个经济上的承诺）与女友同居时，你会发现她的性可用性和欲望明显下降。与我相关的最常见的抱怨是如何重新点燃女性的欲望，这通常是由于男方搬进了与长期伴侣的同居安排。所有那些竞争焦虑和由此产生的性紧张，使你的单身性生活如此美好，都从她的肩上消失了，她可以舒适地放松，知道她是你的唯一性亲密来源。把你的名字写在她的租约上（即使只是你的名字）就像为她签署了一份保险单——</p>
+<p>“I the undersigned promise not to fuck any woman but this girl for a one year term.”</p>
+<p>“我，签名者，承诺在一年内不与任何其他女人发生性关系，只与这个女孩发生性关系。”</p>
+<p>She thinks, “if he wasn’t serious about me, he wouldn’t have signed the lease.” Now all of that impetus and energy that made having marathon sex with you an outright necessity is relaxed. She controls the frame and she’s got it in writing that it is for at least a year.</p>
+<p>她想，“如果他不是认真的，他就不会签租约。”现在，所有那些促使你和她进行马拉松式性爱的动力和能量都放松了。她控制了框架，并且她有书面证明至少持续一年。</p>
+<p>Just don’t do it. Relationships last best when you spin more plates or at the very least keep each other at arm’s distance.</p>
+<p>不要这样做。关系最好的时候是你旋转更多的盘子，或者至少保持彼此的距离。</p>
+<p>There was a time when the hip, counter-culture thing to do was flip the establishment the bird and cohabit with a girlfriend, sans the marriage contract. In the swinging post-sexual-revolution 70’s, feminism was more than happy to encourage the idea until it ran into the problem of making men financially accountable for all the “free milk” the cows were giving away. However, that not withstanding, there’s still a kind of a lingering after effect feeling about “living together” that seems like a good idea to guys to this day.</p>
+<p>曾经有一段时间，时尚、反主流文化的做法是对体制竖中指，与女友同居，不签婚姻契约。在性解放后的 70 年代，女权主义乐于鼓励这一观念，直到遇到让男性为所有“免费牛奶”（指女性）承担经济责任的问题。然而，尽管如此，“同居”至今仍给男性一种似乎不错的余韵感。</p>
+<p>Of all the reasonable excuses I’ve heard for men wanting to cohabit with their girlfriends, the most common is that they did so for financial reasons. He (or she) needed a roommate and why not one that they enjoy fucking? That’s the cover story, but underneath it there’s the semiconscious understanding that it would be far more convenient to have a continuous flow of pussy as part of the utilities, uninterrupted by the formalities of having to go on dates or drive somewhere to get it. I can’t say that, on the surface, this doesn’t make perfect sense. Leave it a man to find the most pragmatic solution to his problem. However, as with most things woman, what seems like the most deductive solution is often a cleverly disguised trap.</p>
+<p>在所有我听过的男人想与女友同居的合理借口中，最常见的是出于经济原因。他（或她）需要一个室友，而为什么不能是一个他们喜欢上床的人呢？这是表面的说辞，但在其背后，潜意识里明白，将持续不断的性爱作为生活必需品的一部分，远比通过正式约会或开车去某个地方获取更为方便。从表面上看，这似乎完全合乎逻辑。让一个男人找到解决问题的最务实方法。然而，就像大多数涉及女人的事情一样，看似最具逻辑性的解决方案往往是一个巧妙伪装的陷阱。</p>
+<p>Shacking up, just as in marriage, affords a woman a reasonable sense of comfort. It becomes at least a marginal shelter from the competition anxiety that she had to endure while living on her own and dating a guy who still had at least the perceived option to be unpredictable. Not so in the quasi-marriage that living together dictates. And it’s just this sense of predictability that allows her to relax into familiarity, and later, into dictating the terms of her own intimacy. In other words, she’s in the perfect position to ration her sexuality; to negotiate the terms of her desire in exchange for a living arrangement.</p>
+<p>同居，正如婚姻一样，为女性提供了一定程度的舒适感。它至少成为一种边缘的避风港，让她从独自生活和与一个仍有可能不可预测的男性约会时所承受的竞争焦虑中解脱出来。在同居这种准婚姻状态下，情况则大不相同。正是这种可预见性，使她能够放松地融入熟悉感，进而逐步主导亲密关系的条款。换言之，她处于一个理想的位置来调控自己的性欲；通过协商欲望的条件来换取居住安排。</p>
+<p>By the same reasoning, most AFCs view cohabiting as an ideal arrangement. Few of them really have the real options, much less the will to experiment exercising them, to see shacking up as anything but a great way of exiting the SMP, limiting potential rejection, and locking down a consistent supply of pussy. Men who are spinning plates, men with options, men with ambition, rarely see cohabiting as anything but a limiting hinderance on their lives. On some level of consciousness women understand this dynamic; guys with options (the Alphas they’d prefer) wouldn’t consider cohabitation. So when a man agrees to, or suggests living together it impresses her with two things – either he’s an Alpha who she’s won over so completely that he’s ready to commit to exclusivity with her, or he’s a beta with no better propositions than to settle into living with what he believes is his ‘sure thing’. What’s jarring for a woman is that she may start her living arrangement thinking she’s found the elusive Alpha ready to commit, only to later find he was just a clever beta who reverts back into his former, comfortable, AFC self after they sign the lease agreement.</p>
+<p>同样地，大多数 AFC（平均挫败男）视同居为理想安排。他们鲜有真正的选择，更别提有意愿去尝试行使这些选择，将同居视为脱离单一配偶制（SMP）、减少潜在拒绝并锁定稳定性伴侣的绝佳途径。那些拥有多个选择、雄心勃勃的男性，几乎不会将同居视为生活上的限制障碍。在某种意识层面，女性理解这一动态；拥有选择权的男性（她们偏好的阿尔法男）不会考虑同居。因此，当一个男人同意或提议同居时，这会给她留下两种印象——要么他是她彻底征服的阿尔法男，已准备好对她专一承诺；要么他是个贝塔男，除了与他认为的“稳妥之选”同居外，别无更好提议。对女性来说，令人震惊的是，她可能一开始以为找到了那位难得一见的愿意承诺的阿尔法男，结果却发现他只是个狡猾的贝塔男，在签订租赁协议后便恢复了以往舒适但 AFC 的本性。</p>
+<p>Now all that said, what makes more sense? To live independently and enjoy the options to live unhindered with a live-in girlfriend, or move her in and have to deal with her every waking moment? Moving in with a woman implies commitment, and whenever you commit to anything you lose your two most valuable resources, options and the ability to maneuver.</p>
+<p>综上所述，哪种选择更明智？是独立生活，享受与同居女友自由自在的时光，还是让她搬进来，不得不面对她醒着的每一刻？与女性同居意味着承诺，而一旦你承诺了任何事情，你就会失去两项最宝贵的资源：选择权和行动自由。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../iron_rules/iron_rule_3.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../iron_rules/iron_rule_5.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../iron_rules/iron_rule_3.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../iron_rules/iron_rule_5.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

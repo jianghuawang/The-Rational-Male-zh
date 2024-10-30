@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Iron Rule #2</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">5.</strong> Game</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../game/beta_game.html"><strong aria-hidden="true">5.1.</strong> Beta Game</a></li><li class="chapter-item expanded "><a href="../game/rewrite_rules.html"><strong aria-hidden="true">5.2.</strong> Rewriting the Rules</a></li><li class="chapter-item expanded "><a href="../game/tpb.html"><strong aria-hidden="true">5.3.</strong> The Pheromonal Beta</a></li><li class="chapter-item expanded "><a href="../game/mg.html"><strong aria-hidden="true">5.4.</strong> Meta-Game</a></li><li class="chapter-item expanded "><a href="../game/jby.html"><strong aria-hidden="true">5.5.</strong> Just Be Yourself</a></li><li class="chapter-item expanded "><a href="../game/ts.html"><strong aria-hidden="true">5.6.</strong> Three Strikes</a></li><li class="chapter-item expanded "><a href="../game/dread_games.html"><strong aria-hidden="true">5.7.</strong> Dread Games</a></li><li class="chapter-item expanded "><a href="../game/nts.html"><strong aria-hidden="true">5.8.</strong> Navigating the SMV</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">6.</strong> Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../communication/medium_is_message.html"><strong aria-hidden="true">6.1.</strong> The Medium IS the Message</a></li><li class="chapter-item expanded "><a href="../communication/qotp.html"><strong aria-hidden="true">6.2.</strong> Qualities of the Prince (my personal favorite of 2011)</a></li><li class="chapter-item expanded "><a href="../communication/tgoa.html"><strong aria-hidden="true">6.3.</strong> The Gift of Anxiety</a></li><li class="chapter-item expanded "><a href="../communication/jgi.html"><strong aria-hidden="true">6.4.</strong> Just Get It</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">7.</strong> Social Conventions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social_conventions/osc.html"><strong aria-hidden="true">7.1.</strong> Operative Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/afcss.html"><strong aria-hidden="true">7.2.</strong> AFC Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/poc.html"><strong aria-hidden="true">7.3.</strong> Paradox of Commitment</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">8.</strong> Hypergamy</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hypergamy/td.html"><strong aria-hidden="true">8.1.</strong> The Disposables</a></li><li class="chapter-item expanded "><a href="../hypergamy/mh.html"><strong aria-hidden="true">8.2.</strong> Mrs. Hyde</a></li><li class="chapter-item expanded "><a href="../hypergamy/thc.html"><strong aria-hidden="true">8.3.</strong> The Hypergamy Conspiracy</a></li><li class="chapter-item expanded "><a href="../hypergamy/tp.html"><strong aria-hidden="true">8.4.</strong> The Pet</a></li><li class="chapter-item expanded "><a href="../hypergamy/hdc.html"><strong aria-hidden="true">8.5.</strong> Hypergamy Doesn’t Care</a></li><li class="chapter-item expanded "><a href="../hypergamy/re.html"><strong aria-hidden="true">8.6.</strong> Relational Equity</a></li><li class="chapter-item expanded "><a href="../hypergamy/wr.html"><strong aria-hidden="true">8.7.</strong> Women & Regret</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">9.</strong> Iron Rules of Tomassi</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_1.html"><strong aria-hidden="true">9.1.</strong> Iron Rule #1</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_2.html" class="active"><strong aria-hidden="true">9.2.</strong> Iron Rule #2</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_3.html"><strong aria-hidden="true">9.3.</strong> Iron Rule #3</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_4.html"><strong aria-hidden="true">9.4.</strong> Iron Rule #4</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_5.html"><strong aria-hidden="true">9.5.</strong> Iron Rule #5</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_6.html"><strong aria-hidden="true">9.6.</strong> Iron Rule #6</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_7.html"><strong aria-hidden="true">9.7.</strong> Iron Rule #7</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_8.html"><strong aria-hidden="true">9.8.</strong> Iron Rule #8</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_9.html"><strong aria-hidden="true">9.9.</strong> Iron Rule #9</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p>Rational reader Poker ran this one by me recently:</p>
+<p>理性的读者 Poker 最近给我看了这个：</p>
+<p><strong>I’ve been seeing this girl and we’ve slept together a few times… Today, in bed, I got asked, “How may girls have I been with?” and “Why won’t I be her friend on Facebook?”</strong></p>
+<p>我一直在和一个女孩约会，我们睡过几次……今天，在床上，她问我：“我和多少个女孩在一起过？”和“为什么我不加她为 Facebook 好友？”</p>
+<p>How many girls question…</p>
+<p>关于有多少个女孩的问题……</p>
+<p>Here’s how I handled it – would love to know if you think this was handled properly… (using cocky-funny attitude)</p>
+<p>我是这样处理的——很想知道你认为这样处理是否得当……（使用自大幽默的态度）</p>
+<p><strong>Me: “I don’t tell that.”</strong></p>
+<p>我：“我不说那个。”</p>
+<p><strong>Her: “More or less than 20?”</strong></p>
+<p>她：“多于还是少于 20 个？”</p>
+<p><strong>Me: “I have some freedom of information forms in the car – you could fill one out and get your answer in 20 years.”</strong></p>
+<p>我：“我车里有几份信息自由表格——你可以填一份，20 年后就能得到答案。”</p>
+<p><strong>Her: “Don’t you want to know how many guys I’ve been with?”</strong></p>
+<p>她：“你不想知道我和多少个男人在一起过吗？”</p>
+<p><strong>Me: “No.” 我：“不想。”</strong></p>
+<h1 id="iron-rule-of-tomassi--2-tomassi-的铁律--2"><a class="header" href="#iron-rule-of-tomassi--2-tomassi-的铁律--2">Iron Rule of Tomassi # 2 Tomassi 的铁律 # 2</a></h1>
+<p>NEVER, under pain of death, honestly or dishonestly reveal the number of women you’ve slept with or explain any detail of your sexual experiences with them to a current lover.
+无论生死，永远不要诚实地或不诚实地向现任情人透露你睡过的女人数量或解释你与她们性经历的任何细节。</p>
+<p>The single most disastrous AFC move a man can make is to OVERTLY describe past sexual experiences and/or give a number (accurate or not) to how many women he’s been with prior to the one he’s with. This simple act, whether you offered the information or she dragged it out of you, ALWAYS comes off as pretentiousness and is often the catalyst for an avalanche of emotional resentment, if not outright emotional blackmail from an insecure woman. This is a rookie mistake that will only take you once to learn.</p>
+<p>一个男人能做的最灾难性的 AFC 举动就是公然描述过去的性经历，或者给出一个数字（无论准确与否），说明他在与现在的女人在一起之前有过多少女人。这个简单的行为，无论是你主动提供的还是她逼问出来的，总是显得自命不凡，并且常常是引发一系列情感怨恨的催化剂，如果不是直接的情感勒索的话，尤其是来自一个不安全感的女人。这是一个新手错误，你只需要经历一次就能学会。</p>
+<p>If a woman puts you on the spot by directly asking you for this information always sidestep this COVERTLY. C&amp;F works wonders in this situation and still keeps the air of mystery and challenge about you.</p>
+<p>如果一个女人直接问你这个问题，总是要暗中回避。C&amp;F 在这种情况下非常有效，仍然保持你身上的神秘感和挑战性。</p>
+<p>Her: “So how many girls have you been with?”</p>
+<p>她：“那你和多少个女孩在一起过？”</p>
+<p>You: “You’re my first actually”</p>
+<p>你：“你其实是我的第一个。”</p>
+<p>Her: “Really, how many girls have you been with?”</p>
+<p>她：“真的吗，那你和多少个女孩在一起过？”</p>
+<p>You:” You mean tonight?”</p>
+<p>你：“你是说今晚吗？”</p>
+<p>Her: “C’mon, how many girls have you been with?”</p>
+<p>她：“拜托，那你和多少个女孩在一起过？”</p>
+<p>You: “You know, I really lost count after 50” (or something outrageous).</p>
+<p>你：“你知道吗，我真的在 50 个之后就数不清了”（或者一些夸张的说法）。</p>
+<p>When a woman asks you this question she is seeking confirmation of what she already suspects – NEVER give her this satisfaction. When a woman resorts to OVERT communication (COVERT being her native language) she’s generally exhausted her patience to be COVERT and this is a desperation tactic for an insecure woman.</p>
+<p>当一个女人问你这个问题时，她是在寻求她已经怀疑的事情的确认——永远不要给她这种满足感。当一个女人采用显性沟通（隐性是她的母语）时，她通常已经耗尽了隐性沟通的耐心，这对一个不自信的女人来说是一种绝望的策略。</p>
+<p>While this scenario may be fraught with potential disaster, it is also an opportunity to encourage her imagination and prompt some competition anxiety.</p>
+<p>虽然这种情况可能充满潜在的灾难，但它也是一个鼓励她想象力和引发一些竞争焦虑的机会。</p>
+<p>Her: “How many girls have you been with?”</p>
+<p>她：“你和多少个女孩在一起过？”</p>
+<p>You: “I have an idea, lets fuck and then you can tell me how many girls you think I’ve been with, OK?”</p>
+<p>你：“我有个主意，我们做爱吧，然后你可以告诉我你认为我和多少个女孩在一起过，好吗？”</p>
+<p>A lot of Game rookies think that since they’ve only been with 1 or 2 women in their lives what’s the harm in open, honest, full disclosure? Like most Betas they bought the “open communication is the secret to a good relationship” meme long ago, so the impulse to be upfront is their default response. They tend not to see the utility in  keeping that information, or being ambiguous about it, plants a seed of competition anxiety. When she KNOWS she’s your first, you’ve just abdicated the frame to her in any kind of relationship. Second, if she’s your 9th then every girl up to 8 becomes a stamp in her collection to use against you in the first fight you have. Every date you take her on she wonders “Did he take #6 here too?” It’s as if you cheated on her with every previous girl up to her. I should also add that this is the first question a BPD (borderline personality disorder) woman will ask you so she can feel horrible about herself for not measuring up to “your standards” and drag you into the emotional hell-pit with her.</p>
+<p>很多游戏新手认为，既然他们一生中只和 1 或 2 个女人在一起过，那么公开、诚实、完全坦白有什么害处呢？像大多数贝塔男一样，他们很久以前就相信了“开放沟通是良好关系的秘诀”的迷因，所以坦诚相待是他们的默认反应。他们往往看不到保留这些信息或含糊其辞的用处，这会种下竞争焦虑的种子。当她知道她是你的第一个时，你在任何关系中都把框架让给了她。其次，如果她是你的第九个，那么前八个女孩就成了她用来在你第一次争吵时对付你的收藏品。每次你带她去约会，她都会想“他是不是也带第六个女孩来过这里？”就好像你和之前的每个女孩都背叛了她一样。我还应该补充的是，这是边缘型人格障碍（BPD）女性会问你的第一个问题，这样她就可以为自己不符合“你的标准”而感到难过，并把你拖入情感的地狱深渊。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../iron_rules/iron_rule_1.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../iron_rules/iron_rule_3.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../iron_rules/iron_rule_1.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../iron_rules/iron_rule_3.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

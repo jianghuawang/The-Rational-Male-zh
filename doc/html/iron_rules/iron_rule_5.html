@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Iron Rule #5</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">5.</strong> Game</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../game/beta_game.html"><strong aria-hidden="true">5.1.</strong> Beta Game</a></li><li class="chapter-item expanded "><a href="../game/rewrite_rules.html"><strong aria-hidden="true">5.2.</strong> Rewriting the Rules</a></li><li class="chapter-item expanded "><a href="../game/tpb.html"><strong aria-hidden="true">5.3.</strong> The Pheromonal Beta</a></li><li class="chapter-item expanded "><a href="../game/mg.html"><strong aria-hidden="true">5.4.</strong> Meta-Game</a></li><li class="chapter-item expanded "><a href="../game/jby.html"><strong aria-hidden="true">5.5.</strong> Just Be Yourself</a></li><li class="chapter-item expanded "><a href="../game/ts.html"><strong aria-hidden="true">5.6.</strong> Three Strikes</a></li><li class="chapter-item expanded "><a href="../game/dread_games.html"><strong aria-hidden="true">5.7.</strong> Dread Games</a></li><li class="chapter-item expanded "><a href="../game/nts.html"><strong aria-hidden="true">5.8.</strong> Navigating the SMV</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">6.</strong> Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../communication/medium_is_message.html"><strong aria-hidden="true">6.1.</strong> The Medium IS the Message</a></li><li class="chapter-item expanded "><a href="../communication/qotp.html"><strong aria-hidden="true">6.2.</strong> Qualities of the Prince (my personal favorite of 2011)</a></li><li class="chapter-item expanded "><a href="../communication/tgoa.html"><strong aria-hidden="true">6.3.</strong> The Gift of Anxiety</a></li><li class="chapter-item expanded "><a href="../communication/jgi.html"><strong aria-hidden="true">6.4.</strong> Just Get It</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">7.</strong> Social Conventions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social_conventions/osc.html"><strong aria-hidden="true">7.1.</strong> Operative Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/afcss.html"><strong aria-hidden="true">7.2.</strong> AFC Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/poc.html"><strong aria-hidden="true">7.3.</strong> Paradox of Commitment</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">8.</strong> Hypergamy</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hypergamy/td.html"><strong aria-hidden="true">8.1.</strong> The Disposables</a></li><li class="chapter-item expanded "><a href="../hypergamy/mh.html"><strong aria-hidden="true">8.2.</strong> Mrs. Hyde</a></li><li class="chapter-item expanded "><a href="../hypergamy/thc.html"><strong aria-hidden="true">8.3.</strong> The Hypergamy Conspiracy</a></li><li class="chapter-item expanded "><a href="../hypergamy/tp.html"><strong aria-hidden="true">8.4.</strong> The Pet</a></li><li class="chapter-item expanded "><a href="../hypergamy/hdc.html"><strong aria-hidden="true">8.5.</strong> Hypergamy Doesn’t Care</a></li><li class="chapter-item expanded "><a href="../hypergamy/re.html"><strong aria-hidden="true">8.6.</strong> Relational Equity</a></li><li class="chapter-item expanded "><a href="../hypergamy/wr.html"><strong aria-hidden="true">8.7.</strong> Women & Regret</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">9.</strong> Iron Rules of Tomassi</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_1.html"><strong aria-hidden="true">9.1.</strong> Iron Rule #1</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_2.html"><strong aria-hidden="true">9.2.</strong> Iron Rule #2</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_3.html"><strong aria-hidden="true">9.3.</strong> Iron Rule #3</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_4.html"><strong aria-hidden="true">9.4.</strong> Iron Rule #4</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_5.html" class="active"><strong aria-hidden="true">9.5.</strong> Iron Rule #5</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_6.html"><strong aria-hidden="true">9.6.</strong> Iron Rule #6</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_7.html"><strong aria-hidden="true">9.7.</strong> Iron Rule #7</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_8.html"><strong aria-hidden="true">9.8.</strong> Iron Rule #8</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_9.html"><strong aria-hidden="true">9.9.</strong> Iron Rule #9</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="professional-mothers-职业母亲"><a class="header" href="#professional-mothers-职业母亲">Professional Mothers 职业母亲</a></h1>
+<p>It’s called birth control because someone is ‘controlling’ the birth.</p>
+<p>它被称为避孕，因为有人在“控制”生育。</p>
+<p>There are presently 41 different types of contraception available for women, for men there are only 2 – vasectomy or a condom – your only line of defense against her ‘choice’. The only thing separating a man from a lifetime (not just 18 years) of interacting with the decider of altering the course of his life is a thin layer of latex.</p>
+<p>目前有 41 种不同的避孕方法可供女性使用，而男性只有两种——输精管结扎或避孕套——这是你唯一能防御她“选择”的防线。唯一能将一个男人与一生（不仅仅是 18 年）与决定改变他生活轨迹的人隔开的，只是一层薄薄的乳胶。</p>
+<p><strong>Iron Rule of Tomassi #5托马西铁律 #5</strong>
+NEVER allow a woman to be in control of the birth.
+永远不要让女人控制生育。</p>
+<p>Always have protection. I’ve had far too many guys hit me with the argument that they implicitly trust their girlfriends to be on the pill or whatever, and that she “doesn’t want kids” only to be an unprepared Daddy 9 month later after ‘the accident’. The only accident they had was not being in control of the birth themselves. In fact I’d argue that men need to use extra caution when in an LTR since the ease of getting too relaxed with her is present.</p>
+<p>始终要有保护措施。我见过太多人用他们完全信任女朋友在服用避孕药或其他方式，并且她“不想要孩子”来反驳我，结果 9 个月后却成了一个毫无准备的爸爸，因为“意外”。他们唯一的意外是没有自己控制生育。事实上，我甚至认为男人在长期关系中需要格外小心，因为很容易对她放松警惕。</p>
+<p>Accidental pregnancy is practically a cottage industry now. For a woman without education (or even with) and without means, an ‘unplanned’ pregnancy may be a pretty good prospect, especially when every law and social expectation weighs in her favor. These are Professional Mommies. When I counseld in Reno I knew a guy who married this woman who had 3 children from 2 Fathers who he himself had impregnated with her 4th. She was a Professional Mother.</p>
+<p>意外怀孕现在几乎成了一个家庭产业。对于一个没有受过教育（甚至受过教育）且没有经济来源的女性来说，“意外”怀孕可能是一个相当不错的机会，尤其是在每条法律和社会期望都对她有利的情况下。这些是专业妈妈。当我在里诺做咨询时，我认识一个家伙，他娶了一个有三个孩子、两个父亲的女人，他自己让她怀上了第四个孩子。她是一个专业母亲。</p>
+<h2 id="flush-it-冲掉它"><a class="header" href="#flush-it-冲掉它">Flush it 冲掉它</a></h2>
+<p>In 2002 the NBA issued a highly controversial and publicized warning to professional basketball players stating that players be advised to wear condoms when having sexual intercourse with women when on road games and to “flush the condom down the toilet” in order to dispose of the semen. This warning was the result of several paternity suits that year involving women these players had slept with by retrieving the condoms from the trash and ‘self-impregnanting’ themselves with the players semen. The NBA had enough occurrences of this kind to warrant a league-wide warning that year. All of these players are now 100% liable for the welfare of these children and their former partners by default because there are no laws protecting men from fraudulent pregnancies.</p>
+<p>2002 年，NBA 向职业篮球运动员发出了一项极具争议且广为宣传的警告，建议球员在客场期间与女性发生性行为时佩戴避孕套，并要求“将避孕套冲入马桶”以处理精液。这一警告源于当年几起涉及这些球员的亲子诉讼，女方通过从垃圾中找回避孕套并“自我受孕”，利用球员的精液怀孕。NBA 因这类事件频发，足以在当年向全联盟发出警告。由于现行法律并未保护男性免受欺诈性怀孕的侵害，所有这些球员现在默认需对这些孩子及其前伴侣的福祉承担 100%的责任。</p>
+<p>To what degree is protection implicitly implied? If a man does everything in his power to avoid a pregnancy (barring abstinence or a vasectomy) and can prove his intent and the woman still becomes pregnant, even by fraud, the man is still liable for that pregnancy. Women are 100% protected and men are 0% protected. I can even go so far as to quote you cases where a man marrying a single mother later divorces her and is still expected to pay future child support for a child he did not father – even without official adoption of the child by the man.</p>
+<p>保护在何种程度上是隐含的？如果一个男人尽其所能避免怀孕（除禁欲或输精管结扎外），并能证明其意图，而女方仍通过欺诈手段怀孕，该男子仍需为此怀孕负责。女性享有 100%的保护，而男性则毫无保障。我甚至可以引用案例，一个男人与单身母亲结婚后离婚，仍被要求为非亲生的孩子支付未来的抚养费——即使该男子未正式收养这个孩子。</p>
+<p>A lot of guys would like to make a moral issue of this but it’s not a question of right or wrong, it’s dealing with the facts of what IS in the environment we find ourselves in today. The fact of the matter is that unless men use prior discretion and take responsibility for the birth ‘control’, not allowing a woman to be solely responsible for it, he is 100% powerless. This means bring your own condoms and flush them yourself, and yes even (especially) in an LTR or marriage. That means standing firm even when she says “take that thing off I’m on the pill and I want to ‘feeeeel’ you.” Mothers want to be Mothers, otherwise they’d decide not to be. Single Mommies are far too common an occurrence to bet the odds with the rest of your life.</p>
+<p>很多人想把这当成道德问题，但它不是对错的问题，而是要面对我们今天所处环境中的现实。事实是，除非男性在事前谨慎行事，承担起生育“控制”的责任，不让女性独自承担，否则他完全无能为力。这意味着要自带避孕套并亲自处理，是的，即使在长期关系或婚姻中也是如此。这意味着即使她说“把那东西拿掉，我在吃药，我想‘感受’你”，也要坚定立场。母亲们想要成为母亲，否则她们会选择不成为。单亲妈妈的出现太过普遍，不能用余生去赌这个概率。</p>
+<p>The sexual revolution had far more to do with the development of hormonal means of birth control than the legalization of abortion. Condoms have been around since before WWII, but even in the Baby Boom there were far less unwanted pregnancies or single motherhood than after the advent of the pill. The pill put the control of birth into the hands of women where before it was a man’s responsibility to put the rubber on and do so correctly if both wanted to avoid smaller versions of themselves running around the house.</p>
+<p>性革命与避孕药的发展关系更为密切，而非堕胎的合法化。避孕套在二战前就已经存在，但在婴儿潮时期，意外怀孕或单亲母亲的数量远少于避孕药出现之后。避孕药将生育控制权交到了女性手中，而在此之前，这是男性的责任，他们需要正确使用避孕套，以避免家里出现更多的小孩。</p>
+<h2 id="the-choice-of-professionals-专业人士的选择"><a class="header" href="#the-choice-of-professionals-专业人士的选择">The Choice of Professionals 专业人士的选择</a></h2>
+<p>Abortion rates skyrocketed in the decades after estrogen based birth control was developed, thus prompting a need for legal and clinical regulations of abortions as well as reforming paternity laws in the 70s. There had certainly been abortions (both the medical and back-alley variety) prior to this, but if you look at the increase in abortion statistics both before and after the advent of a convenient form of birth control moderated by the women taking it, it’ll blow your mind.</p>
+<p>在基于雌激素的避孕药开发后的几十年里，堕胎率飙升，从而促使了对堕胎的法律和临床监管需求，并在 70 年代改革了亲子法。在此之前，确实存在堕胎（包括医疗和非法的），但如果你看看避孕药出现前后堕胎统计数据的增加，你会感到震惊。</p>
+<p>And now even with the vast variety of birth control methods available to women today and 30+ years of safe medical abortions, we still see an increase in single mother families and abortion rates. One would think that these statistics would be lower in light of all this modernization and the ‘leaps’ women have made culturally since the sexual revolution, but sadly no. In fact the single mother birth rate has climbed (adjusted for population) since a leveling off in the late 80s and abortion is just as popular as ever even when new methods such as the ‘morning after pill’ and RU286 are readily available. And conveniently, the social ills as a result are placed squarely on ‘dead-beat Dads’ rather than the women choosing to have the children.</p>
+<p>如今，尽管女性可选择的避孕方法种类繁多，且安全医疗流产已实施 30 余年，我们仍目睹单亲母亲家庭和堕胎率的上升。按理说，在现代化的背景下，以及女性自性革命以来在文化上的巨大进步，这些数据本应下降，但遗憾的是，情况并非如此。实际上，自 80 年代末期趋于平稳后，单亲母亲的生育率（经人口调整后）有所攀升，而堕胎现象依旧普遍，即便诸如“事后避孕药”和 RU286 等新方法唾手可得。更为巧妙的是，由此产生的社会问题被归咎于“不负责任的父亲”，而非选择生育的女性。</p>
+<p>This isn’t a scientific problem, it’s a cultural one. Mothers want to be Mothers. Men are only Fathers when a woman decides this for him even in the happiest of marriages. I think (hope) we’ll see second sexual revolution once a male form of hormonal contraception is tested and available, but you can bet dicks to donuts that every interested party from the religious to the feminist will fight this method’s release to the public at large and come up with every sort of veiled explanation for it’s demonization in order to put the agency of birth control exclusively into men’s control. I sincerely doubt men will “forget to take it” or have their ‘accidents’ in the numbers women do.</p>
+<p>这不是一个科学问题，而是一个文化问题。母亲们希望成为母亲。即使在最幸福的婚姻中，男人只有在女人决定让他成为父亲时，他才是父亲。我认为（希望）一旦男性激素避孕药经过测试并上市，我们将迎来第二次性革命，但你可以打赌，从宗教到女权主义的每一个利益相关方都会竭力阻止这种避孕方法向公众推广，并提出各种隐晦的理由来妖魔化它，以确保生育控制权完全掌握在男性手中。我真诚地怀疑男性会像女性那样“忘记服用”或发生“意外”。</p>
+<h2 id="controlling-the-birth-控制生育"><a class="header" href="#controlling-the-birth-控制生育">Controlling the Birth 控制生育</a></h2>
+<p>It’s a much different task to put on a condom in the heat of the moment (reactive) than to simply swallow a pill in the morning (proactive). It’s arguable what the more difficult task is, to remember to take a pill in the morning or to apply a condom at the appropriate time. In the latter situation there are at least 2 people aware that a condom should be on prior to intercourse; is a woman equally an accomplice in her own pregnancy if she consensually has sex with a guy without a condom? They both know the assumed risks, however a woman forgetting to take her pill isn’t reviled as an ‘idiot’ or negligent as a man not putting on a condom.</p>
+<p>在激情时刻戴上避孕套（反应性）与早上简单地吞下一颗药丸（主动性）相比，任务大不相同。争论哪种任务更困难，是记得早上吃药还是适时戴上避孕套。在后一种情况下，至少有两个人知道在性交前应该戴上避孕套；如果一个女人在没有避孕套的情况下与一个男人自愿发生性关系，她是否也是自己怀孕的同谋？他们都知道假设的风险，然而，女人忘记吃药并不会像男人不戴避孕套那样被视为“白痴”或疏忽。</p>
+<p>Taking her birth control is up to her and rarely would a guy be certain on a daily basis that his partner was faithfully taking her pill. In fact to even ask about it would be presumptuous and bordering on rude if it’s a casual encounter. When a man and a woman fail to take the precaution of putting on a condom they’re both aware of it. When she fails to take her pill either accidentally or intentionally, she is the sole party responsible for that pregnancy, but in either case she decides the course of the man’s life should this occur.</p>
+<p>服用避孕药是她的事，很少有男人能每天确定他的伴侣是否按时服用避孕药。事实上，即使是询问这件事也可能是自以为是且近乎无礼的，尤其是在随意的交往中。当一个男人和一个女人没有采取戴避孕套的预防措施时，他们双方都意识到了这一点。当她未能服用避孕药，无论是意外还是故意，她都是唯一对怀孕负责的一方，但在任何情况下，她都决定了如果发生这种情况，男人的生活轨迹。</p>
+<p>The obvious answer is to put men in control of the birth – wear a condom. However the nature of mens birth control is reactive and even in the case where a man has the condom in his pocket, he can still be thwarted by her only saying, “don’t worry about it, I’m on the pill”; the control shifts the accountability never does.</p>
+<p>显而易见的答案是让男人控制生育——戴避孕套。然而，男性避孕的本质是反应性的，即使一个男人口袋里有避孕套，他仍然可能被她的一句话挫败，“别担心，我在吃药”；控制权转移了，但责任从未转移。</p>
+<p>Forgive me for belaboring the point, but there are no accidental mothers. Consider fertility statistics and that it takes a considerable amount of negligence for a woman to miss several pills on a regular basis to ‘accidentally’ become pregnant. One could also argue that even a couple engaging in condom-less sex could still be relatively confident that a woman wont get pregnant even if she’s missed several pills regularly. Again my point being that it takes effort to become pregnant. Even without any birth control at all and timing my wife’s ovulation cycles for our sex it took us 4 months to conceive our daughter. This is why I laugh at the accidental pregnancy excuse so common these days. If a woman wants to become pregnant she can do so with impunity and contrive any excuse she’d like about accidents, but the guy is an ‘idiot’ for not wearing a condom and taking responsibility for his actions, even if he’s led to believe she’s taking control of her contraception. Yet he is the one penalized both financially and socially because of her choice.</p>
+<p>请原谅我反复强调这一点，但世上没有偶然的母亲。想想生育统计数据，一个女人要“意外”怀孕，必须经常性地、相当疏忽地漏服几片避孕药。也有人可能会说，即使一对夫妇不使用避孕套进行性行为，女方即使经常漏服避孕药，他们仍可以相对自信地认为她不会怀孕。再次强调，怀孕是需要努力的。即使完全没有避孕措施，通过精确计算我妻子的排卵周期进行性行为，我们花了四个月才怀上女儿。这就是为什么我对如今如此常见的“意外怀孕”借口感到好笑。如果一个女人想要怀孕，她可以毫无顾忌地去做，并编造任何她喜欢的“意外”理由，但那个男人却因为没戴避孕套、对自己的行为负责而被视为“傻瓜”，即使他相信她在控制避孕。然而，正是他因为她的选择而在经济和社会上受到惩罚。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../iron_rules/iron_rule_4.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../iron_rules/iron_rule_6.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../iron_rules/iron_rule_4.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../iron_rules/iron_rule_6.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

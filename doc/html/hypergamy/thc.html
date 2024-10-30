@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<html lang="en,zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Hypergamy Conspiracy</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">1.</strong> The Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic/no_one.html"><strong aria-hidden="true">1.1.</strong> There is No One</a></li><li class="chapter-item expanded "><a href="../basic/cardinalrule.html"><strong aria-hidden="true">1.2.</strong> The Cardinal Rule of Relationships</a></li><li class="chapter-item expanded "><a href="../basic/desire_dynamic.html"><strong aria-hidden="true">1.3.</strong> The Desire Dynamic</a></li><li class="chapter-item expanded "><a href="../basic/schedule_of_mating.html"><strong aria-hidden="true">1.4.</strong> Schedules of Mating</a></li><li class="chapter-item expanded "><a href="../basic/buffers.html"><strong aria-hidden="true">1.5.</strong> Buffers</a></li><li class="chapter-item expanded "><a href="../basic/imagination.html"><strong aria-hidden="true">1.6.</strong> Imagination</a></li><li class="chapter-item expanded "><a href="../basic/social_mathing_theory.html"><strong aria-hidden="true">1.7.</strong> Social Mathing Theory</a></li><li class="chapter-item expanded "><a href="../basic/alpha.html"><strong aria-hidden="true">1.8.</strong> Alpha</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">2.</strong> Plate Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plate_theory/plate_theory.html"><strong aria-hidden="true">2.1.</strong> Plate Theory</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_ii.html"><strong aria-hidden="true">2.2.</strong> Plate Theory II: Non-Exclusivity</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iii.html"><strong aria-hidden="true">2.3.</strong> Plate Theory III: Transitioning</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_iv.html"><strong aria-hidden="true">2.4.</strong> Plate Theory IV: Goal-State Monogamy</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_v.html"><strong aria-hidden="true">2.5.</strong> Plate Theory V: Lady’s Game</a></li><li class="chapter-item expanded "><a href="../plate_theory/plate_theory_vi.html"><strong aria-hidden="true">2.6.</strong> Plate Theory VI: Abundance & Scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">3.</strong> Plugged-In</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../plugged_in/ewk.html"><strong aria-hidden="true">3.1.</strong> Enter White Knight</a></li><li class="chapter-item expanded "><a href="../plugged_in/afc.html"><strong aria-hidden="true">3.2.</strong> Average Frustrated Chump</a></li><li class="chapter-item expanded "><a href="../plugged_in/lgoif.html"><strong aria-hidden="true">3.3.</strong> Letting Go of Invisible Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/pf.html"><strong aria-hidden="true">3.4.</strong> Playing Friends</a></li><li class="chapter-item expanded "><a href="../plugged_in/ths.html"><strong aria-hidden="true">3.5.</strong> The Honor System</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">4.</strong> Unplugging</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../unplug/5stage.html"><strong aria-hidden="true">4.1.</strong> The 5 Stages of Unplugging</a></li><li class="chapter-item expanded "><a href="../unplug/bittertaste.html"><strong aria-hidden="true">4.2.</strong> The Bitter Taste of the Red Pill</a></li><li class="chapter-item expanded "><a href="../unplug/dtm.html"><strong aria-hidden="true">4.3.</strong> Dispelling the Magic</a></li><li class="chapter-item expanded "><a href="../unplug/comp.html"><strong aria-hidden="true">4.4.</strong> Compensation</a></li><li class="chapter-item expanded "><a href="../unplug/ic.html"><strong aria-hidden="true">4.5.</strong> Identity Crisis</a></li><li class="chapter-item expanded "><a href="../unplug/dgcwd.html"><strong aria-hidden="true">4.6.</strong> Dream Girls & Children with Dynamite</a></li><li class="chapter-item expanded "><a href="../unplug/appre.html"><strong aria-hidden="true">4.7.</strong> Appreciation</a></li><li class="chapter-item expanded "><a href="../unplug/ktb.html"><strong aria-hidden="true">4.8.</strong> Kill the Beta</a></li><li class="chapter-item expanded "><a href="../unplug/ttp.html"><strong aria-hidden="true">4.9.</strong> Truth to Power</a></li><li class="chapter-item expanded "><a href="../unplug/hal.html"><strong aria-hidden="true">4.10.</strong> Have A Look</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">5.</strong> Game</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../game/beta_game.html"><strong aria-hidden="true">5.1.</strong> Beta Game</a></li><li class="chapter-item expanded "><a href="../game/rewrite_rules.html"><strong aria-hidden="true">5.2.</strong> Rewriting the Rules</a></li><li class="chapter-item expanded "><a href="../game/tpb.html"><strong aria-hidden="true">5.3.</strong> The Pheromonal Beta</a></li><li class="chapter-item expanded "><a href="../game/mg.html"><strong aria-hidden="true">5.4.</strong> Meta-Game</a></li><li class="chapter-item expanded "><a href="../game/jby.html"><strong aria-hidden="true">5.5.</strong> Just Be Yourself</a></li><li class="chapter-item expanded "><a href="../game/ts.html"><strong aria-hidden="true">5.6.</strong> Three Strikes</a></li><li class="chapter-item expanded "><a href="../game/dread_games.html"><strong aria-hidden="true">5.7.</strong> Dread Games</a></li><li class="chapter-item expanded "><a href="../game/nts.html"><strong aria-hidden="true">5.8.</strong> Navigating the SMV</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">6.</strong> Communication</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../communication/medium_is_message.html"><strong aria-hidden="true">6.1.</strong> The Medium IS the Message</a></li><li class="chapter-item expanded "><a href="../communication/qotp.html"><strong aria-hidden="true">6.2.</strong> Qualities of the Prince (my personal favorite of 2011)</a></li><li class="chapter-item expanded "><a href="../communication/tgoa.html"><strong aria-hidden="true">6.3.</strong> The Gift of Anxiety</a></li><li class="chapter-item expanded "><a href="../communication/jgi.html"><strong aria-hidden="true">6.4.</strong> Just Get It</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">7.</strong> Social Conventions</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social_conventions/osc.html"><strong aria-hidden="true">7.1.</strong> Operative Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/afcss.html"><strong aria-hidden="true">7.2.</strong> AFC Social Conventions</a></li><li class="chapter-item expanded "><a href="../social_conventions/poc.html"><strong aria-hidden="true">7.3.</strong> Paradox of Commitment</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">8.</strong> Hypergamy</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../hypergamy/td.html"><strong aria-hidden="true">8.1.</strong> The Disposables</a></li><li class="chapter-item expanded "><a href="../hypergamy/mh.html"><strong aria-hidden="true">8.2.</strong> Mrs. Hyde</a></li><li class="chapter-item expanded "><a href="../hypergamy/thc.html" class="active"><strong aria-hidden="true">8.3.</strong> The Hypergamy Conspiracy</a></li><li class="chapter-item expanded "><a href="../hypergamy/tp.html"><strong aria-hidden="true">8.4.</strong> The Pet</a></li><li class="chapter-item expanded "><a href="../hypergamy/hdc.html"><strong aria-hidden="true">8.5.</strong> Hypergamy Doesn’t Care</a></li><li class="chapter-item expanded "><a href="../hypergamy/re.html"><strong aria-hidden="true">8.6.</strong> Relational Equity</a></li><li class="chapter-item expanded "><a href="../hypergamy/wr.html"><strong aria-hidden="true">8.7.</strong> Women & Regret</a></li></ol></li><li class="chapter-item expanded "><a href="../blank.html"><strong aria-hidden="true">9.</strong> Iron Rules of Tomassi</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_1.html"><strong aria-hidden="true">9.1.</strong> Iron Rule #1</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_2.html"><strong aria-hidden="true">9.2.</strong> Iron Rule #2</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_3.html"><strong aria-hidden="true">9.3.</strong> Iron Rule #3</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_4.html"><strong aria-hidden="true">9.4.</strong> Iron Rule #4</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_5.html"><strong aria-hidden="true">9.5.</strong> Iron Rule #5</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_6.html"><strong aria-hidden="true">9.6.</strong> Iron Rule #6</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_7.html"><strong aria-hidden="true">9.7.</strong> Iron Rule #7</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_8.html"><strong aria-hidden="true">9.8.</strong> Iron Rule #8</a></li><li class="chapter-item expanded "><a href="../iron_rules/iron_rule_9.html"><strong aria-hidden="true">9.9.</strong> Iron Rule #9</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="the-hypergamy-conspiracy-超婚配阴谋"><a class="header" href="#the-hypergamy-conspiracy-超婚配阴谋">The Hypergamy Conspiracy 超婚配阴谋</a></h1>
+<p>“Hypergamy is a selected-for survival mechanism.”</p>
+<p>“超婚配是一种被选择的生存机制。”</p>
+<p>Aunt Sue: 苏阿姨：</p>
+<p>“Hypergamy states that a woman seeks a man of higher status than herself for marriage. Nothing less, nothing more.”</p>
+<p>“超婚配表明，女性在婚姻中寻求比自己地位更高的男性。不多不少。”</p>
+<p>Escoffier: 埃斯科菲耶：</p>
+<p>“I don’t think that’s right.</p>
+<p>“我不认为那是正确的。</p>
+<p>The theory is more like this, from what I have read. Hypergamy is a woman’s natural (which is to say, genetically wired) preference for a higher status male–that is, higher status than herself and also higher status than the other men in her field of vision and also perhaps higher status than men she has known in the past and even (at the extremes) higher status than most men she can personally imagine meeting. That cuts across a range of possible relationships, all the way from a ONS to marriage. In all cases, women naturally prefer the highest status man they can get. And sometimes they want so much status that they won’t settle on ANY man they could actually get.</p>
+<p>根据我读到的内容，这个理论更像是这样。超婚配是女性对更高地位男性的自然（即基因驱动的）偏好——也就是说，比她自己地位更高，也比她视野中的其他男性地位更高，甚至可能比她过去认识的男性地位更高，甚至在极端情况下，比她个人能想象到的绝大多数男性地位更高。这涵盖了一系列可能的关系，从一夜情到婚姻。在所有情况下，女性自然更喜欢她们能得到的最高地位的男性。有时她们想要如此高的地位，以至于她们不会接受任何她们实际上能得到的男性。</p>
+<p>“Status” has a varied meaning in this definition. Certain things correllate with high status, for intance money, prestige, social standing, etc. However a man can have all of that and still be low status because of low status intrapersonal behavior (i.e., needy schlumpitude). The highest possible status male would be rich, good looking, fit, well dressed, high social cache, high prestige job (preferably one which involves risk, physical risk being better than mere monetary risk), and also extroverted, dominant, the leader of his group of friends, able to command any social situation, and so on. However, women are wired to be turned on more by the latter BEHAVORIAL traits than by be the former SUBSTANTIVE traits. So, if you have have to choose one or the other, to get women, be socially dominant and a broke societal loser rather than socially awkward and a rich societal winner. But best to be both, if possible.</p>
+<p>“地位”在这个定义中有不同的含义。某些事物与高地位相关，例如金钱、声望、社会地位等。然而，一个男人可以拥有所有这些，但仍然因为低地位的内在行为（例如，需要帮助的邋遢）而处于低地位。最高地位的男性将是富有、英俊、健康、穿着得体、社会资本高、有声望的工作（最好是涉及风险的工作，身体风险比金钱风险更好），并且也是外向、主导、朋友中的领导者、能够掌控任何社交场合等等。然而，女性更倾向于被后者的行为特征所吸引，而不是前者的实质特征。所以，如果你必须选择其一，为了吸引女性，宁愿成为社会主导的失败者而不是社会尴尬的成功者。但如果可能的话，最好两者兼备。</p>
+<p>As to marriage, sure women want to marry up. But this does not exhaust the effects of hypergamy. Women can marry up–both intrinsically and in their own mind–and still ditch their catch because someone “better” comes along. That is hypergamy at work.</p>
+<p>至于婚姻，当然女性想要嫁得好。但这并没有穷尽超偶婚的影响。女性可以嫁得好——无论是内在还是她们自己的想法——但仍然会因为有人“更好”而抛弃她们的伴侣。这就是超偶婚的作用。</p>
+<p>Also, when women are pursuing short and medium term mating, hypergamy has no less force. They always prefer the most socially dominant male they can get. This is often relative (A&amp;B are both a little dweeby but A is more alpha than B and since I want someone NOW I choose A) but sometimes it is more intrinsic (A&amp;B are both a little dweeby and even though A is a little more alpha, since I don’t have to have someone NOW, I am going to hold out for the Real Deal).</p>
+<p>此外，当女性追求短期和中期交配时，择偶偏好同样具有强大的力量。她们总是倾向于选择她们能找到的最具社会主导地位的男性。这通常是相对的（A 和 B 都有点书呆子气，但 A 比 B 更阿尔法，既然我现在想要一个人，我选择 A），但有时它更内在（A 和 B 都有点书呆子气，即使 A 稍微更阿尔法，既然我不必现在就要一个人，我会等待真正的交易）。</p>
+<p>It’s not all about marriage. It’s about mate selection accross the range of circumstances.</p>
+<p>这不仅仅是关于婚姻。这是关于在各种情况下选择伴侣。</p>
+<p>That, at any rate, is how I believe the manosphere understands “hypergamy.”</p>
+<p>无论如何，这就是我认为男性圈对“择偶偏好”的理解。</p>
+<p>Aunt Sue: 苏阿姨：</p>
+<p>“Yes, because they made it up. Researchers do not recognize that definition. It’s pure Game.”</p>
+<p>“是的，因为他们编造了这个词。研究人员不承认这个定义。这是纯粹的游戏。”</p>
+<p>The main reason I only sporadically participate in the comment threads at Aunt Sue’s echo chamber Blog is because conversational gems like this have a marked tendency to get buried under, sometimes, thousands of other comments. I think it’s a shame really. I wanted to draw particular attention to the difference in interpretation of terms with regards to the dynamic of Hypergamy here.</p>
+<p>我之所以只是偶尔参与苏阿姨的回声室博客上的评论，主要是因为像这样的对话宝石往往会被埋没在数千条其他评论之下。我认为这真的很遗憾。我想特别关注这里关于择偶偏好的动态的不同解释。</p>
+<p>Escoffier makes an astute analysis of Hypergamy in a much broader perspective than Susan’s definition-approved “researchers” are willing to recognize. On the fem-centric side we have Sue casually dismiss “Hypergamy” (twice) in this context as some fabrication of the Game-set and therefor not a legitimate analysis. A rose is a rose, and as I’ve stated in prior threads, Hypergamy is a term that should have a much broader definition when considered in context with the feminine imperative and the eminently observable feminine behaviors that manifest as a result of Hypergamy’s influence.</p>
+<p>埃斯科菲耶对一夫多妻制的分析比苏珊定义所认可的“研究人员”愿意承认的要广泛得多。在女性中心的一边，苏轻松地驳斥了“一夫多妻制”（两次），认为它是游戏设定中的某种虚构，因此不是合法的分析。玫瑰就是玫瑰，正如我在之前的帖子中所说，一夫多妻制这个词在考虑到女性本能和明显可见的女性行为时，应该有一个更广泛的定义，这些行为是一夫多妻制影响的结果。</p>
+<p>That the term Hypergamy should be so wantonly limited in its definition, and in such a way that it serves to deliberately confuse a better understanding of it as an evolutionary impulse on the feminine psyche, speaks volumes about the importance of maintaining its misunderstanding to the feminine imperative.</p>
+<p>一夫多妻制这个词的定义如此随意地被限制，以至于故意混淆了对其作为女性心理进化冲动的更好理解，这充分说明了维持对其误解对女性本能的重要性。</p>
+<p>It’s almost ironic that the collective feminine ego should even need to deign to recognize Hypergamy in the terms that it is cast as in Susan’s default response. “Hypergamy states that a woman seeks a man of higher status than herself for marriage. Nothing less, nothing more.” forces the feminine to at least begrudgingly accept that women are in fact basing their long-term commitment prospects on status (as defined by researchers), and not some ephemeral soul-mate, emotional precept. God forbid men (PhDs or otherwise) should have the temerity to extrapolate any further social, psychological or evolutionary implications that could’ve influenced that Hypergamy dynamic into existence.</p>
+<p>这几乎有些讽刺，集体的女性自我竟然需要屈尊去认可超婚配在苏珊默认回应中所被赋予的定义。“超婚配指出，女性在婚姻中寻求地位高于自己的男性。不多不少，仅此而已。”这迫使女性至少不情愿地承认，她们确实基于地位（由研究者定义）来考量长期承诺的可能性，而非某种虚无缥缈的灵魂伴侣或情感准则。天哪，男性（无论是否拥有博士学位）若胆敢进一步推断可能影响超婚配动态的社会、心理或进化层面的含义，那简直是冒天下之大不韪。</p>
+<p>While I wont argue the credentials of the researchers Sue will undoubtedly quote – I often acknowledge all of the same in other posts and comments – I will however make the point that her interpretation (as is everyone’s) is subject to bias. And in this case, that bias serves the feminine imperative in keeping the definition of Hypergamy in as closed a way as possible to benefit the feminine. In the evolving understanding of the motivators that influence intergender relations there are going to be terms that describe concepts.</p>
+<p>虽然我不会质疑 Sue 无疑会引用的研究人员的资历——我经常在其他帖子和评论中承认所有这些——但我还是要指出，她的解释（就像每个人的解释一样）是有偏见的。在这种情况下，这种偏见服务于女性本能，以尽可能封闭的方式定义一夫多妻制，从而使女性受益。在不断发展的理解影响两性关系的动机中，会有一些术语来描述这些概念。</p>
+<p>AFC’s, Alpha, Beta, Hypergamy, etc. are all defined by the concepts they represent.</p>
+<p>AFC、Alpha、Beta、一夫多妻制等，都是由它们所代表的概念定义的。</p>
+<p>‘Hypergamy’ serves well in a much broader capacity, but should the feminine imperative find that broader definition threatening to its purpose it will casually dismiss it as illegitimate. The real question then is, why would that concept be threatening to the feminine? You can delegitimize the term, but the concept is still the operative issue. Why is the concept of that larger scope of the term so offensive to a fem-centric society?</p>
+<p>“一夫多妻制”在更广泛的范围内很好地发挥作用，但如果女性本能发现这个更广泛的定义对其目的构成威胁，它会随意地将其视为不合法。真正的问题是，为什么这个概念会对女性构成威胁？你可以使这个术语失去合法性，但这个概念仍然是关键问题。为什么这个术语更大范围的概念对以女性为中心的社会如此具有冒犯性？</p>
+<h2 id="the-conspiracy-that-wasnt-那个不存在的阴谋"><a class="header" href="#the-conspiracy-that-wasnt-那个不存在的阴谋">The Conspiracy that Wasn’t 那个不存在的阴谋</a></h2>
+<p>One issue many of my critics have is that in exposing these inconsistencies, these operative social conventions and the latent purposes behind them, my writing (really most of the manosphere) seems to take on a conspiratorial tone. I can fully appreciate this, and it might shock a few readers to know that I  reject much of the popularized MRA perspective in this respect. I agree with an MRA perspective in a rational analysis to a certain degree, but there is no grand conspiracy, no secret mysterious cabal pushing a negative perception of masculinity – and this is exactly why what I outline on this blog is so pervasive. There doesn’t need to be a unitary group of ‘anti-men’ bent on some melodramatic goal of world domination; because this feminized ideal is already embedded in our socialization. Fem-centrism IS our collective social consciousness.</p>
+<p>我的许多批评者的一个问题是，在揭露这些不一致性、这些操作性社会规范及其背后的潜在目的时，我的写作（实际上是大多数男性圈子的写作）似乎带有一种阴谋论的语气。我完全理解这一点，并且可能会让一些读者感到震惊的是，我在这个问题上拒绝了许多流行的男性权利视角。我在某种程度上同意男性权利视角的理性分析，但并没有什么宏大的阴谋，没有什么秘密的神秘集团在推动对男性气质的负面看法——而这正是我在博客上所描述的内容如此普遍的原因。不需要有一个统一的“反男性”团体，他们怀有某种戏剧性的世界统治目标；因为这种女性化的理想已经嵌入我们的社会化中。女性中心主义就是我们的集体社会意识。</p>
+<p>It doesn’t need a centralized directorship because the mindset is already so installed and perpetuated by society at large it’s now normalized, taken for granted and self-perpetuating. AFCs raising AFCs leads to still more AFCs. This generation doesn’t realize their own bias because it’s been standardized, encouraged and reinforced in them, and society, over the course of several generations now.
+o
+它不需要中央集权的直接指导，因为这种思维方式已经深深植根于整个社会，如今已被正常化、视为理所当然并自我延续。AFC 培养 AFC，导致更多的 AFC 出现。这一代人并未意识到自身的偏见，因为这些偏见已被标准化、鼓励并强化在他们身上，以及整个社会中，历经数代人之久。</p>
+<p>What’s to question, especially when calling attention to the feminization dynamic leads to ridicule and ostricization?</p>
+<p>有什么可质疑的呢，尤其是在指出女性化趋势时，往往会招致嘲笑和排斥？</p>
+<p>So to answer the conspiracy question; no, there is no illuminati shadow conspiracy and that’s exactly what makes feminization the normalized and overlooked default.</p>
+<p>因此，针对阴谋论的问题，答案是否定的，不存在光照派的暗中阴谋，而这恰恰是女性化被正常化并被忽视的根源所在。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../hypergamy/mh.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../hypergamy/tp.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../hypergamy/mh.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../hypergamy/tp.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
