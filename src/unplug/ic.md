@@ -1,1 +1,57 @@
-# Identity Crisis
+# Identity Crisis Identity Crisis 身份危机
+
+Below is a response I gave to a guy I was counseling and I thought it sufficiently insightfull to post here in regards to a pretty common topic that comes up here. I think you’ll agree.
+
+以下是我对一位正在辅导的男士的回应，我认为它足够有见地，可以在此发布，以应对这里经常出现的一个相当普遍的话题。我想你会同意的。
+
+ 
+
+*Rollo, is it possible to identify with women without compromising yourself?*
+
+罗洛，在不妥协自我的前提下，有可能与女性产生共鸣吗？
+
+ 
+
+If it is a conscious effort on the guy’s part, no.
+
+如果是他有意为之，不。
+
+ 
+
+You bring up a good topic though, obviously when I refer to ‘identifying’ with a woman, this could use some explanation. What exactly is ‘identifying’ with a woman? The root of this word is ‘identity’, meaning who you are and what characteristics, traits and interests constitute your individual personality. ‘Identity’, in a way, is a pretty subjective and esoteric term – kind of like trying to define what art is – it can be argued that ‘identity’ is what you make of it. While at university, my field of specialization in behavioral psychology was personality studies, and I can tell you there are a lot of theories and interpretations of what constitutes identity. However, one article that is agreed upon almost universally is that identity and personality are never static and are malable and changeable by influencing variables and conditions. A very pronounced illustration of this would be soldiers retuning from combat with post traumatic stress disorder, a very identifiable and verifiable form of psychosis. These men are changed individuals and their identities are altered from the time they were subject to the psychological rigors of warfare to returning back to a normalized life. Some have the resiliencne to adjust their personalities back to a somewhat norlamized state, others sadly do not. Yet in each case the change was influenced by conditions and environment.
+
+你提出了一个很好的话题，显然，当我提到“认同”一个女人时，这需要一些解释。究竟什么是“认同”一个女人？这个词的根源是“身份”，指的是你是谁，以及哪些特征、特质和兴趣构成了你的个人性格。“身份”在某种程度上是一个相当主观和深奥的术语——有点像试图定义什么是艺术——可以说“身份”是你自己塑造的。在大学期间，我的行为心理学专业方向是人格研究，我可以告诉你，关于构成身份的理论和解释有很多。然而，几乎普遍认同的一点是，身份和人格绝不是静止不变的，它们会受到各种变量和条件的影响而变化。一个非常明显的例子是士兵从战场归来后患有创伤后应激障碍，这是一种非常明显且可验证的精神病形式。这些人的个体发生了变化，他们的身份从经历战争的心理压力到回归正常生活的过程中发生了改变。 有些人具备恢复力，能将性格调整回较为正常的状态，而另一些人则不幸未能如此。然而，在每种情况下，这种变化都受到条件和环境的影响。
+
+ 
+
+Likewise, most young men are subject to their own set of personal conditions and environments, and their personalities and identities reflect this accordingly. The guy who’s naturally “lucky with the ladies” is going to reflect this in his identity. The young man who doesn’t receive regular female attention for whatever reasons is going to manifest this condition in his identity. The guy who is focused on his own ambitions is going to reflect this in his own personality as well, but for all, when conditions are such that they feel deprived of certain experiences in their own life, this creates a conflict between a former identity and the altering of, or forming of a new one to meet the need for this experience. Couple this with the natural chemical/hormonal deisire for sexual experience and you can see how powerful an influence deprivation becomes.
+
+同样，大多数年轻男性也受制于各自的个人条件和环境，他们的性格和身份也相应地反映出这一点。那些天生“受女性青睐”的男性会在其身份中体现这一点。无论出于何种原因，那些不常受到女性关注的年轻男性也会在其身份中显现出这种状况。专注于自身抱负的男性也会在其性格中反映这一点，但对于所有人来说，当他们感到在某些生活经历上有所缺失时，这会在原有的身份与为了满足这种经历需求而改变或形成的新身份之间产生冲突。再加上对性经历的自然化学/激素欲望，你可以看到缺失的影响力变得多么强大。
+
+ 
+
+Far too many young men maintain the notion that for them to receive the female intimacy they desire they should necessarily become more like the target of their affection in their own personality. In essence, to mold their own identify to better match the girl they think will best satisfy this need. So we see examples of men compromising their self-interests to better accomodate the interests of the woman they desire to facilitate this need for intimacy (i.e. sex). We all know the old adage women are all too aware of, “Guys will do anything to get laid” and this is certainly not limited to altering their individual identities and even conditions to better facilitate this. It’s all too common an example to see men select a college based on the available women at that college rather than academic merit to fit their own ambitions or even choose a college to better maintain a pre-existing relationship that a woman has chosen and the young man follows. In order to justify these choices he will alter his identity and personality by creating rationales and new mental schema to validate this ‘decision’ for himself. It becomes an ego protection for a decision he, on some level, knows was made for him.
+
+太多年轻男性持有这样一种观念：为了获得他们渴望的女性亲密关系，他们必须在自己的个性上变得更像他们心仪的对象。本质上，他们试图塑造自己的身份，以更好地匹配他们认为最能满足这一需求的女孩。因此，我们看到了男性为了更好地迎合他们渴望亲密关系（即性）的女性的兴趣，而牺牲自身利益的例子。我们都知道女性非常清楚的一句老话：“男人为了上床什么都愿意做”，这当然不仅限于改变他们的个人身份和条件来更好地促成这一点。看到男性根据大学里可获得的女性资源而不是学术价值来选择大学，以符合自己的抱负，甚至为了维持女性选择的现有关系而选择大学，这种情况太常见了。为了证明这些选择，他会通过创造理由和新思维模式来改变自己的身份和性格，以自我验证这一“决定”。 这成为他在某种程度上明知是他人代为做出的决定时，保护自我的一种方式。
+
+ 
+
+This is just one glaring example of this identification, but thousands more subtle ones exist that men (and women) pass off as social mores and contrivances. The guy stuck in the ‘Friend Zone’ who got the LJBF (“lets just be freinds”) line when he attempted to become intimate with his target, will happily listen to her drone on for hours on the phone in order to find out how better to alter himself to fit her conditions for intimate acceptability. He will readily “change his mind” about even his own personal beliefs if it will better fit what he perceives as her criteria for compatibility with her. This is the compromise of identity – to fundamentally and voluntarily alter one’s own personality to achieve the acceptability of another. When we are directly and overtly faced with this sort of challenge to our beliefs we naturally recoil – you are your own person and would resist were your employer or parents to tell you how you should vote (political belief), but when it comes to personality and sexual/intimacy interests, and done voluntarily it’s suprising to see the limits of what men (and to an extent women) will do. Men will entertain the idea that a long distance relationship (LDR) is a desirable arrangement even if intimacy has never occured because the potential of that intimacy is perceived. These same guys will espouse every reasoning they can conceive as to why their “relationship is different” and that they ‘believe’ that “love conquers all” only to come full circle when he or she ‘cheats’ or breaks off the relation and the man comes back to his prior (though he thinks new) understanding that LDRs are in fact a bad prospect. His identity changed and then changed again to accomodate his conditions.
+
+这只是身份认同的一个明显例子，但还有成千上万更为微妙的例子，男男女女们将其视为社会习俗和人为安排。那个被困在“朋友区”的男子，在试图与心仪对象亲密时收到了“让我们只做朋友”的回应，他会乐意在电话里听她唠叨数小时，只为更好地改变自己以符合她对亲密关系的接受条件。他会毫不犹豫地“改变主意”，甚至改变自己的个人信仰，只要他认为这能更好地符合她所认为的与她相容的标准。这就是身份的妥协——从根本上自愿改变自己的个性以获得他人的认可。当我们直接面对这种对我们信念的挑战时，我们自然会退缩——你是独立的个体，如果雇主或父母告诉你该如何投票（政治信仰），你会抗拒，但当涉及到个性和性/亲密兴趣时，尤其是自愿的情况下，令人惊讶的是，人们（尤其是男性，一定程度上也包括女性）会做到何种程度。 即使从未发生过亲密关系，男性仍会认为异地恋（LDR）是一种理想的安排，因为他们感知到了这种亲密关系的可能性。这些男性会竭尽所能地提出各种理由，解释为何他们的“关系与众不同”，并坚信“爱能战胜一切”，然而当对方“出轨”或关系破裂时，他们又会回到之前（尽管他认为这是新的）的认识，即异地恋实际上是一个糟糕的前景。他的身份随之改变，然后又再次改变以适应新的境况。
+
+However, it’s not that he never truly changed or had the belief in the first place. Were these guys to take a polygraph test at the time they would indeed pass when asked if this was what they actually accepted as truth. Men will do what most deductively solves a problem and in this he is only following the tenants of pragmatism. “I need sex + women have the sex I want + I must discover what women want to give me sex + ask women + women want X = I will do X to get sex and alter my own identity in order to better facilitate X.” It should be this easy, but that’s rarely the case since more often than not women are unaware of what X really is, or X is subject to constant change depending on her own conditions.
+
+然而，这并非说他从未真正改变或一开始就没有这种信念。如果当时这些人接受测谎测试，当被问及这是否是他们真正接受的事实，他们确实会通过。男人会做最合乎逻辑的事情来解决问题，而在这方面，他只是遵循实用主义的原则。“我需要性+女人拥有我想要的性+我必须发现女人想要什么来给我性+问女人+女人想要 X=我会做 X 来获得性，并改变自己的身份以更好地促成 X。”这本应如此简单，但实际情况却很少如此，因为女人往往不知道 X 到底是什么，或者 X 会根据她自身的情况不断变化。
+
+ 
+
+Now, after all of this, is it possible that a man and a woman may in fact share genuine common interests? Of course. You may indeed find a perfectly beautiful woman that enjoys Nascar or Hockey as much as you. You may find a woman you’re attracted to who genuinely shares your passion for deep sea fishing. It’s not uncommon to share common interests, it’s when you alter your interest to better facilitate a connection that you force it. Making this determination of genuine interests and created interests is the hair that needs splitting. I’ve personally counseled guys who have literally changed careers to be in a better place to proposition a girl they fancied. I know men who’ve moved thousands of miles to live closer to women who’ve never reciprocated their interest in them, yet they continued to attempt to identify themselves with her. I know 65 year old men in 40 year marriages, who even after intimacy was resolved years ago with the woman, are still attempting to identify with their wives because they’ve internalized this identity compromise as a standard means to getting sex from her. Her expectations of him have become his identity and at 65 this mental schema has become so ego-invested that no amount of shedding light on his conditions will ever convince him anything to the opposite.
+
+经过这一切之后，男女之间是否可能真正共享真实的共同兴趣呢？当然可能。你或许会遇到一位同样热爱纳斯卡赛车或冰球的美妙女子。你也可能遇到一位让你心动不已、真正与你共享深海钓鱼热情的女性。拥有共同兴趣并不罕见，但当你为了更好地建立联系而改变自己的兴趣时，那便是强求了。区分真实兴趣与刻意营造的兴趣，正是需要细分的细微之处。我曾亲自辅导过一些男士，他们为了能更好地向心仪的女孩求爱，竟然改变了职业。我也认识一些男人，他们搬到千里之外，只为离那些从未回应过他们兴趣的女性更近，却依然试图与她产生共鸣。我还知道一些 65 岁的男士，尽管与妻子在多年前的亲密关系已解决，却仍在努力与妻子保持一致，因为他们已将这种身份妥协内化为从她那里获取性爱的标准手段。 她对他的期望已成为他的身份，而到了 65 岁，这种心理模式已变得如此自我投入，以至于无论多少关于他状况的揭示都无法说服他改变看法。
+
+ 
+
+The most ironic thing about this ‘Identity Crisis’ is that the least attractive thing to most women is a man who is willing to compromise any part of his identity to placate to her, much less a wholesale sell out of it. Women are naturally attracted to that masculine independence as it represents a very strong cue of security and the potential to provide that security to her (and any children she may have). Women don’t want a man who’ll “do everything she says” because this sends the message that this man can be bought with even the prospect of a sexual encounter. Why would that indicate anything more than insecurity and a lack of confidence? Women want to be told “No”, and constantly test a man’s resolve to say this to her (i.e. shit testing) in order to affirm that she’s made the right choice (even in marriage) of a guy who’ll put his sexual impulse (knowing full-well how powerful it is with men) on hold to hold fast to his own self-interest, beliefs and ambitions. It covertly communicates to a woman that his goals and determination trump her one power over him – her sexuality. That is the man who is the PRIZE, the ‘great catch’, the male to be competed for with other women.
+
+关于这场“身份危机”最讽刺的事情是，对大多数女性来说，最不吸引人的是愿意为了取悦她而妥协自身身份的男人，更不用说彻底出卖自我了。女性天生被那种男性独立性所吸引，因为它代表着强烈的安全感信号，以及为她（以及她可能拥有的孩子）提供这种安全感的潜力。女性不想要一个会“对她言听计从”的男人，因为这传递出这样的信息：这个男人可以用性接触的前景轻易收买。这除了显示出不安和缺乏自信外，还能说明什么呢？女性希望被说“不”，并不断测试一个男人是否有决心对她说不（即废物测试），以确认她做出了正确的选择（即使在婚姻中），选择了一个能够克制自己的性冲动（深知这对男人有多强烈），坚守自身利益、信念和抱负的男人。这向女性隐晦地传达了一个信息：他的目标和决心胜过了她对他唯一的影响力——她的性吸引力。这样的男人才是真正的奖赏，是“抢手货”，是其他女性会为之竞争的男性。

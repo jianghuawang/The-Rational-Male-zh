@@ -5,16 +5,18 @@ One of the higher orders of physical standards women hold for men is height. The
 女性对男性身体标准中较高的一项是身高。社区中有无数帖子讨论这一点，但我认为，在“现实世界”中，这一点不难观察到。我还应补充，这是社会匹配理论的核心特征之一，因为人类对不对称和不平衡非常敏感。
 
 Now, before I get told in so many ways that this isn’t always the case or the “not all girls are like that” exceptions to the rule, let me start by saying that this isn’t the point of this thread. I don’t want to debate the logistics of why women prefer a taller mate or the tendency for like to attract like in this respect. No, what I’m on about is really the root of the infamous “short man’s disease.” That’s right, you know who I’m talking about; the ultimate in compensation for inferiority, the dreaded ‘short man’s disease.’ You know the guy. About 5′ 6″, pounding out the weight on the bench press. Bad ass attitude, hangs with the bigger guys (which is pretty much all of them) and throws his ego around. What a tool, right?
+
 现在，在我被各种方式告知这并非总是如此，或者被提醒“并非所有女孩都那样”的例外情况之前，请允许我先声明，这并非本帖的主旨。我不想争论为何女性偏爱更高大的伴侣，也不想探讨在这一方面相似相吸的倾向。不，我关注的是那个臭名昭著的“矮个男病”的根源。没错，你们知道我在说谁；这是对自卑感的终极补偿，令人闻风丧胆的“矮个男病”。你肯定认识这种人。大约 5 英尺 6 英寸高，在卧推器上拼命举重。态度嚣张，与更高大的家伙们混在一起（基本上是所有人），四处炫耀他的自尊。真是个工具，对吧？
 
 But if you think this is only limited to short men (or women), you’re making a mistake. You see, in so many ways we all compensate for deficiencies. I recently read a thread on another “non-community” forum that saw fit to start a topic asking why men lie and it got me to thinking why any of us lie, man or woman. I’ve also been fielding a lot of questions regarding issues we kind of take for granted after having discussed them to death in the manosphere; one of those being the nature of personality and one’s ability to change their own or have it changed by circumstance, or often both. I think it’s a tragic miscalculation on our part to think of personality as static, unchangeable or to question the ingenuousness of that change, but more tragic is the doubting ourselves for that change.
+
 但如果你认为这仅限于矮个子男性（或女性），那你就错了。你看，在许多方面，我们都在弥补自身的不足。最近，我在另一个“非社区”论坛上读到一条帖子，该论坛认为有必要开启一个话题，探讨男性为何撒谎，这让我思考起我们任何人，无论男女，为何会撒谎。同时，我也收到了许多关于一些议题的提问，这些议题在男性圈子里已被反复讨论到几乎成为共识；其中之一便是性格的本质以及个体是否有能力改变自己的性格，或受环境影响而改变，又或两者兼而有之。我认为，将性格视为静止不变或质疑这种改变的真诚性，是我们的一种悲剧性误判，但更可悲的是，我们因这种改变而自我怀疑。
 
 One simple truism that a lot of people love to use as their convenient escape clause is the JBY (just be yourself) notion. This of course is just what ones says as advice when they really don’t know what else to say. Given that though, what is it that makes a personality shift ‘genuine’. Any number of us probably know an individual who began acting differently at some point in their life. This can be the result of some kind of tragedy or trauma (think PTSD) or it can be that the individual felt a need to change their fundamental way of thinking and made the change of their own accord. Usually in these cases we think of them as posers or try-hards, trying to be something they’re not. They reflect this change in their appearance, their regular practices, their friends or the people they associate with, attitudes, behaviors etc. And this is what’s jarring for people who knew their prior personality.
+
 一个许多人喜欢用作方便的免责条款的简单真理是“JBY（做你自己）”的概念。当然，这只是在他们真的不知道该说什么时给出的建议。然而，是什么让一个人格转变显得“真实”呢？我们中许多人可能认识某个在生命中的某个时刻开始表现得不同的人。这可能是某种悲剧或创伤（如 PTSD）的结果，或者是个体感到需要改变他们基本的思维方式，并自愿做出改变。通常在这些情况下，我们认为他们是装模作样或过分努力，试图成为他们不是的那种人。他们在外表、日常习惯、朋友或交往的人、态度、行为等方面反映出这种变化。这对那些了解他们之前性格的人来说是令人震惊的。
 
-From the 48 Laws of Power:
-来自《权力的 48 条法则》：
+From the 48 Laws of Power: 来自《权力的 48 条法则》：
 
 *Law 17: Keep Others in Suspended Terror: Cultivate an Air of Unpredictability*
 *法则 17：保持他人悬而未决的恐惧：培养一种不可预测的氛围*

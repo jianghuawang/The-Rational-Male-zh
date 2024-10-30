@@ -8,7 +8,7 @@ Understanding the difference between Peacocking and having a style is one of the
 
 理解孔雀开屏与拥有个人风格之间的区别，是这些主要困惑之一。“戴一顶滑稽的高顶帽？涂黑色指甲油？滚开吧！...”大多数刚接触游戏的新手倾向于将孔雀开屏的更极端方面与拥有风格或如亚当·卡罗拉在此所说的“一种形象”混为一谈。对于“普通”男性来说，这是一个非常尴尬的转变过程，因为他们长期以来一直被教导要“做自己”。他们在说出“我不想和一个不喜欢真正的我的女孩在一起”这样的话时感到安慰，却又纳闷为何自己 29 岁了还是个没有约会经历、从未亲吻过女孩的处男。
 
-A Look 一瞥
+## A Look 一瞥
 
 It’s important to have A Look. The basis of physical attraction is going to be conditional for any individual girl, but always bear in mind that A look is contextual. The archetypal “douchebag” with tats and an MMA appeal is a Look. Guyliner, black nail polish and Emo skinny jeans is a Look. The guy in a 3 piece Armani has a Look, and there are dozens more, but the point is that women are in fact like casting agents looking for the right character to fill a role.
 
